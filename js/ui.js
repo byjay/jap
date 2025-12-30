@@ -261,6 +261,14 @@ function showTab(tabName) {
         if (typeof showProgressDashboard === 'function') showProgressDashboard();
     } else if (tabName === 'elementary-school') {
         if (typeof initElementarySchool === 'function') initElementarySchool();
+    } else if (tabName === 'drama') {
+        if (typeof dramaPlayer !== 'undefined' && typeof dramaPlayer.init === 'function') {
+            dramaPlayer.init();
+        }
+    } else if (tabName === 'sushi-survival') {
+        if (typeof SushiSurvival !== 'undefined' && typeof SushiSurvival.init === 'function') {
+            SushiSurvival.init();
+        }
     }
 }
 window.showTab = showTab;
@@ -427,5 +435,19 @@ window.closeHelpModal = closeHelpModal;
 // 초기화
 document.addEventListener('DOMContentLoaded', () => {
     initPWAInstall();
+    // 상단 통계판 업데이트
+    const statWords = document.getElementById('stat-words');
+    const statActions = document.getElementById('stat-actions');
+    const statKanji = document.getElementById('stat-kanji');
+    const statDrama = document.getElementById('stat-drama');
+    const statUpdated = document.getElementById('stat-updated');
+
+    if (window.JAP_BONG_DATA) {
+        if (statWords) statWords.textContent = window.JAP_BONG_DATA.total_words || 0;
+        if (statActions) statActions.textContent = window.JAP_BONG_DATA.total_actions || 0;
+        if (statKanji) statKanji.textContent = window.JAP_BONG_DATA.total_kanji || 0;
+        if (statDrama) statDrama.textContent = window.JAP_BONG_DATA.total_dialogues || 0;
+        if (statUpdated) statUpdated.textContent = `Sync: ${window.JAP_BONG_DATA.last_updated.split('T')[0]}`;
+    }
 });
-console.log('ui.js reloaded (clean ver)');
+console.log('ui.js reloaded (clean ver with stats)');

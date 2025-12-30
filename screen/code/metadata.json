@@ -1,0 +1,7 @@
+{
+  "name": "NihongoPro - Gamified Japanese Learning",
+  "description": "A vivid, gamified Japanese learning application featuring video lessons, interactive kanji practice, and an adventure map.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

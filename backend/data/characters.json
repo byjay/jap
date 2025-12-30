@@ -1,9 +1,9 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2025-12-30T10:41:25.149260",
+    "last_updated": "2025-12-30T11:26:27.310147",
     "total_characters": 40,
-    "total_actions": 10
+    "total_actions": 60
   },
   "categories": [
     {
@@ -49,7 +49,20 @@
       "type": "",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "wave_bye": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:25:56.644010",
+          "frames": 8,
+          "folder_path": "characters/teachers/tanaka_sensei/wave_bye"
+        },
+        "eating_ramen": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:25:56.654266",
+          "frames": 10,
+          "folder_path": "characters/teachers/tanaka_sensei/eating_ramen"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.427130"
     },
     {
@@ -61,7 +74,20 @@
       "type": "",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "taiko_drum": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:58:27.215883",
+          "frames": 12,
+          "folder_path": "characters/teachers/yamamoto_sensei/taiko_drum"
+        },
+        "explaining": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:02:46.364972",
+          "frames": 10,
+          "folder_path": "characters/teachers/yamamoto_sensei/explaining"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.427259"
     },
     {
@@ -85,7 +111,14 @@
       "type": "",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "speed_bonus": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:02:46.403463",
+          "frames": 8,
+          "folder_path": "characters/teachers/sato_sensei/speed_bonus"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.427446"
     },
     {
@@ -133,7 +166,20 @@
       "type": "",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "ninja_move": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:26:27.257804",
+          "frames": 10,
+          "folder_path": "characters/teachers/kobayashi_sensei/ninja_move"
+        },
+        "bow": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:26:27.310133",
+          "frames": 8,
+          "folder_path": "characters/teachers/kobayashi_sensei/bow"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.427820"
     },
     {
@@ -145,7 +191,20 @@
       "type": "",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "tea_ceremony": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:25:56.630418",
+          "frames": 16,
+          "folder_path": "characters/students/yuki/tea_ceremony"
+        },
+        "happy_correct": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:26:27.252146",
+          "frames": 8,
+          "folder_path": "characters/students/yuki/happy_correct"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.427906"
     },
     {
@@ -157,7 +216,26 @@
       "type": "",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "lesson_start": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:02:46.386094",
+          "frames": 8,
+          "folder_path": "characters/students/kenji/lesson_start"
+        },
+        "hearts_lost": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:03:30.315197",
+          "frames": 8,
+          "folder_path": "characters/students/kenji/hearts_lost"
+        },
+        "writing": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:03:30.334162",
+          "frames": 10,
+          "folder_path": "characters/students/kenji/writing"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.427988"
     },
     {
@@ -169,7 +247,14 @@
       "type": "",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "hearts_full": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:02:46.408381",
+          "frames": 8,
+          "folder_path": "characters/students/sakura/hearts_full"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.428078"
     },
     {
@@ -193,7 +278,20 @@
       "type": "",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "ninja_move": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:26:27.277013",
+          "frames": 10,
+          "folder_path": "characters/students/mina/ninja_move"
+        },
+        "combo_bonus": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:26:27.304195",
+          "frames": 10,
+          "folder_path": "characters/students/mina/combo_bonus"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.428225"
     },
     {
@@ -229,7 +327,14 @@
       "type": "",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "milestone": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:25:56.607043",
+          "frames": 14,
+          "folder_path": "characters/students/sota/milestone"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.428467"
     },
     {
@@ -253,7 +358,14 @@
       "type": "고양이",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "disappointed": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:03:30.319002",
+          "frames": 6,
+          "folder_path": "characters/companions/neko/disappointed"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.428636"
     },
     {
@@ -265,7 +377,14 @@
       "type": "너구리",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "pointing": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:03:30.306355",
+          "frames": 6,
+          "folder_path": "characters/companions/tanuki/pointing"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.428722"
     },
     {
@@ -277,7 +396,20 @@
       "type": "토끼",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "thinking": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:58:27.207365",
+          "frames": 6,
+          "folder_path": "characters/companions/usagi/thinking"
+        },
+        "encouraging": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:58:27.256894",
+          "frames": 8,
+          "folder_path": "characters/companions/usagi/encouraging"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.428795"
     },
     {
@@ -308,7 +440,32 @@
       "type": "판다",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "angry": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:58:27.219736",
+          "frames": 6,
+          "folder_path": "characters/companions/panda/angry"
+        },
+        "perfect_lesson": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:02:46.375578",
+          "frames": 16,
+          "folder_path": "characters/companions/panda/perfect_lesson"
+        },
+        "karaoke": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:03:30.303102",
+          "frames": 10,
+          "folder_path": "characters/companions/panda/karaoke"
+        },
+        "wave_bye": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:03:30.323786",
+          "frames": 8,
+          "folder_path": "characters/companions/panda/wave_bye"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.428949"
     },
     {
@@ -326,6 +483,12 @@
           "last_updated": "2025-12-30T10:41:25.101101",
           "frames": 8,
           "folder_path": "characters/companions/daruma/crying_happy"
+        },
+        "daily_goal": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:26:27.264620",
+          "frames": 12,
+          "folder_path": "characters/companions/daruma/daily_goal"
         }
       },
       "created_at": "2025-12-30T10:22:27.429028"
@@ -339,7 +502,20 @@
       "type": "복고양이",
       "job": "",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "hearts_full": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:03:30.328787",
+          "frames": 8,
+          "folder_path": "characters/companions/maneki/hearts_full"
+        },
+        "embarrassed": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:26:27.280186",
+          "frames": 6,
+          "folder_path": "characters/companions/maneki/embarrassed"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.429105"
     },
     {
@@ -351,7 +527,14 @@
       "type": "",
       "job": "요리사",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "badge_earned": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:26:27.271456",
+          "frames": 12,
+          "folder_path": "characters/professionals/chef/badge_earned"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.429183"
     },
     {
@@ -381,6 +564,36 @@
           "last_updated": "2025-12-30T10:41:25.134640",
           "frames": 8,
           "folder_path": "characters/professionals/pilot/sumo_pose"
+        },
+        "xp_gained": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:58:27.244081",
+          "frames": 8,
+          "folder_path": "characters/professionals/pilot/xp_gained"
+        },
+        "confused": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:02:46.359238",
+          "frames": 6,
+          "folder_path": "characters/professionals/pilot/confused"
+        },
+        "kabuki_pose": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:02:46.391017",
+          "frames": 8,
+          "folder_path": "characters/professionals/pilot/kabuki_pose"
+        },
+        "milestone": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:03:30.341987",
+          "frames": 14,
+          "folder_path": "characters/professionals/pilot/milestone"
+        },
+        "speaking": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:25:56.648465",
+          "frames": 8,
+          "folder_path": "characters/professionals/pilot/speaking"
         }
       },
       "created_at": "2025-12-30T10:22:27.429338"
@@ -394,7 +607,14 @@
       "type": "",
       "job": "예술가",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "challenge_win": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:58:27.228838",
+          "frames": 14,
+          "folder_path": "characters/professionals/artist/challenge_win"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.429442"
     },
     {
@@ -406,7 +626,26 @@
       "type": "",
       "job": "과학자",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "badge_earned": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:58:27.237797",
+          "frames": 12,
+          "folder_path": "characters/professionals/scientist/badge_earned"
+        },
+        "hearts_lost": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:03:30.310715",
+          "frames": 8,
+          "folder_path": "characters/professionals/scientist/hearts_lost"
+        },
+        "focused": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:25:56.609212",
+          "frames": 4,
+          "folder_path": "characters/professionals/scientist/focused"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.429545"
     },
     {
@@ -443,7 +682,26 @@
       "type": "",
       "job": "운동선수",
       "culture": "",
-      "actions": {},
+      "actions": {
+        "confident": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:58:27.251332",
+          "frames": 4,
+          "folder_path": "characters/professionals/athlete/confident"
+        },
+        "bowing_casual": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:25:56.633979",
+          "frames": 6,
+          "folder_path": "characters/professionals/athlete/bowing_casual"
+        },
+        "explaining": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:25:56.639315",
+          "frames": 10,
+          "folder_path": "characters/professionals/athlete/explaining"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.429750"
     },
     {
@@ -461,6 +719,18 @@
           "last_updated": "2025-12-30T10:41:25.107148",
           "frames": 12,
           "folder_path": "characters/professionals/businessman/celebrating"
+        },
+        "hanami": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:58:27.248860",
+          "frames": 8,
+          "folder_path": "characters/professionals/businessman/hanami"
+        },
+        "angry": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:03:30.297460",
+          "frames": 6,
+          "folder_path": "characters/professionals/businessman/angry"
         }
       },
       "created_at": "2025-12-30T10:22:27.429852"
@@ -499,6 +769,18 @@
           "last_updated": "2025-12-30T10:41:25.096416",
           "frames": 10,
           "folder_path": "characters/cultural/geisha/excited"
+        },
+        "gem_collected": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:25:56.614540",
+          "frames": 10,
+          "folder_path": "characters/cultural/geisha/gem_collected"
+        },
+        "comeback": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:25:56.620113",
+          "frames": 10,
+          "folder_path": "characters/cultural/geisha/comeback"
         }
       },
       "created_at": "2025-12-30T10:22:27.430058"
@@ -512,7 +794,14 @@
       "type": "",
       "job": "",
       "culture": "인술",
-      "actions": {},
+      "actions": {
+        "laugh": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:26:27.284692",
+          "frames": 8,
+          "folder_path": "characters/cultural/ninja/laugh"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.430167"
     },
     {
@@ -524,7 +813,14 @@
       "type": "",
       "job": "",
       "culture": "스모",
-      "actions": {},
+      "actions": {
+        "origami": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:26:27.296493",
+          "frames": 12,
+          "folder_path": "characters/cultural/sumo/origami"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.430280"
     },
     {
@@ -542,6 +838,12 @@
           "last_updated": "2025-12-30T10:41:25.129425",
           "frames": 8,
           "folder_path": "characters/cultural/miko/lesson_start"
+        },
+        "crying_happy": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:02:46.355755",
+          "frames": 8,
+          "folder_path": "characters/cultural/miko/crying_happy"
         }
       },
       "created_at": "2025-12-30T10:22:27.430389"
@@ -555,7 +857,14 @@
       "type": "",
       "job": "",
       "culture": "축제",
-      "actions": {},
+      "actions": {
+        "bowing_deep": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:02:46.398118",
+          "frames": 10,
+          "folder_path": "characters/cultural/matsuri/bowing_deep"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.430495"
     },
     {
@@ -567,7 +876,20 @@
       "type": "",
       "job": "",
       "culture": "료칸",
-      "actions": {},
+      "actions": {
+        "curious": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:58:27.203672",
+          "frames": 6,
+          "folder_path": "characters/cultural/okami/curious"
+        },
+        "karaoke": {
+          "status": "completed",
+          "last_updated": "2025-12-30T11:02:46.381186",
+          "frames": 10,
+          "folder_path": "characters/cultural/okami/karaoke"
+        }
+      },
       "created_at": "2025-12-30T10:22:27.430621"
     },
     {

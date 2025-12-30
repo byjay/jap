@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -16,7 +15,16 @@
     <link rel="apple-touch-icon" href="images/app_icon.png">
     <title>JAP-BONG PRO | Living Japanese Learning</title>
     <!-- 데이터 매니페스트 로드 (자동 코드 삽입) -->
-    <script src="js/app_data_manifest.js"></script>
+    <script src="js/ai_drama_player.js" defer></script>
+    <link rel="stylesheet" href="css/game.css">
+    <!-- Game Suite & Commercial App Components -->
+    <script src="js/display_manager.js" defer></script>
+    <script src="js/avatar_manager.js" defer></script>
+    <script src="js/sushi_survival.js" defer></script>
+    <script src="js/games/neon_syntax.js" defer></script>
+    <script src="js/games/verbum_alchimia.js" defer></script>
+    <script src="js/games/silent_archive.js" defer></script>
+    <script src="js/auth_provider.js" defer></script>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -158,6 +166,7 @@
             <span>Words: <span class="stat-tag" id="stat-words">0</span></span>
             <span>Actions: <span class="stat-tag" id="stat-actions">0</span></span>
             <span>Kanji: <span class="stat-tag" id="stat-kanji">0</span></span>
+            <span>Drama: <span class="stat-tag" id="stat-drama">10</span></span>
         </div>
         <span id="stat-updated" style="opacity: 0.7; font-size: 0.6rem;">Sync: -</span>
     </div>
@@ -804,6 +813,53 @@
         </div>
     </div>
 
+    <!-- AI 대화 & 비디오 (Daily AI Drama) -->
+    <div id="drama" class="tab-content hidden pb-24 px-4 max-w-3xl mx-auto">
+        <div class="mb-4 pt-4">
+            <h3 class="text-xl font-black text-gray-800">📺 Daily AI Drama</h3>
+            <p class="text-xs text-gray-500 font-medium">Gemini AI가 실시간으로 생성한 10개의 고퀄리티 대화</p>
+        </div>
+
+        <!-- Kling AI Video Preview (Stage 1 Mock) -->
+        <div class="bg-gradient-to-r from-red-600 to-amber-500 rounded-3xl p-6 mb-8 text-white shadow-xl overflow-hidden relative group cursor-pointer"
+            onclick="alert('Kling AI 연동 준비 중 - 매일 66 크레딧 자동 생성 엔진 구축 중')">
+            <div class="relative z-10">
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="bg-white/20 text-[10px] font-bold px-2 py-0.5 rounded-full backdrop-blur-sm">PREMIUM
+                        VIDEO</span>
+                    <span class="flex h-2 w-2 rounded-full bg-green-400 animate-ping"></span>
+                </div>
+                <h4 class="text-xl font-black mb-1 italic">Living AI Cinema 🎬</h4>
+                <p class="text-[11px] opacity-90 leading-relaxed mb-4 max-w-[200px]">대화로그를 기반으로 생성된 5초 시네마틱 애니메이션</p>
+                <div class="flex items-center gap-2 text-xs font-bold">
+                    <span>Watch Now</span>
+                    <i class="fas fa-arrow-right animate-pulse-horizontal"></i>
+                </div>
+            </div>
+            <i
+                class="fas fa-film absolute -right-6 -bottom-6 text-9xl text-white/10 group-hover:rotate-12 transition-transform duration-500"></i>
+        </div>
+
+        <!-- AI Dialogue List -->
+        <div id="ai-drama-list" class="grid grid-cols-1 gap-4">
+            <!-- JS (AIDramaPlayer) injects drama cards here -->
+            <div class="text-center py-20 text-gray-300">
+                <i class="fas fa-spinner fa-spin text-3xl mb-4"></i>
+                <p class="text-sm">대화 로그를 불러오는 중...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🍣 Sushi Survival (High-End Game) -->
+    <div id="sushi-survival" class="tab-content hidden pb-24 px-0 max-w-full mx-auto h-screen overflow-hidden">
+        <div id="game-container" class="relative w-full h-full bg-black flex flex-col items-center justify-center">
+            <div class="text-white text-center">
+                <i class="fas fa-spinner fa-spin text-4xl mb-4 text-amber-500"></i>
+                <p class="text-lg font-black tracking-widest uppercase">Initializing Sushi Survival Engine...</p>
+            </div>
+        </div>
+    </div>
+
     <!-- Grammar Tab Content -->
     <div id="grammar" class="tab-content hidden pb-24 pt-2 px-4 max-w-3xl mx-auto">
         <div class="bg-white rounded-3xl shadow-lg p-6 mb-6">
@@ -950,6 +1006,22 @@
                 </div>
                 <span class="text-[10px] font-bold">현황</span>
             </button>
+            <button onclick="showTab('drama')"
+                class="nav-tab flex-1 flex flex-col items-center justify-center py-1 text-gray-400 hover:text-red-500 transition-colors group">
+                <div
+                    class="w-12 h-8 flex items-center justify-center rounded-full group-hover:bg-red-50 transition-colors mb-0.5">
+                    <i class="fas fa-play-circle text-xl mb-0.5"></i>
+                </div>
+                <span class="text-[10px] font-bold">드라마</span>
+            </button>
+            <button onclick="showTab('sushi-survival')"
+                class="nav-tab flex-1 flex flex-col items-center justify-center py-1 text-gray-400 hover:text-amber-500 transition-colors group">
+                <div
+                    class="w-12 h-8 flex items-center justify-center rounded-full group-hover:bg-amber-50 transition-colors mb-0.5">
+                    <i class="fas fa-gamepad text-xl mb-0.5"></i>
+                </div>
+                <span class="text-[10px] font-bold">게임</span>
+            </button>
 
         </div>
     </nav>
@@ -1092,6 +1164,45 @@
     <!-- Stroke Animation now handled in characters.js -->
     <!-- <script src="js/learning/stroke_animation.js"></script> -->
 
-</body>
+    <!-- 🎭 AI Drama Player Modal -->
+    <div id="drama-player-modal" class="fixed inset-0 z-[110] bg-black/95 hidden flex-col transition-all duration-300">
+        <div class="p-4 flex justify-between items-center text-white border-b border-white/10">
+            <span class="text-xs font-bold text-red-500 bg-white/10 px-2 py-1 rounded">AI DRAMA STUDY</span>
+            <button onclick="dramaPlayer.closePlayer()" class="text-2xl">&times;</button>
+        </div>
+
+        <div class="flex-1 flex flex-col items-center justify-center p-6 text-center space-y-6">
+            <!-- Animation Stage -->
+            <div class="flex gap-8 items-end justify-center h-48">
+                <div class="flex flex-col items-center">
+                    <img id="drama-char-A" src="characters/animal/kuma/greeting/frame_001.webp"
+                        class="h-40 object-contain drop-shadow-lg transition-all" alt="Speaker A">
+                    <span class="text-[10px] text-white/50 bg-white/10 px-2 rounded-full mt-2">Speaker A</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img id="drama-char-B" src="characters/animal/usagi/greeting/frame_001.webp"
+                        class="h-40 object-contain drop-shadow-lg transition-all" alt="Speaker B">
+                    <span class="text-[10px] text-white/50 bg-white/10 px-2 rounded-full mt-2">Speaker B</span>
+                </div>
+            </div>
+
+            <!-- Dialogue Content -->
+            <div class="w-full max-w-md space-y-4">
+                <div class="jp-box bg-white/5 rounded-2xl p-6 border border-white/10 backdrop-blur-sm">
+                    <h2 id="drama-text-jp" class="text-2xl font-bold text-white mb-2 leading-tight">...</h2>
+                    <p id="drama-text-ro" class="text-xs text-white/40 italic mb-2">...</p>
+                    <p id="drama-text-kr" class="text-lg text-gray-400">...</p>
+                </div>
+
+                <div id="drama-grammar-box" class="hidden animate-slide-up">
+                    <!-- Grammar Explanation here -->
+                </div>
+            </div>
+        </div>
+
+        <div class="p-6 border-t border-white/10 text-center">
+            <p class="text-[10px] text-white/30 uppercase tracking-widest">Powered by Gemini AI & Edge TTS</p>
+        </div>
+    </div>
 
 </html>

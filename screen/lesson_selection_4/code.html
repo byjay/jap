@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gamified Lesson Path - Black Theme</title>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#3b82f6",
+              "primary-dark": "#2563eb",
+              "secondary": "#fbbf24", 
+              "background-light": "#f0f4f8",
+              "background-dark": "#000000",
+              "surface-light": "#ffffff",
+              "surface-dark": "#121212",
+              "surface-card": "#18181b",
+              "accent-purple": "#8b5cf6",
+            },
+            fontFamily: {
+              "display": ["Lexend", "Noto Sans", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "3xl": "1.5rem", "full": "9999px"},
+            boxShadow: {
+                'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                'glow': '0 0 25px rgba(59, 130, 246, 0.6)',
+                'level-active': '0 10px 25px -5px rgba(59, 130, 246, 0.4), 0 8px 10px -6px rgba(59, 130, 246, 0.1)',
+                'card-lift': '0 20px 30px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3)',
+            },
+            animation: {
+                'float': 'float 3s ease-in-out infinite',
+                'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                'bounce-slight': 'bounce 1s infinite',
+            },
+            keyframes: {
+                float: {
+                    '0%, 100%': { transform: 'translateY(0)' },
+                    '50%': { transform: 'translateY(-5px)' },
+                }
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .icon-filled {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .icon-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }.bg-pattern {
+            background-color: #000000;
+            background-image: radial-gradient(#27272a 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark text-white font-display antialiased overflow-hidden">
+<div class="relative flex h-full min-h-screen w-full flex-col mx-auto max-w-md bg-background-dark shadow-2xl border-x border-white/5">
+<div class="sticky top-0 z-50 bg-background-dark/80 backdrop-blur-xl border-b border-white/5 transition-all duration-300">
+<div class="flex items-center justify-between px-4 py-3">
+<div class="flex gap-3">
+<div class="flex items-center gap-1.5 bg-surface-dark px-2.5 py-1 rounded-full border border-white/10 shadow-sm">
+<span class="material-symbols-outlined text-red-500 icon-filled text-[20px]">favorite</span>
+<span class="text-sm font-bold text-gray-200">5</span>
+</div>
+<div class="flex items-center gap-1.5 bg-surface-dark px-2.5 py-1 rounded-full border border-white/10 shadow-sm">
+<span class="material-symbols-outlined text-blue-400 icon-filled text-[20px]">diamond</span>
+<span class="text-sm font-bold text-gray-200">120</span>
+</div>
+</div>
+<div class="flex items-center gap-1.5 bg-surface-dark px-2.5 py-1 rounded-full border border-white/10 shadow-sm">
+<span class="material-symbols-outlined text-orange-500 icon-filled text-[20px]">local_fire_department</span>
+<span class="text-sm font-bold text-orange-500">12</span>
+</div>
+</div>
+<div class="px-4 pb-3 pt-1">
+<button class="flex items-center gap-2 text-white">
+<h2 class="text-xl font-black uppercase tracking-tight">World 1: The Basics</h2>
+<span class="material-symbols-outlined text-gray-500">expand_more</span>
+</button>
+<p class="text-xs text-gray-400 font-medium ml-0.5 mt-0.5">2/5 Levels Completed</p>
+</div>
+</div>
+<div class="flex-1 overflow-y-auto relative bg-pattern pb-32">
+<div class="absolute left-1/2 top-8 bottom-0 w-2.5 bg-zinc-800/80 -translate-x-1/2 rounded-full z-0"></div>
+<div class="relative z-10 flex flex-col items-center mt-8 mb-16">
+<div class="bg-zinc-900 text-zinc-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest mb-2 border border-zinc-800 shadow-sm">Start</div>
+</div>
+<div class="relative z-10 flex flex-col items-center mb-20 group cursor-pointer">
+<div class="relative">
+<div class="w-20 h-20 rounded-full bg-yellow-400 border-b-[6px] border-yellow-600 shadow-[0_0_20px_rgba(250,204,21,0.3)] flex items-center justify-center transform transition-transform group-active:scale-95 group-active:border-b-0 group-active:translate-y-[6px]">
+<span class="material-symbols-outlined text-yellow-900 text-4xl icon-filled drop-shadow-sm">check_circle</span>
+</div>
+<div class="absolute -bottom-6 left-1/2 -translate-x-1/2 flex gap-0.5">
+<span class="material-symbols-outlined text-yellow-400 icon-filled text-[18px] drop-shadow-sm">star</span>
+<span class="material-symbols-outlined text-yellow-400 icon-filled text-[18px] drop-shadow-sm">star</span>
+<span class="material-symbols-outlined text-yellow-400 icon-filled text-[18px] drop-shadow-sm">star</span>
+</div>
+</div>
+<span class="mt-7 font-bold text-gray-300 text-sm">Hiragana 1</span>
+</div>
+<div class="relative z-10 flex flex-col items-center mb-24 px-5 w-full">
+<div class="animate-float mb-2">
+<div class="bg-primary text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg shadow-primary/30 uppercase tracking-wide">
+                    Current Level
+                </div>
+<div class="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-primary mx-auto"></div>
+</div>
+<div class="relative mb-5">
+<div class="absolute inset-0 bg-primary/40 rounded-full blur-xl animate-pulse-slow"></div>
+<button class="relative w-24 h-24 rounded-full bg-primary border-b-[8px] border-primary-dark shadow-glow flex items-center justify-center transform transition-transform active:scale-95 active:border-b-0 active:translate-y-[8px] z-20">
+<span class="material-symbols-outlined text-white text-5xl icon-filled">play_arrow</span>
+</button>
+</div>
+<div class="w-full bg-surface-card rounded-2xl p-5 shadow-card-lift border border-white/10 relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-[100px] -mr-8 -mt-8 pointer-events-none"></div>
+<div class="relative z-10">
+<div class="flex justify-between items-start mb-2">
+<h3 class="text-xl font-black text-white">Basic Greetings</h3>
+<span class="bg-zinc-800 text-zinc-300 text-[10px] font-bold px-2 py-1 rounded border border-zinc-700/50">10 MIN</span>
+</div>
+<p class="text-sm text-gray-400 mb-5 font-medium leading-relaxed">
+                        Master the art of "Konnichiwa" and natural introductions.
+                    </p>
+<div class="flex items-center gap-3 mb-5 bg-black/40 p-3 rounded-lg border border-white/5">
+<span class="text-[10px] uppercase font-bold text-gray-500 tracking-wider">Rewards:</span>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-yellow-400 icon-filled text-[18px]">bolt</span>
+<span class="text-xs font-bold text-gray-200">25 XP</span>
+</div>
+<div class="w-px h-3 bg-white/10"></div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-blue-400 icon-filled text-[18px]">diamond</span>
+<span class="text-xs font-bold text-gray-200">5 Gems</span>
+</div>
+</div>
+<button class="w-full bg-primary hover:bg-primary-dark text-white font-bold py-3.5 rounded-xl shadow-lg shadow-primary/20 transition-all active:scale-[0.98] flex items-center justify-center gap-2 group-hover:shadow-glow">
+<span>Start Mission</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<div class="relative z-10 flex flex-col items-center mb-20 opacity-75">
+<div class="relative">
+<div class="w-20 h-20 rounded-full bg-zinc-900 border-b-[6px] border-zinc-800 shadow-sm flex items-center justify-center">
+<span class="material-symbols-outlined text-zinc-600 text-3xl">lock</span>
+</div>
+<div class="absolute -right-12 top-0 bg-zinc-800 text-zinc-300 border border-zinc-700 text-[10px] font-bold px-2 py-0.5 rounded shadow-sm transform rotate-12">
+                    Lvl 3
+                </div>
+</div>
+<span class="mt-3 font-bold text-zinc-500 text-sm">Self Intro</span>
+</div>
+<div class="relative z-10 flex flex-col items-center mb-20">
+<div class="absolute w-24 h-24 bg-yellow-400/10 rounded-full blur-2xl top-0"></div>
+<div class="relative group cursor-not-allowed">
+<img alt="Treasure Chest" class="w-24 h-24 object-contain opacity-60 drop-shadow-lg transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAW3WAAfIAvVWv1oa5Tw76e9D5ahgRWKnW2w6Gv0o0nLczwU0fa9D7WaYUtm7YbxO8XoHGz74imbzCK716emiuBFLYYnQEQ1Hm5wCH_aDN7XvN84uadtr6oJFiN0A1dTUIQb5YWxXowaL0E6yl-OFPD-JIK3-ADzuS1x-h_1I4I4f9_hebwiTzYIQK5b6Lu8tzMQ7eFetXSc0PwVMJouLiIOCqLyH_7-IdmdmtH6FPmdnuLv2BkuEyEMMRQarFPkSovd72B9NpTYek"/>
+<div class="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-zinc-900/90 border border-white/10 backdrop-blur text-gray-200 text-[10px] font-bold px-3 py-1 rounded-full whitespace-nowrap flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-yellow-500">lock</span>
+                    Finish Unit 1
+                </div>
+</div>
+</div>
+<div class="relative z-10 mb-12 text-center">
+<div class="inline-block bg-surface-dark border border-white/10 rounded-2xl px-6 py-4 shadow-sm">
+<h3 class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-1">Coming Up</h3>
+<h2 class="text-lg font-black text-gray-200">World 2: Numbers</h2>
+<div class="mt-2 flex justify-center">
+<span class="material-symbols-outlined text-zinc-700 text-2xl">lock</span>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed bottom-0 w-full max-w-md bg-background-dark/95 backdrop-blur-lg border-t border-white/5 z-50 shadow-[0_-5px_20px_rgba(0,0,0,0.5)] pb-safe">
+<div class="flex justify-around items-end pb-6 pt-3 px-2">
+<button class="group flex flex-col items-center gap-1 w-16">
+<div class="relative">
+<span class="material-symbols-outlined text-primary icon-filled text-[28px] transition-transform group-active:scale-90 animate-bounce-slight drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]">map</span>
+</div>
+<span class="text-[11px] font-bold text-primary">Path</span>
+</button>
+<button class="group flex flex-col items-center gap-1 w-16 text-zinc-500 hover:text-white transition-colors">
+<span class="material-symbols-outlined icon-outlined text-[28px] transition-transform group-active:scale-90">fitness_center</span>
+<span class="text-[11px] font-medium">Train</span>
+</button>
+<button class="group flex flex-col items-center gap-1 w-16 text-zinc-500 hover:text-white transition-colors">
+<span class="material-symbols-outlined icon-outlined text-[28px] transition-transform group-active:scale-90">emoji_events</span>
+<span class="text-[11px] font-medium">Rank</span>
+</button>
+<button class="group flex flex-col items-center gap-1 w-16 text-zinc-500 hover:text-white transition-colors">
+<div class="w-7 h-7 rounded-full bg-zinc-800 overflow-hidden mb-0.5 border border-zinc-700 group-hover:border-zinc-500">
+<div class="w-full h-full bg-gradient-to-tr from-zinc-700 to-zinc-600"></div>
+</div>
+<span class="text-[11px] font-medium">Profile</span>
+</button>
+</div>
+</div>
+</div>
+
+</body></html>

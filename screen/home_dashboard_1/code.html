@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home Dashboard - Japanese Learning App</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Configuration -->
+<script id="tailwind-config">
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+        extend: {
+            colors: {
+            "primary": "#135bec",
+            "background-light": "#f6f6f8", 
+            "background-dark": "#101622",
+            "surface-light": "#ffffff",
+            "surface-dark": "#1e293b",
+            },
+            fontFamily: {
+            "display": ["Lexend", "Noto Sans", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.375rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+        },
+        },
+    }
+    </script>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;family=Noto+Sans+JP:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body { font-family: 'Lexend', 'Noto Sans JP', sans-serif; }
+        
+        /* Utility for hiding scrollbar in horizontal scroll views */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        
+        /* Utility for filled material icons */
+        .fill-1 {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        /* Safe area padding for bottom nav on newer iPhones */
+        .pb-safe {
+            padding-bottom: env(safe-area-inset-bottom, 20px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-gray-100 transition-colors duration-200 antialiased">
+<div class="relative flex h-full min-h-screen w-full flex-col max-w-md mx-auto bg-background-light dark:bg-background-dark pb-24 overflow-x-hidden shadow-2xl">
+<!-- Top App Bar -->
+<div class="sticky top-0 z-50 flex items-center bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md p-4 justify-between transition-colors">
+<div class="flex items-center gap-3">
+<div class="bg-center bg-no-repeat bg-cover rounded-full size-10 shadow-sm border border-gray-200 dark:border-gray-700 cursor-pointer" data-alt="User profile picture showing a smiling person" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCwHUB1bEOuO2wzs9u2f_SIwtkABtflt6A984BwBLFzFcddRY8ijD9OwLgWRJtuQd-h5roWnf3mXH-VyLwHo80M9OHVw0zv5lYjHyOB76ehQg-2Ww7Z4MK09Hj8mGEqrIxEbw9ws6ydqK5wWA4i-PRiQCnCZEOwA8e67P3m9T4yFbd3htskYvnZHGPTnkiPClEOXn1bJ39f93nByLSSX43ZzZRl7pBZWNOwIbPKyzZ5xuGVgqBOPUJ6FSs6BCmrXU9rF6Rs2cqHVqM");'>
+</div>
+</div>
+<h2 class="text-[#0d121b] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] opacity-0 animate-[fadeIn_0.5s_ease-out_forwards]">Dashboard</h2>
+<button class="flex items-center justify-center rounded-full size-10 bg-white dark:bg-gray-800 shadow-sm border border-gray-100 dark:border-gray-700 text-[#0d121b] dark:text-white transition-transform active:scale-95">
+<span class="material-symbols-outlined text-[24px]">notifications</span>
+</button>
+</div>
+<!-- Greeting Headline -->
+<div class="px-4 pt-2 pb-4">
+<h2 class="text-[#0d121b] dark:text-white text-[28px] font-bold leading-tight tracking-tight">
+            こんにちは, <br/>
+<span class="text-primary">Alex-san!</span>
+</h2>
+</div>
+<!-- Profile Stats -->
+<div class="flex gap-3 px-4 mb-6">
+<div class="flex flex-1 flex-col gap-1 rounded-2xl bg-white dark:bg-surface-dark p-4 shadow-sm border border-gray-200/50 dark:border-gray-700 items-start">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-orange-500 text-[20px] fill-1">local_fire_department</span>
+<p class="text-gray-500 dark:text-gray-400 text-xs font-medium uppercase tracking-wider">Streak</p>
+</div>
+<p class="text-[#0d121b] dark:text-white text-2xl font-bold leading-none">12 <span class="text-sm font-normal text-gray-400">Days</span></p>
+</div>
+<div class="flex flex-1 flex-col gap-1 rounded-2xl bg-white dark:bg-surface-dark p-4 shadow-sm border border-gray-200/50 dark:border-gray-700 items-start">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-yellow-500 text-[20px] fill-1">military_tech</span>
+<p class="text-gray-500 dark:text-gray-400 text-xs font-medium uppercase tracking-wider">Level</p>
+</div>
+<p class="text-[#0d121b] dark:text-white text-2xl font-bold leading-none">14 <span class="text-sm font-normal text-gray-400">Master</span></p>
+</div>
+</div>
+<!-- Daily Goal Progress -->
+<div class="px-4 mb-6">
+<div class="bg-white dark:bg-surface-dark rounded-2xl p-5 shadow-sm border border-gray-200/50 dark:border-gray-700">
+<div class="flex justify-between items-end mb-3">
+<div>
+<h3 class="text-[#0d121b] dark:text-white text-lg font-bold">Daily Goal</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm">Keep up the momentum!</p>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="text-primary font-bold text-xl">3</span>
+<span class="text-gray-400 font-medium text-sm">/ 7 tasks</span>
+</div>
+</div>
+<div class="h-3 w-full bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full transition-all duration-1000 ease-out" style="width: 42%;"></div>
+</div>
+</div>
+</div>
+<!-- "Continue Learning" Hero Card -->
+<div class="px-4 mb-8">
+<div class="flex justify-between items-center mb-3">
+<h3 class="text-lg font-bold text-[#0d121b] dark:text-white tracking-tight">Continue Learning</h3>
+<button class="text-primary text-sm font-semibold hover:opacity-80">View all</button>
+</div>
+<div class="flex flex-col rounded-2xl overflow-hidden shadow-lg shadow-blue-900/5 bg-white dark:bg-surface-dark border border-gray-200/50 dark:border-gray-700 group cursor-pointer transition-transform active:scale-[0.98]">
+<div class="relative w-full aspect-video bg-gray-200" data-alt="Two people sitting at a japanese izakaya counter looking at menus" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCIgKkrJNu96UV_8j2m3L2ig5PTJMAfoULbbZG87ktM5SynT_mAK9QcAtX84lZOtEwXkWeh_aMwFnGgfknqf_CdjPZW6_z78idrUtnDCsYWjbr0UeQKcH1RapX5VveQtCyiCd3mGOxM81WdNPguACDeuLq8_i6TiJlp2Q82JdTwsCK8MrXx6HZScYrnaicHduHyoQ4c1GO5amX6zF58pm6Zh8H1lFel6IhHRRxRjg_Wa_oXTA34ull8tuHpoeOGZhANGLQGuRN6f_Y"); background-size: cover; background-position: center;'>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-4">
+<span class="px-2 py-1 bg-primary/90 backdrop-blur-sm text-white text-xs font-bold rounded shadow-sm uppercase tracking-wide">Lesson 4</span>
+</div>
+</div>
+<div class="p-4 pt-5">
+<h4 class="text-[#0d121b] dark:text-white text-xl font-bold mb-1 group-hover:text-primary transition-colors">Ordering at a Restaurant</h4>
+<div class="flex items-center gap-2 mb-4">
+<span class="text-xs font-medium text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-800 px-2 py-0.5 rounded">Speaking</span>
+<p class="text-gray-500 dark:text-gray-400 text-sm">Basic politeness forms</p>
+</div>
+<div class="flex items-center justify-between mt-2">
+<div class="flex -space-x-2">
+<div class="w-7 h-7 rounded-full border-2 border-white dark:border-surface-dark bg-gray-300 bg-cover" data-alt="Friend avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCQR2jQSU0PNCSHj7AurhP5t5LgUWGlXwj7hlKnhDUDgqwH6GBvC7uYNUv_fnmtGc57wqGXEpzZYmYSu9cJ54SVIo_kiQtu_6p5GgLAhSvzC2m8ynPMg7SwykyE2nlz7P4jGhln9FxGcJZvqnwled6qdq0J3I1cn_PloQ2RJHs4ESPK9pRw7ZJ5Q48LrTsC2cnQk9zE8F2F2bzlA7YdEHoHRQvli3Eqdre9RQqN17pFRGV7SJZH2IsgsjemrdXosSw-vyH4neR9Sq8")'></div>
+<div class="w-7 h-7 rounded-full border-2 border-white dark:border-surface-dark bg-gray-300 bg-cover" data-alt="Friend avatar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB_j9aaRgxDl6aTOOfJVHDwFJhnp7MHbu0yqOskyqai2WgQFSl9XeduAOVbQoIqJA_lavojnvIruPbG71js3y4Vd9wQc154IF0GsnNgSpnd8q_-vOtgOmQqbAyz3i0TXYPmTl34U3RB-ELBaS62szMALGbOmIjXEiZjG9pHmrq160qfshYsFaKoHjA44-PPGUTmSjYu4LFr55K6iUPng0e3Gij_tE2Hf59pfhFcX30VK19GP313_5017dY9m6NDxSF3IP4B3gCofhU")'></div>
+</div>
+<button class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold shadow-md shadow-blue-500/20 hover:bg-blue-700 transition-colors flex items-center gap-2">
+<span>Resume</span>
+<span class="material-symbols-outlined text-[18px]">play_arrow</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Access Grid -->
+<div class="px-4 mb-8">
+<h3 class="text-lg font-bold text-[#0d121b] dark:text-white mb-3 tracking-tight">Quick Access</h3>
+<div class="grid grid-cols-2 gap-3">
+<!-- Vocabulary -->
+<button class="group flex flex-col items-center justify-center gap-3 p-5 rounded-2xl bg-blue-50 dark:bg-blue-900/10 border border-blue-100 dark:border-blue-800/30 hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-all active:scale-95">
+<div class="size-12 rounded-full bg-blue-100 dark:bg-blue-800/50 flex items-center justify-center text-blue-600 dark:text-blue-300 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">menu_book</span>
+</div>
+<span class="text-[#0d121b] dark:text-gray-100 font-bold text-sm">Vocabulary</span>
+</button>
+<!-- Kanji -->
+<button class="group flex flex-col items-center justify-center gap-3 p-5 rounded-2xl bg-red-50 dark:bg-red-900/10 border border-red-100 dark:border-red-800/30 hover:bg-red-100 dark:hover:bg-red-900/30 transition-all active:scale-95">
+<div class="size-12 rounded-full bg-red-100 dark:bg-red-800/50 flex items-center justify-center text-red-600 dark:text-red-300 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">brush</span>
+</div>
+<span class="text-[#0d121b] dark:text-gray-100 font-bold text-sm">Kanji</span>
+</button>
+<!-- Grammar -->
+<button class="group flex flex-col items-center justify-center gap-3 p-5 rounded-2xl bg-emerald-50 dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/30 hover:bg-emerald-100 dark:hover:bg-emerald-900/30 transition-all active:scale-95">
+<div class="size-12 rounded-full bg-emerald-100 dark:bg-emerald-800/50 flex items-center justify-center text-emerald-600 dark:text-emerald-300 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">history_edu</span>
+</div>
+<span class="text-[#0d121b] dark:text-gray-100 font-bold text-sm">Grammar</span>
+</button>
+<!-- Listening -->
+<button class="group flex flex-col items-center justify-center gap-3 p-5 rounded-2xl bg-purple-50 dark:bg-purple-900/10 border border-purple-100 dark:border-purple-800/30 hover:bg-purple-100 dark:hover:bg-purple-900/30 transition-all active:scale-95">
+<div class="size-12 rounded-full bg-purple-100 dark:bg-purple-800/50 flex items-center justify-center text-purple-600 dark:text-purple-300 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">headphones</span>
+</div>
+<span class="text-[#0d121b] dark:text-gray-100 font-bold text-sm">Listening</span>
+</button>
+</div>
+</div>
+<!-- Review Section (Horizontal Scroll) -->
+<div class="mb-4">
+<div class="flex justify-between items-center px-4 mb-3">
+<h3 class="text-lg font-bold text-[#0d121b] dark:text-white tracking-tight">Review Decks</h3>
+<span class="px-2 py-0.5 rounded bg-orange-100 text-orange-700 dark:bg-orange-900/50 dark:text-orange-200 text-xs font-bold">17 Cards Due</span>
+</div>
+<div class="flex overflow-x-auto hide-scrollbar gap-4 px-4 pb-4 snap-x">
+<!-- Review Card 1 -->
+<div class="snap-start min-w-[150px] p-4 rounded-xl bg-white dark:bg-surface-dark border border-gray-200/50 dark:border-gray-700 shadow-sm flex flex-col justify-between h-[130px] hover:border-primary/50 transition-colors cursor-pointer">
+<div>
+<div class="w-8 h-8 rounded-lg bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center mb-3">
+<span class="material-symbols-outlined text-orange-600 text-[20px]">school</span>
+</div>
+<p class="font-bold text-sm text-[#0d121b] dark:text-white leading-tight">JLPT N5<br/>Essential</p>
+</div>
+<div class="flex items-center gap-1">
+<span class="size-1.5 rounded-full bg-orange-500"></span>
+<p class="text-xs text-gray-500 dark:text-gray-400 font-medium">12 cards</p>
+</div>
+</div>
+<!-- Review Card 2 -->
+<div class="snap-start min-w-[150px] p-4 rounded-xl bg-white dark:bg-surface-dark border border-gray-200/50 dark:border-gray-700 shadow-sm flex flex-col justify-between h-[130px] hover:border-primary/50 transition-colors cursor-pointer">
+<div>
+<div class="w-8 h-8 rounded-lg bg-cyan-50 dark:bg-cyan-900/20 flex items-center justify-center mb-3">
+<span class="material-symbols-outlined text-cyan-600 text-[20px]">translate</span>
+</div>
+<p class="font-bold text-sm text-[#0d121b] dark:text-white leading-tight">Hiragana<br/>Basics</p>
+</div>
+<div class="flex items-center gap-1">
+<span class="size-1.5 rounded-full bg-cyan-500"></span>
+<p class="text-xs text-gray-500 dark:text-gray-400 font-medium">5 cards</p>
+</div>
+</div>
+<!-- Review Card 3 (Add) -->
+<div class="snap-start min-w-[150px] p-4 rounded-xl bg-gray-50 dark:bg-gray-800/50 border border-dashed border-gray-300 dark:border-gray-600 flex flex-col items-center justify-center h-[130px] cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+<span class="material-symbols-outlined text-gray-400 text-3xl mb-1">add_circle</span>
+<p class="text-xs font-bold text-gray-400">Add Deck</p>
+</div>
+</div>
+</div>
+<!-- Spacing for bottom nav -->
+<div class="h-6"></div>
+<!-- Bottom Navigation -->
+<div class="fixed bottom-0 left-0 right-0 z-50 bg-surface-light dark:bg-surface-dark border-t border-gray-200 dark:border-gray-700 pb-safe shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
+<div class="flex justify-around items-center h-16 max-w-md mx-auto px-2">
+<!-- Home (Active) -->
+<button class="flex flex-col items-center justify-center w-full h-full text-primary gap-1 group">
+<span class="material-symbols-outlined text-[26px] fill-1 transition-transform group-active:scale-90">home</span>
+<span class="text-[10px] font-bold">Home</span>
+</button>
+<!-- Explore -->
+<button class="flex flex-col items-center justify-center w-full h-full text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 gap-1 group">
+<span class="material-symbols-outlined text-[26px] transition-transform group-active:scale-90">explore</span>
+<span class="text-[10px] font-medium">Explore</span>
+</button>
+<!-- Stats -->
+<button class="flex flex-col items-center justify-center w-full h-full text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 gap-1 group">
+<span class="material-symbols-outlined text-[26px] transition-transform group-active:scale-90">bar_chart</span>
+<span class="text-[10px] font-medium">Stats</span>
+</button>
+<!-- Profile -->
+<button class="flex flex-col items-center justify-center w-full h-full text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 gap-1 group">
+<span class="material-symbols-outlined text-[26px] transition-transform group-active:scale-90">person</span>
+<span class="text-[10px] font-medium">Profile</span>
+</button>
+</div>
+</div>
+</div>
+</body></html>

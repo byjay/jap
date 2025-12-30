@@ -1,0 +1,318 @@
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Gamified Lesson Path - Japanese Learning App</title>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#3b82f6",
+              "primary-dark": "#2563eb",
+              "secondary": "#fbbf24", 
+              "sakura": "#fbcfe8",
+              "sakura-dark": "#f472b6",
+              "background-light": "#f0f4f8",
+              "background-dark": "#0f172a",
+              "surface-light": "#ffffff",
+              "surface-dark": "#1e293b",
+            },
+            fontFamily: {
+              "display": ["Lexend", "Noto Sans", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "3xl": "1.5rem", "full": "9999px"},
+            boxShadow: {
+                'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                'glow': '0 0 30px rgba(59, 130, 246, 0.6)',
+                'glow-gold': '0 0 30px rgba(251, 191, 36, 0.5)',
+                'level-active': '0 10px 25px -5px rgba(59, 130, 246, 0.4), 0 8px 10px -6px rgba(59, 130, 246, 0.1)',
+                'card-lift': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
+            },
+            animation: {
+                'float': 'float 3s ease-in-out infinite',
+                'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                'spin-slow': 'spin 8s linear infinite',
+                'fall': 'fall 4s linear infinite',
+                'pop-in': 'popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards',
+                'shimmer': 'shimmer 2s linear infinite',
+            },
+            keyframes: {
+                float: {
+                    '0%, 100%': { transform: 'translateY(0)' },
+                    '50%': { transform: 'translateY(-5px)' },
+                },
+                fall: {
+                    '0%': { transform: 'translateY(-20vh) rotate(0deg)', opacity: '1' },
+                    '100%': { transform: 'translateY(100vh) rotate(360deg)', opacity: '0' },
+                },
+                popIn: {
+                    '0%': { opacity: '0', transform: 'scale(0.5)' },
+                    '100%': { opacity: '1', transform: 'scale(1)' },
+                },
+                shimmer: {
+                    '0%': { backgroundPosition: '-200% 0' },
+                    '100%': { backgroundPosition: '200% 0' },
+                }
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .icon-filled {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .icon-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .bg-pattern {
+            background-color: #f0f4f8;
+            background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .dark .bg-pattern {
+            background-color: #0f172a;
+            background-image: radial-gradient(#334155 1px, transparent 1px);
+        }.sakura-petal {
+            width: 12px;
+            height: 20px;
+            background: #fbcfe8;
+            border-radius: 12px 0px 12px 0px;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display antialiased overflow-hidden selection:bg-primary selection:text-white">
+<input class="peer hidden" id="victory-toggle" type="checkbox"/>
+<div class="fixed inset-0 z-[100] hidden peer-checked:flex items-center justify-center p-4">
+<div class="absolute inset-0 bg-slate-900/80 backdrop-blur-xl animate-fade-in"></div>
+<div class="absolute inset-0 overflow-hidden pointer-events-none z-0">
+<div class="sakura-petal absolute top-0 left-[10%] opacity-80 animate-fall" style="animation-duration: 4s; animation-delay: 0s;"></div>
+<div class="sakura-petal absolute top-0 left-[30%] opacity-60 animate-fall" style="animation-duration: 6s; animation-delay: 1s;"></div>
+<div class="sakura-petal absolute top-0 left-[70%] opacity-90 animate-fall" style="animation-duration: 5s; animation-delay: 2s;"></div>
+<div class="sakura-petal absolute top-0 left-[50%] opacity-70 animate-fall" style="animation-duration: 7s; animation-delay: 0.5s;"></div>
+<div class="sakura-petal absolute top-0 left-[85%] opacity-80 animate-fall" style="animation-duration: 4.5s; animation-delay: 1.5s;"></div>
+<div class="sakura-petal absolute top-0 left-[20%] opacity-60 animate-fall" style="animation-duration: 5.5s; animation-delay: 2.5s;"></div>
+</div>
+<div class="relative w-full max-w-sm bg-white dark:bg-slate-800 rounded-3xl shadow-2xl overflow-hidden animate-pop-in border border-slate-200 dark:border-slate-700">
+<div class="absolute top-0 inset-x-0 h-32 bg-gradient-to-b from-yellow-400/20 to-transparent"></div>
+<div class="relative z-10 flex flex-col items-center p-8 text-center">
+<div class="w-24 h-24 mb-6 relative">
+<div class="absolute inset-0 bg-yellow-400/30 rounded-full blur-xl animate-pulse-slow"></div>
+<div class="w-full h-full bg-gradient-to-br from-yellow-300 to-yellow-600 rounded-full flex items-center justify-center shadow-lg transform rotate-12 border-4 border-white dark:border-slate-800">
+<span class="material-symbols-outlined text-white text-5xl icon-filled drop-shadow-md">emoji_events</span>
+</div>
+<span class="material-symbols-outlined absolute -top-2 -right-2 text-yellow-400 text-3xl animate-bounce icon-filled drop-shadow-sm" style="animation-delay: 0.2s">star</span>
+<span class="material-symbols-outlined absolute bottom-0 -left-2 text-yellow-400 text-2xl animate-bounce icon-filled drop-shadow-sm" style="animation-delay: 0.4s">star</span>
+</div>
+<h2 class="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-500 mb-2 uppercase tracking-tight filter drop-shadow-sm">Lesson Complete!</h2>
+<p class="text-slate-500 dark:text-slate-400 font-medium mb-8">Basic Greetings - Mastered</p>
+<div class="grid grid-cols-2 gap-4 w-full mb-8">
+<div class="bg-slate-50 dark:bg-slate-700/50 p-4 rounded-2xl border border-slate-100 dark:border-slate-700 flex flex-col items-center">
+<span class="material-symbols-outlined text-blue-500 mb-1 icon-filled">diamond</span>
+<span class="text-2xl font-black text-slate-800 dark:text-white">+5</span>
+<span class="text-[10px] font-bold text-slate-400 uppercase">Gems</span>
+</div>
+<div class="bg-slate-50 dark:bg-slate-700/50 p-4 rounded-2xl border border-slate-100 dark:border-slate-700 flex flex-col items-center">
+<span class="material-symbols-outlined text-yellow-500 mb-1 icon-filled">bolt</span>
+<span class="text-2xl font-black text-slate-800 dark:text-white">+25</span>
+<span class="text-[10px] font-bold text-slate-400 uppercase">XP Gained</span>
+</div>
+</div>
+<label class="w-full bg-gradient-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-white font-bold py-4 rounded-xl shadow-lg shadow-primary/30 transition-all active:scale-95 cursor-pointer flex items-center justify-center gap-2" for="victory-toggle">
+<span>Continue Journey</span>
+<span class="material-symbols-outlined">arrow_forward</span>
+</label>
+</div>
+</div>
+</div>
+<div class="relative flex h-full min-h-screen w-full flex-col mx-auto max-w-md bg-background-light dark:bg-background-dark shadow-2xl border-x border-slate-200 dark:border-slate-800">
+<div class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-all duration-300">
+<div class="flex items-center justify-between px-4 py-3">
+<div class="flex gap-3">
+<div class="flex items-center gap-1.5 bg-white dark:bg-slate-800 px-2.5 py-1 rounded-full border border-slate-200 dark:border-slate-700 shadow-sm">
+<span class="material-symbols-outlined text-red-500 icon-filled text-[20px]">favorite</span>
+<span class="text-sm font-bold text-slate-700 dark:text-slate-200">5</span>
+</div>
+<div class="flex items-center gap-1.5 bg-white dark:bg-slate-800 px-2.5 py-1 rounded-full border border-slate-200 dark:border-slate-700 shadow-sm">
+<span class="material-symbols-outlined text-blue-400 icon-filled text-[20px]">diamond</span>
+<span class="text-sm font-bold text-slate-700 dark:text-slate-200">120</span>
+</div>
+</div>
+<div class="flex items-center gap-1.5 bg-white dark:bg-slate-800 px-2.5 py-1 rounded-full border border-slate-200 dark:border-slate-700 shadow-sm">
+<span class="material-symbols-outlined text-orange-500 icon-filled text-[20px]">local_fire_department</span>
+<span class="text-sm font-bold text-orange-500">12</span>
+</div>
+</div>
+<div class="px-4 pb-3 pt-1">
+<button class="flex items-center gap-2 text-slate-800 dark:text-white">
+<h2 class="text-xl font-black uppercase tracking-tight">World 1: The Basics</h2>
+<span class="material-symbols-outlined text-slate-400">expand_more</span>
+</button>
+<p class="text-xs text-slate-500 font-medium ml-0.5 mt-0.5">2/5 Levels Completed</p>
+</div>
+</div>
+<div class="flex-1 overflow-y-auto relative bg-pattern pb-32">
+<div class="absolute left-1/2 top-8 bottom-0 w-3 bg-slate-200 dark:bg-slate-800 -translate-x-1/2 rounded-full z-0"></div>
+<div class="relative z-10 flex flex-col items-center mt-8 mb-16">
+<div class="bg-slate-200 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest mb-2 border border-slate-300 dark:border-slate-600 shadow-sm">Start</div>
+</div>
+<div class="relative z-10 flex flex-col items-center mb-20 group cursor-pointer w-full max-w-[200px] mx-auto">
+<div class="absolute -top-16 opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:-translate-y-2 pointer-events-none z-20 w-40">
+<div class="bg-slate-800 text-white text-xs p-3 rounded-xl shadow-xl flex flex-col gap-1 items-center text-center after:content-[''] after:absolute after:bottom-[-6px] after:left-1/2 after:-translate-x-1/2 after:border-l-[6px] after:border-l-transparent after:border-r-[6px] after:border-r-transparent after:border-t-[6px] after:border-t-slate-800">
+<span class="font-bold text-yellow-400">Mastered!</span>
+<span class="text-slate-300 text-[10px]">Replay for 5 XP</span>
+</div>
+</div>
+<div class="relative">
+<div class="absolute inset-0 bg-yellow-400/30 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="w-20 h-20 rounded-full bg-gradient-to-b from-yellow-400 to-yellow-500 border-b-[6px] border-yellow-600 shadow-glow-gold flex items-center justify-center transform transition-all group-active:scale-95 group-active:border-b-0 group-active:translate-y-[6px] group-hover:-translate-y-1">
+<span class="material-symbols-outlined text-yellow-900 text-4xl icon-filled drop-shadow-sm">check_circle</span>
+</div>
+<div class="absolute -bottom-6 left-1/2 -translate-x-1/2 flex gap-0.5">
+<span class="material-symbols-outlined text-yellow-400 icon-filled text-[18px] drop-shadow-sm animate-bounce" style="animation-delay: 0s">star</span>
+<span class="material-symbols-outlined text-yellow-400 icon-filled text-[18px] drop-shadow-sm animate-bounce" style="animation-delay: 0.1s">star</span>
+<span class="material-symbols-outlined text-yellow-400 icon-filled text-[18px] drop-shadow-sm animate-bounce" style="animation-delay: 0.2s">star</span>
+</div>
+</div>
+<span class="mt-7 font-bold text-slate-600 dark:text-slate-300 text-sm group-hover:text-primary transition-colors">Hiragana 1</span>
+</div>
+<div class="relative z-10 flex flex-col items-center mb-24 px-6 w-full">
+<div class="animate-float mb-2">
+<div class="bg-gradient-to-r from-primary to-primary-dark text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg shadow-primary/30 uppercase tracking-wide border border-white/20">
+                    Current Level
+                </div>
+<div class="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-primary mx-auto"></div>
+</div>
+<div class="relative mb-4 group cursor-pointer">
+<div class="absolute inset-0 bg-primary/50 rounded-full blur-xl animate-pulse-slow"></div>
+<button class="relative w-24 h-24 rounded-full bg-gradient-to-b from-blue-400 to-primary border-b-[8px] border-primary-dark shadow-glow flex items-center justify-center transform transition-transform active:scale-95 active:border-b-0 active:translate-y-[8px] group-hover:scale-105 duration-300">
+<span class="material-symbols-outlined text-white text-5xl icon-filled drop-shadow-md">play_arrow</span>
+<span class="absolute inset-0 rounded-full border-2 border-white/50 animate-ping opacity-20"></span>
+</button>
+</div>
+<div class="w-full bg-white dark:bg-surface-dark rounded-2xl p-0 shadow-card-lift border border-slate-100 dark:border-slate-700 relative overflow-hidden group hover:shadow-glow transition-shadow duration-500">
+<div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary/10 to-transparent rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-110 duration-700"></div>
+<div class="p-5 relative z-10">
+<div class="flex justify-between items-start mb-2">
+<h3 class="text-xl font-black text-slate-800 dark:text-white group-hover:text-primary transition-colors">Basic Greetings</h3>
+<span class="bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-300 text-[10px] font-bold px-2 py-1 rounded">10 MIN</span>
+</div>
+<p class="text-sm text-slate-500 dark:text-slate-400 mb-4 font-medium leading-relaxed">
+            Master the art of "Konnichiwa" and natural introductions.
+        </p>
+<div class="flex items-center gap-3 mb-4 bg-slate-50 dark:bg-slate-800/50 p-2.5 rounded-lg border border-slate-100 dark:border-slate-700/50 group-hover:border-primary/20 transition-colors">
+<span class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Rewards:</span>
+<div class="flex items-center gap-1 animate-pulse-slow">
+<span class="material-symbols-outlined text-yellow-500 icon-filled text-[18px]">bolt</span>
+<span class="text-xs font-bold text-slate-700 dark:text-slate-200">25 XP</span>
+</div>
+<div class="w-px h-3 bg-slate-300 dark:bg-slate-600"></div>
+<div class="flex items-center gap-1 animate-pulse-slow" style="animation-delay: 0.5s">
+<span class="material-symbols-outlined text-blue-400 icon-filled text-[18px]">diamond</span>
+<span class="text-xs font-bold text-slate-700 dark:text-slate-200">5 Gems</span>
+</div>
+</div>
+<div class="flex gap-2">
+<label class="flex-1 bg-gradient-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-white font-bold py-3.5 rounded-xl shadow-lg shadow-primary/20 transition-all active:scale-[0.98] flex items-center justify-center gap-2 group/btn cursor-pointer relative overflow-hidden" for="victory-toggle">
+<div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-12 translate-x-[-200%] animate-shimmer"></div>
+<span>Start Mission</span>
+<span class="material-symbols-outlined group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</label>
+<label class="w-12 flex items-center justify-center bg-secondary/10 hover:bg-secondary/20 rounded-xl text-secondary transition-colors cursor-pointer" for="victory-toggle" title="Simulate Win">
+<span class="material-symbols-outlined icon-filled">emoji_events</span>
+</label>
+</div>
+</div>
+</div>
+</div>
+<div class="relative z-10 flex flex-col items-center mb-20 group">
+<div class="absolute -top-12 opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:-translate-y-2 pointer-events-none z-20">
+<div class="bg-slate-800/90 backdrop-blur text-white text-xs px-3 py-1.5 rounded-full shadow-xl border border-slate-700 flex items-center gap-2">
+<span class="material-symbols-outlined text-[14px] text-slate-400">lock</span>
+<span>Complete previous level to unlock</span>
+</div>
+</div>
+<div class="relative opacity-60 group-hover:opacity-80 transition-opacity">
+<div class="w-20 h-20 rounded-full bg-slate-200 dark:bg-slate-700 border-b-[6px] border-slate-300 dark:border-slate-800 shadow-sm flex items-center justify-center group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-slate-400 text-3xl">lock</span>
+</div>
+<div class="absolute -right-12 top-0 bg-slate-800 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow-sm transform rotate-12">
+                    Lvl 3
+                </div>
+</div>
+<span class="mt-3 font-bold text-slate-400 text-sm">Self Intro</span>
+</div>
+<div class="relative z-10 flex flex-col items-center mb-20">
+<div class="absolute w-24 h-24 bg-yellow-400/20 rounded-full blur-xl top-0 animate-pulse-slow"></div>
+<div class="relative group cursor-not-allowed hover:scale-105 transition-transform duration-300">
+<img alt="Treasure Chest" class="w-24 h-24 object-contain filter grayscale opacity-70 drop-shadow-lg transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAW3WAAfIAvVWv1oa5Tw76e9D5ahgRWKnW2w6Gv0o0nLczwU0fa9D7WaYUtm7YbxO8XoHGz74imbzCK716emiuBFLYYnQEQ1Hm5wCH_aDN7XvN84uadtr6oJFiN0A1dTUIQb5YWxXowaL0E6yl-OFPD-JIK3-ADzuS1x-h_1I4I4f9_hebwiTzYIQK5b6Lu8tzMQ7eFetXSc0PwVMJouLiIOCqLyH_7-IdmdmtH6FPmdnuLv2BkuEyEMMRQarFPkSovd72B9NpTYek"/>
+<div class="absolute top-0 right-0 w-2 h-2 bg-yellow-400 rounded-full animate-ping opacity-75"></div>
+<div class="absolute bottom-4 left-2 w-1.5 h-1.5 bg-yellow-400 rounded-full animate-ping opacity-50 animation-delay-500"></div>
+<div class="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-slate-800/90 backdrop-blur text-white text-[10px] font-bold px-3 py-1 rounded-full whitespace-nowrap flex items-center gap-1 border border-slate-700 shadow-lg group-hover:-translate-y-1 transition-transform">
+<span class="material-symbols-outlined text-[12px] text-yellow-400">lock</span>
+                    Finish Unit 1
+                </div>
+</div>
+</div>
+<div class="relative z-10 mb-12 text-center">
+<div class="inline-block bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl px-6 py-3 shadow-sm relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-slate-300 dark:via-slate-600 to-transparent opacity-50"></div>
+<h3 class="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-1">Coming Up</h3>
+<h2 class="text-lg font-black text-slate-800 dark:text-slate-200">World 2: Numbers</h2>
+<div class="mt-2 flex justify-center">
+<span class="material-symbols-outlined text-slate-300 text-2xl">lock</span>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed bottom-0 w-full max-w-md bg-white dark:bg-slate-900 border-t border-slate-100 dark:border-slate-800 z-50 shadow-[0_-5px_20px_rgba(0,0,0,0.03)] pb-safe">
+<div class="flex justify-around items-end pb-6 pt-3 px-2">
+<button class="group flex flex-col items-center gap-1 w-16">
+<div class="relative">
+<span class="material-symbols-outlined text-primary icon-filled text-[28px] transition-transform group-active:scale-90 animate-bounce-slight">map</span>
+<span class="absolute -top-1 -right-1 w-2.5 h-2.5 bg-red-500 rounded-full border-2 border-white dark:border-slate-900"></span>
+</div>
+<span class="text-[11px] font-bold text-primary">Path</span>
+</button>
+<button class="group flex flex-col items-center gap-1 w-16 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors">
+<span class="material-symbols-outlined icon-outlined text-[28px] transition-transform group-active:scale-90">fitness_center</span>
+<span class="text-[11px] font-medium">Train</span>
+</button>
+<button class="group flex flex-col items-center gap-1 w-16 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors">
+<span class="material-symbols-outlined icon-outlined text-[28px] transition-transform group-active:scale-90">emoji_events</span>
+<span class="text-[11px] font-medium">Rank</span>
+</button>
+<button class="group flex flex-col items-center gap-1 w-16 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 transition-colors">
+<div class="w-7 h-7 rounded-full bg-slate-200 overflow-hidden mb-0.5 border border-slate-300 dark:border-slate-600">
+<div class="w-full h-full bg-gradient-to-tr from-slate-300 to-slate-100 dark:from-slate-700 dark:to-slate-600"></div>
+</div>
+<span class="text-[11px] font-medium">Profile</span>
+</button>
+</div>
+</div>
+</div>
+</body></html>

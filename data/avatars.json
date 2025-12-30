@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "name": "Sakura",
+        "category": "kawaii",
+        "color": "#FFB7C5",
+        "image": null
+    },
+    {
+        "id": 2,
+        "name": "Kitsune",
+        "category": "mystical",
+        "color": "#FF6B35",
+        "image": null
+    },
+    {
+        "id": 3,
+        "name": "Tanuki",
+        "category": "nature",
+        "color": "#8B4513",
+        "image": null
+    },
+    {
+        "id": 4,
+        "name": "Neko",
+        "category": "kawaii",
+        "color": "#FFC0CB",
+        "image": null
+    },
+    {
+        "id": 5,
+        "name": "Samurai",
+        "category": "cool",
+        "color": "#4A5568",
+        "image": null
+    },
+    {
+        "id": 6,
+        "name": "Ninja",
+        "category": "cool",
+        "color": "#1A202C",
+        "image": null
+    },
+    {
+        "id": 7,
+        "name": "Miko",
+        "category": "mystical",
+        "color": "#E53E3E",
+        "image": null
+    },
+    {
+        "id": 8,
+        "name": "Tengu",
+        "category": "mystical",
+        "color": "#2D3748",
+        "image": null
+    },
+    {
+        "id": 9,
+        "name": "Usagi",
+        "category": "kawaii",
+        "color": "#FEFCBF",
+        "image": null
+    },
+    {
+        "id": 10,
+        "name": "Inu",
+        "category": "nature",
+        "color": "#D69E2E",
+        "image": null
+    },
+    {
+        "id": 11,
+        "name": "Oni",
+        "category": "cool",
+        "color": "#9B2C2C",
+        "image": null
+    },
+    {
+        "id": 12,
+        "name": "Kappa",
+        "category": "nature",
+        "color": "#38A169",
+        "image": null
+    },
+    {
+        "id": 13,
+        "name": "Yuki",
+        "category": "kawaii",
+        "color": "#E2E8F0",
+        "image": null
+    },
+    {
+        "id": 14,
+        "name": "Ryu",
+        "category": "mystical",
+        "color": "#3182CE",
+        "image": null
+    },
+    {
+        "id": 15,
+        "name": "Tora",
+        "category": "cool",
+        "color": "#ED8936",
+        "image": null
+    },
+    {
+        "id": 16,
+        "name": "Kuma",
+        "category": "nature",
+        "color": "#744210",
+        "image": null
+    },
+    {
+        "id": 17,
+        "name": "Tsuru",
+        "category": "kawaii",
+        "color": "#FFFFFF",
+        "image": null
+    },
+    {
+        "id": 18,
+        "name": "Hebi",
+        "category": "mystical",
+        "color": "#48BB78",
+        "image": null
+    },
+    {
+        "id": 19,
+        "name": "Tako",
+        "category": "nature",
+        "color": "#805AD5",
+        "image": null
+    },
+    {
+        "id": 20,
+        "name": "Hoshi",
+        "category": "kawaii",
+        "color": "#FAF089",
+        "image": null
+    },
+    {
+        "id": 21,
+        "name": "Cyber",
+        "category": "futuristic",
+        "color": "#00FFFF",
+        "image": null
+    },
+    {
+        "id": 22,
+        "name": "Neon",
+        "category": "futuristic",
+        "color": "#FF00FF",
+        "image": null
+    },
+    {
+        "id": 23,
+        "name": "Mecha",
+        "category": "futuristic",
+        "color": "#718096",
+        "image": null
+    },
+    {
+        "id": 24,
+        "name": "Hologram",
+        "category": "futuristic",
+        "color": "#7FFFD4",
+        "image": null
+    },
+    {
+        "id": 25,
+        "name": "Pixel",
+        "category": "futuristic",
+        "color": "#32CD32",
+        "image": null
+    },
+    {
+        "id": 26,
+        "name": "Koi",
+        "category": "nature",
+        "color": "#F6AD55",
+        "image": null
+    },
+    {
+        "id": 27,
+        "name": "Fuji",
+        "category": "nature",
+        "color": "#667EEA",
+        "image": null
+    },
+    {
+        "id": 28,
+        "name": "Matcha",
+        "category": "kawaii",
+        "color": "#68D391",
+        "image": null
+    },
+    {
+        "id": 29,
+        "name": "Ramen",
+        "category": "kawaii",
+        "color": "#FBD38D",
+        "image": null
+    },
+    {
+        "id": 30,
+        "name": "Sensei",
+        "category": "cool",
+        "color": "#2B6CB0",
+        "image": null
+    }
+]

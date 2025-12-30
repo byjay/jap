@@ -1,20 +1,20 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2025-12-30T10:05:41.308547",
-    "total_words": 304,
+    "last_updated": "2025-12-30T11:26:25.694647",
+    "total_words": 334,
     "categories": [
+      "travel",
+      "shopping",
+      "jlpt_n1",
+      "jlpt_n3",
       "business",
       "middle_school",
-      "jlpt_n2",
-      "jlpt_n3",
-      "jlpt_n1",
-      "jlpt_n5",
-      "jlpt_n4",
       "high_school",
-      "travel",
+      "jlpt_n4",
       "food",
-      "shopping"
+      "jlpt_n5",
+      "jlpt_n2"
     ]
   },
   "words": [
@@ -39,7 +39,12 @@
       "collected_at": "2025-12-30T09:50:00.817659",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "ありがとう",
@@ -58,7 +63,12 @@
       "collected_at": "2025-12-30T09:50:01.137762",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "すみません",
@@ -81,7 +91,12 @@
       "collected_at": "2025-12-30T09:50:01.450171",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "はい",
@@ -104,7 +119,12 @@
       "collected_at": "2025-12-30T09:50:01.775660",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "おはよう",
@@ -123,7 +143,12 @@
       "collected_at": "2025-12-30T09:50:02.239426",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "こんばんは",
@@ -146,7 +171,12 @@
       "collected_at": "2025-12-30T09:51:38.160194",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "さようなら",
@@ -169,7 +199,12 @@
       "collected_at": "2025-12-30T09:51:38.433276",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "一",
@@ -192,7 +227,12 @@
       "collected_at": "2025-12-30T09:51:38.726262",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "二",
@@ -215,7 +255,12 @@
       "collected_at": "2025-12-30T09:51:39.016875",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "三",
@@ -238,7 +283,12 @@
       "collected_at": "2025-12-30T09:51:39.303176",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "四",
@@ -261,7 +311,12 @@
       "collected_at": "2025-12-30T10:01:13.482824",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "五",
@@ -284,7 +339,12 @@
       "collected_at": "2025-12-30T10:01:13.780179",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "六",
@@ -307,7 +367,12 @@
       "collected_at": "2025-12-30T10:01:14.062985",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "七",
@@ -330,7 +395,12 @@
       "collected_at": "2025-12-30T10:01:14.342402",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "八",
@@ -353,7 +423,12 @@
       "collected_at": "2025-12-30T10:01:14.612268",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "いいえ",
@@ -363,7 +438,12 @@
       "collected_at": "2025-12-30T10:02:03.872209",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "九",
@@ -386,7 +466,12 @@
       "collected_at": "2025-12-30T10:02:04.260358",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "十",
@@ -409,7 +494,12 @@
       "collected_at": "2025-12-30T10:02:04.651100",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "百",
@@ -432,7 +522,12 @@
       "collected_at": "2025-12-30T10:02:05.025290",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "千",
@@ -455,7 +550,12 @@
       "collected_at": "2025-12-30T10:02:05.414440",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "万",
@@ -478,7 +578,12 @@
       "collected_at": "2025-12-30T10:03:47.827333",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "月曜日",
@@ -501,7 +606,12 @@
       "collected_at": "2025-12-30T10:03:48.222649",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "火曜日",
@@ -524,7 +634,12 @@
       "collected_at": "2025-12-30T10:03:48.612654",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "水曜日",
@@ -543,7 +658,12 @@
       "collected_at": "2025-12-30T10:03:48.986404",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "木曜日",
@@ -562,7 +682,12 @@
       "collected_at": "2025-12-30T10:03:49.387659",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "金曜日",
@@ -585,7 +710,12 @@
       "collected_at": "2025-12-30T10:03:49.766094",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "土曜日",
@@ -608,7 +738,12 @@
       "collected_at": "2025-12-30T10:03:50.154965",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "日曜日",
@@ -631,7 +766,12 @@
       "collected_at": "2025-12-30T10:03:50.636503",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "今日",
@@ -654,7 +794,12 @@
       "collected_at": "2025-12-30T10:03:51.036789",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "明日",
@@ -677,7 +822,12 @@
       "collected_at": "2025-12-30T10:03:51.420635",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "昨日",
@@ -700,7 +850,12 @@
       "collected_at": "2025-12-30T10:03:51.809590",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "父",
@@ -723,7 +878,12 @@
       "collected_at": "2025-12-30T10:03:52.194323",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "母",
@@ -746,7 +906,12 @@
       "collected_at": "2025-12-30T10:03:52.593406",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "兄",
@@ -769,7 +934,12 @@
       "collected_at": "2025-12-30T10:03:52.989441",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "姉",
@@ -792,7 +962,12 @@
       "collected_at": "2025-12-30T10:03:53.388767",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "弟",
@@ -815,7 +990,12 @@
       "collected_at": "2025-12-30T10:03:53.789617",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "妹",
@@ -838,7 +1018,12 @@
       "collected_at": "2025-12-30T10:03:54.177607",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "家族",
@@ -861,7 +1046,12 @@
       "collected_at": "2025-12-30T10:03:54.575504",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "子供",
@@ -884,7 +1074,12 @@
       "collected_at": "2025-12-30T10:03:54.960692",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "男",
@@ -907,7 +1102,12 @@
       "collected_at": "2025-12-30T10:03:55.377575",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "女",
@@ -930,7 +1130,12 @@
       "collected_at": "2025-12-30T10:03:55.758011",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "食べる",
@@ -953,7 +1158,11 @@
       "collected_at": "2025-12-30T10:03:56.215694",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "character_action",
+        "action_id": "explaining"
+      }
     },
     {
       "word": "飲む",
@@ -976,7 +1185,12 @@
       "collected_at": "2025-12-30T10:03:56.612704",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "見る",
@@ -999,7 +1213,12 @@
       "collected_at": "2025-12-30T10:03:57.033434",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "聞く",
@@ -1022,7 +1241,12 @@
       "collected_at": "2025-12-30T10:03:57.437306",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "読む",
@@ -1045,7 +1269,12 @@
       "collected_at": "2025-12-30T10:03:57.824195",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "書く",
@@ -1068,7 +1297,12 @@
       "collected_at": "2025-12-30T10:03:58.210172",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "話す",
@@ -1091,7 +1325,12 @@
       "collected_at": "2025-12-30T10:03:58.880720",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "行く",
@@ -1114,7 +1353,12 @@
       "collected_at": "2025-12-30T10:03:59.272433",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "来る",
@@ -1137,7 +1381,12 @@
       "collected_at": "2025-12-30T10:03:59.664785",
       "category": "jlpt_n5",
       "category_name": "JLPT N5 기초",
-      "level": "beginner"
+      "level": "beginner",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "学校",
@@ -1160,7 +1409,11 @@
       "collected_at": "2025-12-30T10:04:00.049366",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "character_action",
+        "action_id": "hungry"
+      }
     },
     {
       "word": "大学",
@@ -1183,7 +1436,12 @@
       "collected_at": "2025-12-30T10:04:00.459304",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "先生",
@@ -1206,7 +1464,12 @@
       "collected_at": "2025-12-30T10:04:00.859240",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "学生",
@@ -1229,7 +1492,12 @@
       "collected_at": "2025-12-30T10:04:01.264007",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "授業",
@@ -1252,7 +1520,12 @@
       "collected_at": "2025-12-30T10:04:01.655800",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "勉強",
@@ -1271,7 +1544,12 @@
       "collected_at": "2025-12-30T10:04:02.037134",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "宿題",
@@ -1294,7 +1572,12 @@
       "collected_at": "2025-12-30T10:04:02.472323",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "試験",
@@ -1317,7 +1600,12 @@
       "collected_at": "2025-12-30T10:04:02.988523",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "教室",
@@ -1340,7 +1628,12 @@
       "collected_at": "2025-12-30T10:04:03.394658",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "図書館",
@@ -1363,7 +1656,12 @@
       "collected_at": "2025-12-30T10:04:03.803597",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "仕事",
@@ -1386,7 +1684,12 @@
       "collected_at": "2025-12-30T10:04:04.233418",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "会社",
@@ -1409,7 +1712,12 @@
       "collected_at": "2025-12-30T10:04:04.641289",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "社長",
@@ -1432,7 +1740,12 @@
       "collected_at": "2025-12-30T10:04:05.040016",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "社員",
@@ -1455,7 +1768,12 @@
       "collected_at": "2025-12-30T10:04:05.467673",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "店員",
@@ -1478,7 +1796,12 @@
       "collected_at": "2025-12-30T10:04:05.910071",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "医者",
@@ -1501,7 +1824,12 @@
       "collected_at": "2025-12-30T10:04:06.303220",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "看護師",
@@ -1524,7 +1852,12 @@
       "collected_at": "2025-12-30T10:04:06.700059",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "警察",
@@ -1547,7 +1880,12 @@
       "collected_at": "2025-12-30T10:04:07.118130",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "運転手",
@@ -1557,7 +1895,12 @@
       "collected_at": "2025-12-30T10:04:07.510794",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "料理人",
@@ -1572,7 +1915,12 @@
       "collected_at": "2025-12-30T10:04:07.965765",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "駅",
@@ -1595,7 +1943,12 @@
       "collected_at": "2025-12-30T10:04:08.373424",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "空港",
@@ -1618,7 +1971,12 @@
       "collected_at": "2025-12-30T10:04:08.753053",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "病院",
@@ -1641,7 +1999,12 @@
       "collected_at": "2025-12-30T10:04:09.125501",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "銀行",
@@ -1664,7 +2027,12 @@
       "collected_at": "2025-12-30T10:04:09.490461",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "郵便局",
@@ -1687,7 +2055,12 @@
       "collected_at": "2025-12-30T10:04:09.875775",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "警察署",
@@ -1710,7 +2083,12 @@
       "collected_at": "2025-12-30T10:04:10.272058",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "消防署",
@@ -1733,7 +2111,12 @@
       "collected_at": "2025-12-30T10:04:10.656354",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "市役所",
@@ -1756,7 +2139,12 @@
       "collected_at": "2025-12-30T10:04:11.062854",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "公園",
@@ -1779,7 +2167,12 @@
       "collected_at": "2025-12-30T10:04:11.472985",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "神社",
@@ -1802,7 +2195,12 @@
       "collected_at": "2025-12-30T10:04:11.888537",
       "category": "jlpt_n4",
       "category_name": "JLPT N4 초급",
-      "level": "elementary"
+      "level": "elementary",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "感動",
@@ -1825,7 +2223,12 @@
       "collected_at": "2025-12-30T10:04:12.296619",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "感謝",
@@ -1848,7 +2251,12 @@
       "collected_at": "2025-12-30T10:04:12.757439",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "心配",
@@ -1867,7 +2275,12 @@
       "collected_at": "2025-12-30T10:04:13.142107",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "緊張",
@@ -1890,7 +2303,12 @@
       "collected_at": "2025-12-30T10:04:13.557708",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "興奮",
@@ -1913,7 +2331,12 @@
       "collected_at": "2025-12-30T10:04:13.937258",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "失望",
@@ -1936,7 +2359,12 @@
       "collected_at": "2025-12-30T10:04:14.337780",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "後悔",
@@ -1959,7 +2387,12 @@
       "collected_at": "2025-12-30T10:04:14.791743",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "満足",
@@ -1978,7 +2411,12 @@
       "collected_at": "2025-12-30T10:04:15.196047",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "不満",
@@ -1988,7 +2426,12 @@
       "collected_at": "2025-12-30T10:04:15.571558",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "驚き",
@@ -2003,7 +2446,12 @@
       "collected_at": "2025-12-30T10:04:15.958879",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "友人",
@@ -2026,7 +2474,12 @@
       "collected_at": "2025-12-30T10:04:16.353397",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "恋人",
@@ -2049,7 +2502,12 @@
       "collected_at": "2025-12-30T10:04:16.735165",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "夫婦",
@@ -2072,7 +2530,12 @@
       "collected_at": "2025-12-30T10:04:17.154646",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "親戚",
@@ -2095,7 +2558,12 @@
       "collected_at": "2025-12-30T10:04:17.549016",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "隣人",
@@ -2118,7 +2586,12 @@
       "collected_at": "2025-12-30T10:04:17.998221",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "上司",
@@ -2141,7 +2614,12 @@
       "collected_at": "2025-12-30T10:04:18.397571",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "部下",
@@ -2164,7 +2642,12 @@
       "collected_at": "2025-12-30T10:04:18.772413",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "同僚",
@@ -2187,7 +2670,11 @@
       "collected_at": "2025-12-30T10:04:19.162024",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "character_action",
+        "action_id": "explaining"
+      }
     },
     {
       "word": "先輩",
@@ -2210,7 +2697,12 @@
       "collected_at": "2025-12-30T10:04:19.559050",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "後輩",
@@ -2233,7 +2725,12 @@
       "collected_at": "2025-12-30T10:04:20.003348",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "会議",
@@ -2256,7 +2753,12 @@
       "collected_at": "2025-12-30T10:04:20.394884",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "報告",
@@ -2279,7 +2781,12 @@
       "collected_at": "2025-12-30T10:04:20.781405",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "連絡",
@@ -2302,7 +2809,12 @@
       "collected_at": "2025-12-30T10:04:21.179833",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "相談",
@@ -2325,7 +2837,12 @@
       "collected_at": "2025-12-30T10:04:21.586887",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "決定",
@@ -2348,7 +2865,12 @@
       "collected_at": "2025-12-30T10:04:21.978941",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "計画",
@@ -2371,7 +2893,12 @@
       "collected_at": "2025-12-30T10:04:22.385142",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "目標",
@@ -2394,7 +2921,12 @@
       "collected_at": "2025-12-30T10:04:22.775548",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "結果",
@@ -2417,7 +2949,12 @@
       "collected_at": "2025-12-30T10:04:23.154611",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "成功",
@@ -2440,7 +2977,12 @@
       "collected_at": "2025-12-30T10:04:23.542734",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "失敗",
@@ -2463,7 +3005,12 @@
       "collected_at": "2025-12-30T10:04:23.938375",
       "category": "jlpt_n3",
       "category_name": "JLPT N3 중급",
-      "level": "intermediate"
+      "level": "intermediate",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "経済",
@@ -2486,7 +3033,12 @@
       "collected_at": "2025-12-30T10:04:24.342467",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "政治",
@@ -2509,7 +3061,12 @@
       "collected_at": "2025-12-30T10:04:24.740278",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "社会",
@@ -2532,7 +3089,12 @@
       "collected_at": "2025-12-30T10:04:25.154253",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "文化",
@@ -2555,7 +3117,12 @@
       "collected_at": "2025-12-30T10:04:25.545213",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "歴史",
@@ -2578,7 +3145,12 @@
       "collected_at": "2025-12-30T10:04:25.920878",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "科学",
@@ -2601,7 +3173,12 @@
       "collected_at": "2025-12-30T10:04:26.304713",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "技術",
@@ -2624,7 +3201,12 @@
       "collected_at": "2025-12-30T10:04:26.705474",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "産業",
@@ -2647,7 +3229,12 @@
       "collected_at": "2025-12-30T10:04:27.094723",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "貿易",
@@ -2670,7 +3257,12 @@
       "collected_at": "2025-12-30T10:04:27.508967",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "投資",
@@ -2693,7 +3285,12 @@
       "collected_at": "2025-12-30T10:04:27.900514",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "国際",
@@ -2716,7 +3313,12 @@
       "collected_at": "2025-12-30T10:04:28.285683",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "外交",
@@ -2739,7 +3341,12 @@
       "collected_at": "2025-12-30T10:04:28.690602",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "条約",
@@ -2762,7 +3369,12 @@
       "collected_at": "2025-12-30T10:04:29.083540",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "法律",
@@ -2785,7 +3397,12 @@
       "collected_at": "2025-12-30T10:04:29.466669",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "制度",
@@ -2808,7 +3425,12 @@
       "collected_at": "2025-12-30T10:04:29.853931",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "改革",
@@ -2831,7 +3453,12 @@
       "collected_at": "2025-12-30T10:04:30.281790",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "発展",
@@ -2854,7 +3481,12 @@
       "collected_at": "2025-12-30T10:04:30.675619",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "成長",
@@ -2877,7 +3509,12 @@
       "collected_at": "2025-12-30T10:04:31.055607",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "競争",
@@ -2896,7 +3533,12 @@
       "collected_at": "2025-12-30T10:04:31.444714",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "協力",
@@ -2919,7 +3561,12 @@
       "collected_at": "2025-12-30T10:04:31.818374",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "環境問題",
@@ -2942,7 +3589,12 @@
       "collected_at": "2025-12-30T10:04:32.210972",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "温暖化",
@@ -2957,7 +3609,12 @@
       "collected_at": "2025-12-30T10:04:32.601566",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "資源",
@@ -2980,7 +3637,12 @@
       "collected_at": "2025-12-30T10:04:33.237493",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "エネルギー",
@@ -3003,7 +3665,12 @@
       "collected_at": "2025-12-30T10:04:33.633040",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "公害",
@@ -3026,7 +3693,12 @@
       "collected_at": "2025-12-30T10:04:34.029866",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "リサイクル",
@@ -3041,7 +3713,12 @@
       "collected_at": "2025-12-30T10:04:34.397849",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "持続可能",
@@ -3060,7 +3737,12 @@
       "collected_at": "2025-12-30T10:04:34.783864",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "保護",
@@ -3083,7 +3765,12 @@
       "collected_at": "2025-12-30T10:04:35.163114",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "対策",
@@ -3093,7 +3780,12 @@
       "collected_at": "2025-12-30T10:04:35.536342",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "解決",
@@ -3116,7 +3808,12 @@
       "collected_at": "2025-12-30T10:04:35.924061",
       "category": "jlpt_n2",
       "category_name": "JLPT N2 상급",
-      "level": "advanced"
+      "level": "advanced",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "概念",
@@ -3139,7 +3836,12 @@
       "collected_at": "2025-12-30T10:04:36.320765",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "抽象",
@@ -3162,7 +3864,12 @@
       "collected_at": "2025-12-30T10:04:36.714794",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "具体",
@@ -3172,7 +3879,12 @@
       "collected_at": "2025-12-30T10:04:37.101653",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "論理",
@@ -3195,7 +3907,12 @@
       "collected_at": "2025-12-30T10:04:37.481921",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "矛盾",
@@ -3218,7 +3935,12 @@
       "collected_at": "2025-12-30T10:04:37.883216",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "皮肉",
@@ -3241,7 +3963,12 @@
       "collected_at": "2025-12-30T10:04:38.269588",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "風刺",
@@ -3264,7 +3991,12 @@
       "collected_at": "2025-12-30T10:04:38.656775",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "比喩",
@@ -3287,7 +4019,12 @@
       "collected_at": "2025-12-30T10:04:39.041559",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "暗示",
@@ -3310,7 +4047,12 @@
       "collected_at": "2025-12-30T10:04:39.433411",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "象徴",
@@ -3333,7 +4075,12 @@
       "collected_at": "2025-12-30T10:04:39.823537",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "哲学",
@@ -3356,7 +4103,12 @@
       "collected_at": "2025-12-30T10:04:40.224326",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "倫理",
@@ -3379,7 +4131,12 @@
       "collected_at": "2025-12-30T10:04:40.611941",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "道徳",
@@ -3402,7 +4159,12 @@
       "collected_at": "2025-12-30T10:04:41.007502",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "価値観",
@@ -3412,7 +4174,12 @@
       "collected_at": "2025-12-30T10:04:41.405992",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "世界観",
@@ -3422,7 +4189,12 @@
       "collected_at": "2025-12-30T10:04:41.788703",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "人生観",
@@ -3437,7 +4209,12 @@
       "collected_at": "2025-12-30T10:04:42.182240",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "理念",
@@ -3460,7 +4237,12 @@
       "collected_at": "2025-12-30T10:04:42.575659",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "理想",
@@ -3483,7 +4265,12 @@
       "collected_at": "2025-12-30T10:04:42.975234",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "現実",
@@ -3498,7 +4285,12 @@
       "collected_at": "2025-12-30T10:04:43.369107",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "本質",
@@ -3521,7 +4313,12 @@
       "collected_at": "2025-12-30T10:04:43.737736",
       "category": "jlpt_n1",
       "category_name": "JLPT N1 최상급",
-      "level": "expert"
+      "level": "expert",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "教科書",
@@ -3544,7 +4341,12 @@
       "collected_at": "2025-12-30T10:04:44.138378",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "ノート",
@@ -3567,7 +4369,12 @@
       "collected_at": "2025-12-30T10:04:44.514014",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "鉛筆",
@@ -3590,7 +4397,12 @@
       "collected_at": "2025-12-30T10:04:44.923241",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "消しゴム",
@@ -3613,7 +4425,12 @@
       "collected_at": "2025-12-30T10:04:45.345925",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "定規",
@@ -3636,7 +4453,12 @@
       "collected_at": "2025-12-30T10:04:45.738556",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "時間割",
@@ -3655,7 +4477,12 @@
       "collected_at": "2025-12-30T10:04:46.130869",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "給食",
@@ -3678,7 +4505,12 @@
       "collected_at": "2025-12-30T10:04:46.523040",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "部活動",
@@ -3688,7 +4520,12 @@
       "collected_at": "2025-12-30T10:04:46.904390",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "体育",
@@ -3711,7 +4548,12 @@
       "collected_at": "2025-12-30T10:04:47.375877",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "音楽",
@@ -3734,7 +4576,12 @@
       "collected_at": "2025-12-30T10:04:47.785722",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "数学",
@@ -3757,7 +4604,12 @@
       "collected_at": "2025-12-30T10:04:48.195714",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "国語",
@@ -3780,7 +4632,12 @@
       "collected_at": "2025-12-30T10:04:48.567774",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "理科",
@@ -3803,7 +4660,12 @@
       "collected_at": "2025-12-30T10:04:48.948616",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "英語",
@@ -3826,7 +4688,12 @@
       "collected_at": "2025-12-30T10:04:49.338705",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "美術",
@@ -3849,7 +4716,12 @@
       "collected_at": "2025-12-30T10:04:49.738132",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "家庭科",
@@ -3859,7 +4731,12 @@
       "collected_at": "2025-12-30T10:04:50.130912",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "総合",
@@ -3882,7 +4759,12 @@
       "collected_at": "2025-12-30T10:04:50.504583",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "入学",
@@ -3905,7 +4787,12 @@
       "collected_at": "2025-12-30T10:04:50.878526",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "卒業",
@@ -3928,7 +4815,12 @@
       "collected_at": "2025-12-30T10:04:51.270307",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "進学",
@@ -3943,7 +4835,12 @@
       "collected_at": "2025-12-30T10:04:51.649657",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "受験",
@@ -3958,7 +4855,12 @@
       "collected_at": "2025-12-30T10:04:52.081983",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "合格",
@@ -3981,7 +4883,12 @@
       "collected_at": "2025-12-30T10:04:52.494193",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "不合格",
@@ -4004,7 +4911,12 @@
       "collected_at": "2025-12-30T10:04:52.970187",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "成績",
@@ -4027,7 +4939,12 @@
       "collected_at": "2025-12-30T10:04:53.369886",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "通知表",
@@ -4042,7 +4959,12 @@
       "collected_at": "2025-12-30T10:04:53.765275",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "テスト",
@@ -4065,7 +4987,12 @@
       "collected_at": "2025-12-30T10:04:54.202565",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "期末",
@@ -4088,7 +5015,12 @@
       "collected_at": "2025-12-30T10:04:54.590815",
       "category": "middle_school",
       "category_name": "중학교 일본어",
-      "level": "school_middle"
+      "level": "school_middle",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "進路",
@@ -4111,7 +5043,12 @@
       "collected_at": "2025-12-30T10:04:54.992765",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "就職",
@@ -4134,7 +5071,12 @@
       "collected_at": "2025-12-30T10:04:55.385691",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "大学受験",
@@ -4144,7 +5086,12 @@
       "collected_at": "2025-12-30T10:04:55.775340",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "センター試験",
@@ -4163,7 +5110,12 @@
       "collected_at": "2025-12-30T10:04:56.179905",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "推薦",
@@ -4186,7 +5138,12 @@
       "collected_at": "2025-12-30T10:04:56.565138",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "面接",
@@ -4209,7 +5166,12 @@
       "collected_at": "2025-12-30T10:04:56.982141",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "志望校",
@@ -4219,7 +5181,12 @@
       "collected_at": "2025-12-30T10:04:57.357637",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "偏差値",
@@ -4234,7 +5201,12 @@
       "collected_at": "2025-12-30T10:04:57.736639",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "予備校",
@@ -4244,7 +5216,12 @@
       "collected_at": "2025-12-30T10:04:58.123812",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "塾",
@@ -4267,7 +5244,12 @@
       "collected_at": "2025-12-30T10:04:58.524451",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "文系",
@@ -4290,7 +5272,12 @@
       "collected_at": "2025-12-30T10:04:58.934289",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "理系",
@@ -4309,7 +5296,12 @@
       "collected_at": "2025-12-30T10:04:59.337933",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "専攻",
@@ -4332,7 +5324,12 @@
       "collected_at": "2025-12-30T10:04:59.726850",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "研究",
@@ -4355,7 +5352,12 @@
       "collected_at": "2025-12-30T10:05:00.130293",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "論文",
@@ -4378,7 +5380,12 @@
       "collected_at": "2025-12-30T10:05:00.532881",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "発表",
@@ -4393,7 +5400,12 @@
       "collected_at": "2025-12-30T10:05:00.908299",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "討論",
@@ -4416,7 +5428,12 @@
       "collected_at": "2025-12-30T10:05:01.297330",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "プレゼン",
@@ -4435,7 +5452,12 @@
       "collected_at": "2025-12-30T10:05:01.684727",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "レポート",
@@ -4450,7 +5472,12 @@
       "collected_at": "2025-12-30T10:05:02.072729",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "課題",
@@ -4473,7 +5500,12 @@
       "collected_at": "2025-12-30T10:05:02.470612",
       "category": "high_school",
       "category_name": "고등학교 일본어",
-      "level": "school_high"
+      "level": "school_high",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "ホテル",
@@ -4496,7 +5528,12 @@
       "collected_at": "2025-12-30T10:05:02.849777",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "レストラン",
@@ -4519,7 +5556,12 @@
       "collected_at": "2025-12-30T10:05:03.242027",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "観光",
@@ -4542,7 +5584,12 @@
       "collected_at": "2025-12-30T10:05:03.630446",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "地図",
@@ -4565,7 +5612,12 @@
       "collected_at": "2025-12-30T10:05:04.077211",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "案内",
@@ -4588,7 +5640,12 @@
       "collected_at": "2025-12-30T10:05:04.536982",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "予約",
@@ -4611,7 +5668,12 @@
       "collected_at": "2025-12-30T10:05:04.927190",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "チェックイン",
@@ -4626,7 +5688,12 @@
       "collected_at": "2025-12-30T10:05:05.303728",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "チェックアウト",
@@ -4641,7 +5708,12 @@
       "collected_at": "2025-12-30T10:05:05.675552",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "切符",
@@ -4656,7 +5728,12 @@
       "collected_at": "2025-12-30T10:05:06.075498",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "乗り換え",
@@ -4679,7 +5756,12 @@
       "collected_at": "2025-12-30T10:05:06.473938",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "出口",
@@ -4702,7 +5784,12 @@
       "collected_at": "2025-12-30T10:05:06.870833",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "入口",
@@ -4725,7 +5812,12 @@
       "collected_at": "2025-12-30T10:05:07.265474",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "改札",
@@ -4748,7 +5840,12 @@
       "collected_at": "2025-12-30T10:05:07.648281",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "ホーム",
@@ -4763,7 +5860,12 @@
       "collected_at": "2025-12-30T10:05:08.025258",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "特急",
@@ -4786,7 +5888,12 @@
       "collected_at": "2025-12-30T10:05:08.420611",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "新幹線",
@@ -4809,7 +5916,12 @@
       "collected_at": "2025-12-30T10:05:08.808623",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "路線",
@@ -4832,7 +5944,12 @@
       "collected_at": "2025-12-30T10:05:09.203868",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "終電",
@@ -4847,7 +5964,12 @@
       "collected_at": "2025-12-30T10:05:09.611988",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "両替",
@@ -4862,7 +5984,12 @@
       "collected_at": "2025-12-30T10:05:09.981197",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "クレジットカード",
@@ -4885,7 +6012,12 @@
       "collected_at": "2025-12-30T10:05:10.380611",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "現金",
@@ -4908,7 +6040,12 @@
       "collected_at": "2025-12-30T10:05:10.766426",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "レシート",
@@ -4927,7 +6064,12 @@
       "collected_at": "2025-12-30T10:05:11.176248",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "免税",
@@ -4950,7 +6092,12 @@
       "collected_at": "2025-12-30T10:05:11.578849",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "お土産",
@@ -4965,7 +6112,12 @@
       "collected_at": "2025-12-30T10:05:11.968070",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "記念品",
@@ -4975,7 +6127,12 @@
       "collected_at": "2025-12-30T10:05:12.326607",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "写真",
@@ -4998,7 +6155,12 @@
       "collected_at": "2025-12-30T10:05:12.733661",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "カメラ",
@@ -5021,7 +6183,12 @@
       "collected_at": "2025-12-30T10:05:13.118546",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "スマホ",
@@ -5031,7 +6198,12 @@
       "collected_at": "2025-12-30T10:05:13.506964",
       "category": "travel",
       "category_name": "여행 일본어",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "ラーメン",
@@ -5054,7 +6226,12 @@
       "collected_at": "2025-12-30T10:05:13.938942",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "寿司",
@@ -5077,7 +6254,12 @@
       "collected_at": "2025-12-30T10:05:14.360273",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "天ぷら",
@@ -5100,7 +6282,12 @@
       "collected_at": "2025-12-30T10:05:14.774308",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "うどん",
@@ -5123,7 +6310,12 @@
       "collected_at": "2025-12-30T10:05:15.184401",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "そば",
@@ -5146,7 +6338,12 @@
       "collected_at": "2025-12-30T10:05:15.568298",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "焼肉",
@@ -5169,7 +6366,12 @@
       "collected_at": "2025-12-30T10:05:15.952165",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "刺身",
@@ -5192,7 +6394,12 @@
       "collected_at": "2025-12-30T10:05:16.436245",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "丼",
@@ -5215,7 +6422,12 @@
       "collected_at": "2025-12-30T10:05:16.872815",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "弁当",
@@ -5230,7 +6442,12 @@
       "collected_at": "2025-12-30T10:05:17.272610",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "おにぎり",
@@ -5253,7 +6470,12 @@
       "collected_at": "2025-12-30T10:05:17.673619",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "味噌汁",
@@ -5276,7 +6498,12 @@
       "collected_at": "2025-12-30T10:05:18.073956",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "漬物",
@@ -5299,7 +6526,12 @@
       "collected_at": "2025-12-30T10:05:18.467851",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "豆腐",
@@ -5322,7 +6554,12 @@
       "collected_at": "2025-12-30T10:05:18.902094",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "納豆",
@@ -5345,7 +6582,12 @@
       "collected_at": "2025-12-30T10:05:19.293675",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "枝豆",
@@ -5368,7 +6610,12 @@
       "collected_at": "2025-12-30T10:05:19.696052",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "餃子",
@@ -5391,7 +6638,12 @@
       "collected_at": "2025-12-30T10:05:20.075223",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "カレー",
@@ -5414,7 +6666,12 @@
       "collected_at": "2025-12-30T10:05:20.454139",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "定食",
@@ -5437,7 +6694,12 @@
       "collected_at": "2025-12-30T10:05:20.833704",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "コース",
@@ -5460,7 +6722,12 @@
       "collected_at": "2025-12-30T10:05:21.212690",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "デザート",
@@ -5483,7 +6750,12 @@
       "collected_at": "2025-12-30T10:05:21.615542",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "メニュー",
@@ -5506,7 +6778,12 @@
       "collected_at": "2025-12-30T10:05:22.026262",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "注文",
@@ -5529,7 +6806,12 @@
       "collected_at": "2025-12-30T10:05:22.456436",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "会計",
@@ -5544,7 +6826,12 @@
       "collected_at": "2025-12-30T10:05:22.838826",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "お箸",
@@ -5563,7 +6850,12 @@
       "collected_at": "2025-12-30T10:05:23.261253",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "スプーン",
@@ -5578,7 +6870,12 @@
       "collected_at": "2025-12-30T10:05:23.644757",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "フォーク",
@@ -5588,7 +6885,12 @@
       "collected_at": "2025-12-30T10:05:24.026189",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "おしぼり",
@@ -5598,7 +6900,12 @@
       "collected_at": "2025-12-30T10:05:24.437363",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "お冷",
@@ -5621,7 +6928,12 @@
       "collected_at": "2025-12-30T10:05:24.852913",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "生ビール",
@@ -5636,7 +6948,12 @@
       "collected_at": "2025-12-30T10:05:25.306084",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "日本酒",
@@ -5659,7 +6976,12 @@
       "collected_at": "2025-12-30T10:05:25.807868",
       "category": "food",
       "category_name": "음식/레스토랑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "店",
@@ -5682,7 +7004,12 @@
       "collected_at": "2025-12-30T10:05:26.205422",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "値段",
@@ -5705,7 +7032,12 @@
       "collected_at": "2025-12-30T10:05:26.590220",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "セール",
@@ -5724,7 +7056,12 @@
       "collected_at": "2025-12-30T10:05:26.972207",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "割引",
@@ -5747,7 +7084,12 @@
       "collected_at": "2025-12-30T10:05:27.355566",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "特売",
@@ -5757,7 +7099,12 @@
       "collected_at": "2025-12-30T10:05:27.718645",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "レジ",
@@ -5776,7 +7123,12 @@
       "collected_at": "2025-12-30T10:05:28.083050",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "袋",
@@ -5799,7 +7151,12 @@
       "collected_at": "2025-12-30T10:05:28.486573",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "包装",
@@ -5822,7 +7179,12 @@
       "collected_at": "2025-12-30T10:05:28.858640",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "ギフト",
@@ -5837,7 +7199,12 @@
       "collected_at": "2025-12-30T10:05:29.273257",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "交換",
@@ -5860,7 +7227,12 @@
       "collected_at": "2025-12-30T10:05:29.658150",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "サイズ",
@@ -5883,7 +7255,12 @@
       "collected_at": "2025-12-30T10:05:30.046950",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "色",
@@ -5906,7 +7283,12 @@
       "collected_at": "2025-12-30T10:05:30.429655",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "在庫",
@@ -5929,7 +7311,12 @@
       "collected_at": "2025-12-30T10:05:30.809328",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "品切れ",
@@ -5939,7 +7326,12 @@
       "collected_at": "2025-12-30T10:05:31.188606",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "入荷",
@@ -5962,7 +7354,12 @@
       "collected_at": "2025-12-30T10:05:31.562689",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "取り寄せ",
@@ -5985,7 +7382,12 @@
       "collected_at": "2025-12-30T10:05:31.957562",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "配送",
@@ -6008,7 +7410,12 @@
       "collected_at": "2025-12-30T10:05:32.331370",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "送料",
@@ -6018,7 +7425,12 @@
       "collected_at": "2025-12-30T10:05:32.711545",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "返品",
@@ -6041,7 +7453,12 @@
       "collected_at": "2025-12-30T10:05:33.082425",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "保証",
@@ -6064,7 +7481,12 @@
       "collected_at": "2025-12-30T10:05:33.502515",
       "category": "shopping",
       "category_name": "쇼핑",
-      "level": "practical"
+      "level": "practical",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "名刺",
@@ -6083,7 +7505,12 @@
       "collected_at": "2025-12-30T10:05:33.912573",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "挨拶",
@@ -6106,7 +7533,12 @@
       "collected_at": "2025-12-30T10:05:34.305829",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "敬語",
@@ -6129,7 +7561,12 @@
       "collected_at": "2025-12-30T10:05:34.688259",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "謙譲語",
@@ -6139,7 +7576,12 @@
       "collected_at": "2025-12-30T10:05:35.052264",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "丁寧語",
@@ -6154,7 +7596,12 @@
       "collected_at": "2025-12-30T10:05:35.444860",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "お辞儀",
@@ -6177,7 +7624,12 @@
       "collected_at": "2025-12-30T10:05:35.839658",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "商談",
@@ -6200,7 +7652,12 @@
       "collected_at": "2025-12-30T10:05:36.233903",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "契約",
@@ -6223,7 +7680,12 @@
       "collected_at": "2025-12-30T10:05:36.614936",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "提案",
@@ -6246,7 +7708,12 @@
       "collected_at": "2025-12-30T10:05:37.007675",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "企画",
@@ -6269,7 +7736,12 @@
       "collected_at": "2025-12-30T10:05:37.416868",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "プロジェクト",
@@ -6292,7 +7764,12 @@
       "collected_at": "2025-12-30T10:05:37.807681",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "チーム",
@@ -6315,7 +7792,12 @@
       "collected_at": "2025-12-30T10:05:38.202740",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "リーダー",
@@ -6330,7 +7812,12 @@
       "collected_at": "2025-12-30T10:05:38.710708",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "マネージャー",
@@ -6345,7 +7832,12 @@
       "collected_at": "2025-12-30T10:05:39.138717",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "部長",
@@ -6368,7 +7860,12 @@
       "collected_at": "2025-12-30T10:05:39.525071",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "課長",
@@ -6391,7 +7888,12 @@
       "collected_at": "2025-12-30T10:05:39.950865",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "係長",
@@ -6406,7 +7908,12 @@
       "collected_at": "2025-12-30T10:05:40.340831",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "取締役",
@@ -6429,7 +7936,12 @@
       "collected_at": "2025-12-30T10:05:40.720894",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
     },
     {
       "word": "株主",
@@ -6452,7 +7964,847 @@
       "collected_at": "2025-12-30T10:05:41.108352",
       "category": "business",
       "category_name": "비즈니스 일본어",
-      "level": "professional"
+      "level": "professional",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      }
+    },
+    {
+      "word": "帰る",
+      "translation": "일본어를 보다 자연스럽게 사용할 수 있습니다. 이번 글에서는 「帰る」와 「戻る」의 뜻과 어감상 차이에 대해 자세히 알아보겠습니다. 1. 「帰る」 (Kaeru): 집으로 돌아가다 혹...",
+      "definition": "伊作島(イジャクド)は朝鮮時代の文禄の役当時の避難所で、文禄の役が終わった後も故郷に帰れない難民が暮らしていた。その当時、海賊がこの島で暮らしたので伊賊島(イジョクド)と呼ばれた ",
+      "examples": [
+        {
+          "title": "伊作島",
+          "desc": "伊作島(イジャクド)は朝鮮時代の文禄の役当時の避難所で、文禄の役が終わった後も故郷に帰れない難民が暮らしていた。その当時、海賊がこの島で暮らしたので伊賊島(イジョクド)と呼ばれた "
+        },
+        {
+          "title": "八尾島",
+          "desc": "仁川広域市中区に位置し、舞衣島(ムイド)に属する小さな島である。舞衣島と八尾島(パルミド)が調和した姿が、まるで漢字の「八」の字であることから由来した地名であるという。無人島で、 "
+        },
+        {
+          "title": "봇짱",
+          "desc": "1906년 〈호토토기스〉에 발표된 소설. 학교를 졸업하고 바로 시코쿠(四国)의 마쓰야마(松山) 중학교에 부임한 에도(江戸) 토박이 교사 ‘봇짱(坊ちゃん)’의 좌충우돌 이야기다. 주위의 어리석음과"
+        }
+      ],
+      "collected_at": "2025-12-30T10:57:11.029639",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "買う",
+      "translation": "일본어 회화를 공부하면서 교과서에 나오는 정형화된 표현보다 실제 일본인이 많이 쓰는 회화 표현을... 일본인이 실생활에서 많이 쓰는 회화 표현을 하루에 한 문장씩 익혀봄으로써 자신...",
+      "definition": "[ 1. 住居の種類] 韓国での一般的な住居形態は一戸建て住宅、アパート、オフィステル、多世帯、多家口住宅などがある。最近、都市で生活する韓国の人々は生活の便利さのためにアパートなど ",
+      "examples": [
+        {
+          "title": "住宅生活",
+          "desc": "[ 1. 住居の種類] 韓国での一般的な住居形態は一戸建て住宅、アパート、オフィステル、多世帯、多家口住宅などがある。最近、都市で生活する韓国の人々は生活の便利さのためにアパートなど "
+        },
+        {
+          "title": "消費経済生活",
+          "desc": "[ 1. 家計] [ (1) 家計] 家計とは、一家の生活にかかわる収入(入ってくるお金)と支出(出て行くお金)をいう。少ない収入でも運営の仕方によって、家計がプラス(+)になったり、マイナス(-)にもなる "
+        },
+        {
+          "title": "金融システム",
+          "desc": "韓国の金融市場は、資金の調達および運用が行われる場として、長期 · 短期の金融商品が取引される伝統的金融市場と外国為替市場、そして金融派生商品市場から成り立っています。 &lt;韓国金 "
+        }
+      ],
+      "collected_at": "2025-12-30T10:57:11.416633",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "売る",
+      "translation": "일본어로 시비를 걸다는 어떻게 말할까요? 켄카오 우루 (ケンカを売る) 일본어로 시비를 걸다는 켄카오 우루입니다. 켄카는 일본어로 다툼, 소란입니다. 우루는 일본어로 팔다라는 뜻으로...",
+      "definition": "昔、黄海道(ファンヘド)のある村にソンビ(学識が優れ礼節があって義理と原則を守って権力と富裕栄華を貪らない高潔な人柄を持った人に対する呼称)が住んでいたのだが、彼は使道(サト、朝鮮",
+      "examples": [
+        {
+          "title": "白翎島",
+          "desc": "昔、黄海道(ファンヘド)のある村にソンビ(学識が優れ礼節があって義理と原則を守って権力と富裕栄華を貪らない高潔な人柄を持った人に対する呼称)が住んでいたのだが、彼は使道(サト、朝鮮"
+        },
+        {
+          "title": "読みなさい、それでは見えます",
+          "desc": "本を読むと、主人公に最初に出会った公園とか、子どもたちで賑わう路地とか、頭の中に描かれる風景がある。自分勝手に想像したその場所は、実際にはどのような様子なのか。路地をゆっく "
+        },
+        {
+          "title": "住宅生活",
+          "desc": "[ 1. 住居の種類] 韓国での一般的な住居形態は一戸建て住宅、アパート、オフィステル、多世帯、多家口住宅などがある。最近、都市で生活する韓国の人々は生活の便利さのためにアパートなど "
+        }
+      ],
+      "collected_at": "2025-12-30T10:57:11.806709",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "作る",
+      "translation": "鶏にわとり が 時とき を 作つく る 닭이 홰를 치다 b. (옛날 전진(戰陣)에서) 함성을 질러 기세를 올리다. #일본어 #일본어독학 #일본어공부 #일본어회화 #일본어단어 #일본 #...",
+      "definition": "[ 1. 普段の食生活] 韓国人は皆で集まって食べたり、隣り近所と分け合って食べるのが好きだ。お客さんを招待したときは、普段の食事より豪華な料理でもてなすことが多い。韓国人の普段の食 ",
+      "examples": [
+        {
+          "title": "食生活",
+          "desc": "[ 1. 普段の食生活] 韓国人は皆で集まって食べたり、隣り近所と分け合って食べるのが好きだ。お客さんを招待したときは、普段の食事より豪華な料理でもてなすことが多い。韓国人の普段の食 "
+        },
+        {
+          "title": "ピンデトク",
+          "desc": "緑豆を水でふやかしてから皮をむき、臼などでひいてフライパンで焼いた料理。一般的なチヂミより厚みがあるのが特徴的だ。緑豆をひく際にお米やもち米を加えると、より食感を楽しむこと "
+        },
+        {
+          "title": "チャプチェ",
+          "desc": "様々な野菜とこま切れにした肉を一緒に炒め、ゆでた春雨を加えて和える。好みによって肉の代わりにさつま揚げを入れることもある。香ばしく淡白な味が特徴であるが、ここでは日本の人の "
+        }
+      ],
+      "collected_at": "2025-12-30T10:57:12.208514",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "使う",
+      "translation": "弁当べんとう を 使つか う 도시락을 먹다 #일본어 #일본어독학 #일본어공부 #일본어회화 #일본어단어 #일본 #여행일본어 #일본어능력시험 #jlpt #jlptn1 #jlptn2 #j...",
+      "definition": "[ 1. 普段の食生活] 韓国人は皆で集まって食べたり、隣り近所と分け合って食べるのが好きだ。お客さんを招待したときは、普段の食事より豪華な料理でもてなすことが多い。韓国人の普段の食 ",
+      "examples": [
+        {
+          "title": "食生活",
+          "desc": "[ 1. 普段の食生活] 韓国人は皆で集まって食べたり、隣り近所と分け合って食べるのが好きだ。お客さんを招待したときは、普段の食事より豪華な料理でもてなすことが多い。韓国人の普段の食 "
+        },
+        {
+          "title": "住宅生活",
+          "desc": "[ 1. 住居の種類] 韓国での一般的な住居形態は一戸建て住宅、アパート、オフィステル、多世帯、多家口住宅などがある。最近、都市で生活する韓国の人々は生活の便利さのためにアパートなど "
+        },
+        {
+          "title": "消費経済生活",
+          "desc": "[ 1. 家計] [ (1) 家計] 家計とは、一家の生活にかかわる収入(入ってくるお金)と支出(出て行くお金)をいう。少ない収入でも運営の仕方によって、家計がプラス(+)になったり、マイナス(-)にもなる "
+        }
+      ],
+      "collected_at": "2025-12-30T10:57:12.629885",
+      "visual_asset": {
+        "type": "character_action",
+        "action_id": "hungry"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "待つ",
+      "translation": "오늘 일본어 노트에서는 기다리다는 의미를 가진 동사를 담아보도록 하겠습니다 긴말 필요 없이 빠르게 소개해 드리겠습니다 끝까지 잘 따라와 주세요 기다리다를 일본어로 待つ まつ 기다리...",
+      "definition": "[ 1. 家計] [ (1) 家計] 家計とは、一家の生活にかかわる収入(入ってくるお金)と支出(出て行くお金)をいう。少ない収入でも運営の仕方によって、家計がプラス(+)になったり、マイナス(-)にもなる ",
+      "examples": [
+        {
+          "title": "消費経済生活",
+          "desc": "[ 1. 家計] [ (1) 家計] 家計とは、一家の生活にかかわる収入(入ってくるお金)と支出(出て行くお金)をいう。少ない収入でも運営の仕方によって、家計がプラス(+)になったり、マイナス(-)にもなる "
+        },
+        {
+          "title": "これは絶対食べなきゃならないベスト味ツアー",
+          "desc": "仁川の人々がおすすめの仁川の味は? 仁川に来たら絶対に食べなきゃならないおすすめグルメを集めた。MUST EAT! [おすすめのコース] 新浦(シンポ)国際市場のタッカンジョン 新浦国際市場は、2015 "
+        },
+        {
+          "title": "医療機関",
+          "desc": "[ 1. 医療機関のタイプ] 医療機関は規模と利用順序、サービス内容および範囲により区分される。風邪や消化器障害など病気が深刻でない場合、医院に行って治療を受け、病気が治らなかったり "
+        }
+      ],
+      "collected_at": "2025-12-30T10:58:23.756563",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "会う",
+      "translation": "일본어 기초 핵심 동사 行く·食べる·会う·読む·書く — 전체 변화표 일본어 동사형은 종류가 많아 보이지만, 사실 가장 많이 쓰는 기본 동사 몇 개만 정확하게 잡으면 전체 문형이 눈...",
+      "definition": "[제2실 청룡(靑龍, Blue Dragon)] 여기에 보인 청룡은 둘째 방에 있는 것인데, 한 마리가 아니라 한 쌍이다. 서로 한 줄로 남쪽을 향하면서 동쪽 벽을 장식하고 있다. 뒤에 있는 청룡은 자료 부족으로 전 ",
+      "examples": [
+        {
+          "title": "세칸무덤",
+          "desc": "[제2실 청룡(靑龍, Blue Dragon)] 여기에 보인 청룡은 둘째 방에 있는 것인데, 한 마리가 아니라 한 쌍이다. 서로 한 줄로 남쪽을 향하면서 동쪽 벽을 장식하고 있다. 뒤에 있는 청룡은 자료 부족으로 전 "
+        },
+        {
+          "title": "白翎島",
+          "desc": "昔、黄海道(ファンヘド)のある村にソンビ(学識が優れ礼節があって義理と原則を守って権力と富裕栄華を貪らない高潔な人柄を持った人に対する呼称)が住んでいたのだが、彼は使道(サト、朝鮮"
+        },
+        {
+          "title": "出産前後休暇および育児休暇",
+          "desc": "勤労者が妊娠した場合、子供を出産する前後に出産前後休暇を取る。また、満8歳以下の小学校2年生以下の子供を養育するために育児休暇(育児期勤労時間短縮)制度を利用することもできる。 [ 1"
+        }
+      ],
+      "collected_at": "2025-12-30T10:58:24.195557",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "分かる",
+      "translation": "먼저 일본어로 알다는 표현엔 두 가지가 있습니다 바로 知る 와 分かる인데요 일본어 기초 일본어 독학... 分 자는 나누다는 뜻이죠? 八 여덟 팔 + 刀 칼 도 가 결합된 글자입니다...",
+      "definition": "小学校課程は6年である。満6歳から(韓国の年齢で8歳に該当する。韓国は生まれた年に1歳になって翌年1月1日から2歳になる。2016年12月31日に生まれた子どもの場合、2017年1月1日に2歳となる)小学 ",
+      "examples": [
+        {
+          "title": "小学校教育",
+          "desc": "小学校課程は6年である。満6歳から(韓国の年齢で8歳に該当する。韓国は生まれた年に1歳になって翌年1月1日から2歳になる。2016年12月31日に生まれた子どもの場合、2017年1月1日に2歳となる)小学 "
+        },
+        {
+          "title": "獺祭 発泡にごり酒スパークリング50",
+          "desc": "にごり酒だからこそ分かる山田錦の米の甘み。瓶内二次発酵が生み出す爽やかな発泡性。最後に繊細かつ骨太の純米大吟醸が見せる鮮やかな味の切れ。"
+        },
+        {
+          "title": "妊娠と出産",
+          "desc": "[ 1. 赤ちゃんのための準備] ◉ 妊娠に備える夫婦に必要な検査 [妊婦と胎児の健康のために、妊娠前の検査と予防接種が必要] || 区分 || 検査の必要性 || 予防処置 || || 風疹 ||| 妊娠初期に感染する"
+        }
+      ],
+      "collected_at": "2025-12-30T10:58:24.594909",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "知る",
+      "translation": "안녕하세요 영어연구가 레미입니다 오늘 포스팅 주제는 일본어 기초 일본어 독학 기초 일본어 회화... 알 知 자는 矢 화살 시 + 口 입 구의 결합입니다 이게 도대체 뭔 그림인가? ...",
+      "definition": "[ 1. 家計] [ (1) 家計] 家計とは、一家の生活にかかわる収入(入ってくるお金)と支出(出て行くお金)をいう。少ない収入でも運営の仕方によって、家計がプラス(+)になったり、マイナス(-)にもなる ",
+      "examples": [
+        {
+          "title": "消費経済生活",
+          "desc": "[ 1. 家計] [ (1) 家計] 家計とは、一家の生活にかかわる収入(入ってくるお金)と支出(出て行くお金)をいう。少ない収入でも運営の仕方によって、家計がプラス(+)になったり、マイナス(-)にもなる "
+        },
+        {
+          "title": "産業災害補償保険",
+          "desc": "[ 1. 産業災害(日本の労働災害)] 産業災害補償保険(労災保険)は、労働災害を被った労働者を保護するために国が事業主から保険料を徴収し、その基金(財源)で事業主に代わり労災労働者を補償す "
+        },
+        {
+          "title": "白翎島",
+          "desc": "昔、黄海道(ファンヘド)のある村にソンビ(学識が優れ礼節があって義理と原則を守って権力と富裕栄華を貪らない高潔な人柄を持った人に対する呼称)が住んでいたのだが、彼は使道(サト、朝鮮"
+        }
+      ],
+      "collected_at": "2025-12-30T10:58:24.986209",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "思う",
+      "translation": "아니 위시 데뷔 전엔 작년 7월부터 랭디 일본어회화어플을 통해서 일본어를 배우고 있긴 했지만, 윗친놈이 되면서 부터 일어는 그냥 나에게 필수 언어가 되어 버리다 얼마 전에 랭디의 ...",
+      "definition": "勤労者が妊娠した場合、子供を出産する前後に出産前後休暇を取る。また、満8歳以下の小学校2年生以下の子供を養育するために育児休暇(育児期勤労時間短縮)制度を利用することもできる。 [ 1",
+      "examples": [
+        {
+          "title": "出産前後休暇および育児休暇",
+          "desc": "勤労者が妊娠した場合、子供を出産する前後に出産前後休暇を取る。また、満8歳以下の小学校2年生以下の子供を養育するために育児休暇(育児期勤労時間短縮)制度を利用することもできる。 [ 1"
+        },
+        {
+          "title": "세칸무덤",
+          "desc": "[제2실 청룡(靑龍, Blue Dragon)] 여기에 보인 청룡은 둘째 방에 있는 것인데, 한 마리가 아니라 한 쌍이다. 서로 한 줄로 남쪽을 향하면서 동쪽 벽을 장식하고 있다. 뒤에 있는 청룡은 자료 부족으로 전 "
+        },
+        {
+          "title": "家族生活文化",
+          "desc": "[ 1. 韓国家族の特徴] 韓国の家族生活は、他の国とは異なる固有の特徴がある。その特徴を理解することが、家族生活への適応や韓国文化を理解する上で大きく役立つ。家族文化は個々の家庭や "
+        }
+      ],
+      "collected_at": "2025-12-30T10:58:25.391465",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "考える",
+      "translation": "思(おも)う, 考(かんが)える가 있는데요. 이 두 가지는 뜻의 차이가 있으므로 구분되어 사용이 되어야... 그는 일본어를 잘한다고 생각해. 試験(しけん)は難しかったと思う。 시험은 ...",
+      "definition": "[ 1. 韓国家族の特徴] 韓国の家族生活は、他の国とは異なる固有の特徴がある。その特徴を理解することが、家族生活への適応や韓国文化を理解する上で大きく役立つ。家族文化は個々の家庭や ",
+      "examples": [
+        {
+          "title": "家族生活文化",
+          "desc": "[ 1. 韓国家族の特徴] 韓国の家族生活は、他の国とは異なる固有の特徴がある。その特徴を理解することが、家族生活への適応や韓国文化を理解する上で大きく役立つ。家族文化は個々の家庭や "
+        },
+        {
+          "title": "진파리1호무덤",
+          "desc": "무진리제9호 무덤으로 불리다가 현재는 동명왕릉고분군9호분, 혹은 진파리1호 무덤으로 불린다. 북한에서는 장군 고흘의 무덤으로 추정한다. [청룡(靑龍, Blue Dragon)] 이 무덤은 대단히 흥미 있는 그 "
+        },
+        {
+          "title": "성적인간",
+          "desc": "이 소설은 고도성장기의 절정에 있었던 일본의 청년들의 내면적 상황을 다룬 소설로 널리 알려져 있다. 고도성장기 성적으로 타락해가는 젊은이들의 모습을 적나라하게 보여주는 이 소설을 통해 "
+        }
+      ],
+      "collected_at": "2025-12-30T11:02:43.016898",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "大きい",
+      "translation": "일본어로 '크다'를 표현할 때 「大きい」는 익숙하지만, 혹시 드라마나 애니메이션에서 「でかい！」라고 외치는 장면을 본 적 없으신가요? 둘 다 '크다'는 뜻인데, 언제 어떻게 다르게...",
+      "definition": "남쪽 문을 마주 보고 만든 강서 큰 무덤의 투시도.(자료 :『朝鮮古蹟圖譜』 제2권. 그림 20) 南の入口を向いて描いた江西大墓の透視図(『朝鮮古蹟圖譜』 第2卷, 画 20 轉載.) A sketch of inside of the Large ",
+      "examples": [
+        {
+          "title": "강서 큰무덤",
+          "desc": "남쪽 문을 마주 보고 만든 강서 큰 무덤의 투시도.(자료 :『朝鮮古蹟圖譜』 제2권. 그림 20) 南の入口を向いて描いた江西大墓の透視図(『朝鮮古蹟圖譜』 第2卷, 画 20 轉載.) A sketch of inside of the Large "
+        },
+        {
+          "title": "住宅生活",
+          "desc": "[ 1. 住居の種類] 韓国での一般的な住居形態は一戸建て住宅、アパート、オフィステル、多世帯、多家口住宅などがある。最近、都市で生活する韓国の人々は生活の便利さのためにアパートなど "
+        },
+        {
+          "title": "現金支援",
+          "desc": "韓国の政府と地方公共団体は、外国人が韓国国内で一定の条件を満たす対内投資を行う場合、当該外国人が新成長戦略産業技術を伴っているかどうか、技術移転の効果、雇用創出の規模、国内 "
+        }
+      ],
+      "collected_at": "2025-12-30T11:02:43.410466",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "小さい",
+      "translation": "어리다를 일본어로 小さい ちいさい 작다, 어리다 오늘의 단어 발음부터 확인해 보겠습니다 小さい(ちいさい) : 작다, 어리다 치-사이 顔が小さいね うらやましい 얼굴이 쪼만하네. 부럽...",
+      "definition": "[청룡(靑龍, Blue Dragon)] 동쪽 벽에 있는 청룡은 아래 위에 여유가 없는 낮은 공간에 그린 탓에, 그림 전체에 균형이 없어 보인다. 꼬리와 뒷다리는 길게 여유를 가지고 그려져 있지만, 용의 머리와 어",
+      "examples": [
+        {
+          "title": "장천1호무덤",
+          "desc": "[청룡(靑龍, Blue Dragon)] 동쪽 벽에 있는 청룡은 아래 위에 여유가 없는 낮은 공간에 그린 탓에, 그림 전체에 균형이 없어 보인다. 꼬리와 뒷다리는 길게 여유를 가지고 그려져 있지만, 용의 머리와 어"
+        },
+        {
+          "title": "FAQ",
+          "desc": "[韓国生活に適応できるよう手伝ってほしいのですが。] 韓国生活に適応するのが難しい多文化家族を対象とする家族教育、相談、言語、文化プログラムなどを全国217ヵ所の多文化家族支援セン "
+        },
+        {
+          "title": "交通手段",
+          "desc": "[ 1. バス] バスには、市内バス・市外バス・高速バスなどがある。市外バスや高速バスを利用するときは乗車券を事前に購入する必要がある。バスに乗る前に出発時刻と行先を必ず確認する。 [ ("
+        }
+      ],
+      "collected_at": "2025-12-30T11:02:43.812326",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "新しい",
+      "translation": "일본어를 배우기 시작하고 형용사 파트에 들어가면 무조건 나오는 형용사 중 하나가 새롭다는 뜻을 지닌 新しい(あたらしい)입니다. 새롭다는 뜻 이외에도 비슷한 뉘앙스로 오래지 않다, ...",
+      "definition": "女性の新しい仕事センター(以下、セイルセンター)は、出産、育児、家事などでキャリアが中断してしまった女性の求職を支援する総合就業支援機関です。就職相談、職業教育訓練、インターン",
+      "examples": [
+        {
+          "title": "女性の新しい仕事センター一覧",
+          "desc": "女性の新しい仕事センター(以下、セイルセンター)は、出産、育児、家事などでキャリアが中断してしまった女性の求職を支援する総合就業支援機関です。就職相談、職業教育訓練、インターン"
+        },
+        {
+          "title": "새역사교과서를 만드는 모임",
+          "desc": "일본 역사를 자유주의사관에 입각해 기술할 것을 주장하는 일본의 우익단체. 1997년 1월 일본 도쿄대학 후지오카 노부카스(藤岡信勝) 교수와 전기통신대학 니시오 간지(西尾幹二) 교수 등이 중심이 "
+        },
+        {
+          "title": "会計制度",
+          "desc": "韓国の会計制度は1997年の通貨危機以後、企業会計基準を国際標準に適合するよう全面改変しました。その一環として韓国政府は2007年11月に 「韓国採択国際会計基準(K-IFRS)」を制定し、国際会計 "
+        }
+      ],
+      "collected_at": "2025-12-30T11:02:44.210270",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "古い",
+      "translation": "古ふる い 牛乳ぎゅうにゅう 신선하지 않은 우유 6. [고어] 연공(年功)이 쌓이다; 노련하다. #일본어 #일본어독학 #일본어공부 #일본어회화 #일본어단어 #일본 #여행일본어 #일본...",
+      "definition": "いつも人々で賑わっていたペダリの様子は今では目にできないが、代わりに素朴で温かい風景と美しい文化芸術が村を埋め尽くしている。文化空間として変身したペダリ村を歩き回ってみよう ",
+      "examples": [
+        {
+          "title": "感性刺激",
+          "desc": "いつも人々で賑わっていたペダリの様子は今では目にできないが、代わりに素朴で温かい風景と美しい文化芸術が村を埋め尽くしている。文化空間として変身したペダリ村を歩き回ってみよう "
+        },
+        {
+          "title": "映画",
+          "desc": "映画好きならば、今日は特別な映画館に行ってみよう。仁川の自慢である以下の3ヶ所の映画館では、あなたのために多様で内容のよい映画を準備している。 [おすすめのコース] 映画空間ジュア"
+        },
+        {
+          "title": "나주 밀양 박씨 박경중 종가 남파고택 반동치미",
+          "desc": "반동치미는 일반적인 통배추 김치에 새우젓 국물을 부어 동치미와 유사한 형태로 만드는 나주 밀양 박씨 종가의 내림 김치다. [ 1. 음식명의 정의] 나주 밀양 박씨 종가의 반동치미는 일반적인 통배"
+        }
+      ],
+      "collected_at": "2025-12-30T11:02:44.608231",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "高い",
+      "translation": "(^^) 타카이(高い:たかい), 일본어로 타카이는 비싸다라는 뜻. 香かおり高たかい花はな.. 라고하면 향기좋은 꽃이라는 뜻으로 향기의 정도가 높다라는 의미가 되기도 한다. 여하튼 이...",
+      "definition": "[ 1. 家計] [ (1) 家計] 家計とは、一家の生活にかかわる収入(入ってくるお金)と支出(出て行くお金)をいう。少ない収入でも運営の仕方によって、家計がプラス(+)になったり、マイナス(-)にもなる ",
+      "examples": [
+        {
+          "title": "消費経済生活",
+          "desc": "[ 1. 家計] [ (1) 家計] 家計とは、一家の生活にかかわる収入(入ってくるお金)と支出(出て行くお金)をいう。少ない収入でも運営の仕方によって、家計がプラス(+)になったり、マイナス(-)にもなる "
+        },
+        {
+          "title": "住宅生活",
+          "desc": "[ 1. 住居の種類] 韓国での一般的な住居形態は一戸建て住宅、アパート、オフィステル、多世帯、多家口住宅などがある。最近、都市で生活する韓国の人々は生活の便利さのためにアパートなど "
+        },
+        {
+          "title": "일본어의 기본 문법",
+          "desc": "[일본어의 구조] 일본어는 어순으로 보면 주어-목적어-동사의 SOV형에 속하지만 엄밀히 이야기하면 「S-P」의 주어-술어 구조라고 말할 수 있다. 그러나 실제 일본어에서는 영어의 문장구조와 달라 "
+        }
+      ],
+      "collected_at": "2025-12-30T11:03:26.960707",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "安い",
+      "translation": "일본어 한자읽기 日本語の漢字読み 오늘의 한자 上 윗 상 단 어 발음 뜻 上半期 かみはんき 상반기 上座 かみざ じょうざ 상석 上回る うわまわる 웃돌다, 상회하다 上着 うわぎ 겉옷 上...",
+      "definition": "[ 1. 住居の種類] 韓国での一般的な住居形態は一戸建て住宅、アパート、オフィステル、多世帯、多家口住宅などがある。最近、都市で生活する韓国の人々は生活の便利さのためにアパートなど ",
+      "examples": [
+        {
+          "title": "住宅生活",
+          "desc": "[ 1. 住居の種類] 韓国での一般的な住居形態は一戸建て住宅、アパート、オフィステル、多世帯、多家口住宅などがある。最近、都市で生活する韓国の人々は生活の便利さのためにアパートなど "
+        },
+        {
+          "title": "消費経済生活",
+          "desc": "[ 1. 家計] [ (1) 家計] 家計とは、一家の生活にかかわる収入(入ってくるお金)と支出(出て行くお金)をいう。少ない収入でも運営の仕方によって、家計がプラス(+)になったり、マイナス(-)にもなる "
+        },
+        {
+          "title": "江華島",
+          "desc": "江華(カンファ)は地理的な位置から見ると、高麗の都である開城(ケソン)と朝鮮の都である漢陽(ハニャン)に近い重要な地域であるため、その価値が高く評価された。なので、江のあるよい(華)村"
+        }
+      ],
+      "collected_at": "2025-12-30T11:03:27.367245",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "良い",
+      "translation": "일본어로 &quot;좋은 하루 보내세요&quot; &quot;良い一日を（よいいちにちを）&quot; 자연스럽게 쓰는 법! 아침에 친구나... (よい いちにち を / 요이 이치니치오)...",
+      "definition": "青い森の恵み、青森県酒造好適米「華想い」を100%使用しております。華やかな香りと飲みあきすることのないスッキリとした口あたりの良い吟醸酒。酵母にも青森県の「まほろば吟酵母」を使 ",
+      "examples": [
+        {
+          "title": "如空 華想い大吟醸",
+          "desc": "青い森の恵み、青森県酒造好適米「華想い」を100%使用しております。華やかな香りと飲みあきすることのないスッキリとした口あたりの良い吟醸酒。酵母にも青森県の「まほろば吟酵母」を使 "
+        },
+        {
+          "title": "如空 華想い純米大吟醸",
+          "desc": "青い森の恵み、青森県酒造好適米「華想い」を100%使用しております。豊かな香りと米の旨みが溢れ出る口あたりの良い純米大吟醸酒。IWC(インターナショナル・ワイン・チャレンジ SAKE部門)にお"
+        },
+        {
+          "title": "Kongnamulhaejangguk",
+          "desc": "Made with bean sprout and seasoned with salted shrimp, this dish is known to be effective in providing relief for cold symptoms and hangovers. [Japanese] 豆もやし酔い覚ましスープ 豆もやしを入れすっきりと煮立て、アミの塩辛で味"
+        }
+      ],
+      "collected_at": "2025-12-30T11:03:27.783190",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "悪い",
+      "translation": "두희의 오늘의 일본어  わるい [悪い] 와루이 1.나쁘다 2.좋지 않다 3.둔하다 형용사 I. 나쁘다. 1. 좋지 않다. a. (머리 따위가) 둔하다. 頭あたま が 悪わる い 머리...",
+      "definition": "방황하는 젊은이들의 심상풍경을 묘사한 작품으로, 전쟁이라는 시대 상황을 개인 내부의 문제로 파악하고 있다. 1.작품해설 2.등장인물 3.작품요약 4.작품 속의 명문장 5.작품읽기 &amp; 참고자료 [ 작품 ",
+      "examples": [
+        {
+          "title": "나쁜 친구들",
+          "desc": "방황하는 젊은이들의 심상풍경을 묘사한 작품으로, 전쟁이라는 시대 상황을 개인 내부의 문제로 파악하고 있다. 1.작품해설 2.등장인물 3.작품요약 4.작품 속의 명문장 5.작품읽기 &amp; 참고자료 [ 작품 "
+        },
+        {
+          "title": "中学校教育",
+          "desc": "中学校課程は3年である。中学校は家から近い学校に割り当てられ、小学校と同様義務教育だ。もし、父母が子供を中学校に通わせない場合、罰金が科せられることもある。 [ 1. 教育内容] 中学 "
+        },
+        {
+          "title": "수수팥떡",
+          "desc": "수수가루를 익반죽한 후 끓는 물에 삶아 건져서 붉은 팥고물을 묻힌 떡이다. 어린 아이의 백일이나 돌상에 반드시 올려 수수와 팥의 붉은 색이 나쁜 귀신을 내쫓아 건강하게 성장하기를 기원했다. "
+        }
+      ],
+      "collected_at": "2025-12-30T11:03:28.246817",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "長い",
+      "translation": "이롭다는 뜻) 예문 닫기 b. (세월·시간이) 오래다. 話はな せば 長なが い 事こと ながら 이야기하자면... 息いき の 長なが い 選手せんしゅ 생명이 긴[오래 활동하는] 선수 #...",
+      "definition": "作戦の成功率1/5000、あらゆる悪条件が重なった中で朝鮮戦争の戦勢を一気に変転させた仁川上陸作戦は、世界の戦史上でノルマンディー上陸作戦と共に世界2大上陸作戦に数えられる。仁川上陸 ",
+      "examples": [
+        {
+          "title": "マッカーサー将軍との出会い 仁川上陸作戦",
+          "desc": "作戦の成功率1/5000、あらゆる悪条件が重なった中で朝鮮戦争の戦勢を一気に変転させた仁川上陸作戦は、世界の戦史上でノルマンディー上陸作戦と共に世界2大上陸作戦に数えられる。仁川上陸 "
+        },
+        {
+          "title": "食生活",
+          "desc": "[ 1. 普段の食生活] 韓国人は皆で集まって食べたり、隣り近所と分け合って食べるのが好きだ。お客さんを招待したときは、普段の食事より豪華な料理でもてなすことが多い。韓国人の普段の食 "
+        },
+        {
+          "title": "キムチチゲ",
+          "desc": "熟成キムチを煮込んだチゲ。日本の味噌汁のように、韓国の人にとっては、なくてはならない、最も好まれている料理である。スープの旨みを引き出し、日本の調理法に合わせて長時間煮込ん "
+        }
+      ],
+      "collected_at": "2025-12-30T11:03:28.632335",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "短い",
+      "translation": "才さい が 短みじか い 재주가 모자라다 5. 지위가 낮다. #일본어 #일본어독학 #일본어공부 #일본어회화 #일본어단어 #일본 #여행일본어 #일본어능력시험 #jlpt #jlptn1 ...",
+      "definition": "[ 1. 韓国家族の特徴] 韓国の家族生活は、他の国とは異なる固有の特徴がある。その特徴を理解することが、家族生活への適応や韓国文化を理解する上で大きく役立つ。家族文化は個々の家庭や ",
+      "examples": [
+        {
+          "title": "家族生活文化",
+          "desc": "[ 1. 韓国家族の特徴] 韓国の家族生活は、他の国とは異なる固有の特徴がある。その特徴を理解することが、家族生活への適応や韓国文化を理解する上で大きく役立つ。家族文化は個々の家庭や "
+        },
+        {
+          "title": "妊娠と出産",
+          "desc": "[ 1. 赤ちゃんのための準備] ◉ 妊娠に備える夫婦に必要な検査 [妊婦と胎児の健康のために、妊娠前の検査と予防接種が必要] || 区分 || 検査の必要性 || 予防処置 || || 風疹 ||| 妊娠初期に感染する"
+        },
+        {
+          "title": "知的財産権制度",
+          "desc": "知的財産権は、人間の知的創作物のうち、保護すべき価値のあるものに与えられる法的権利の総称のことです。知的財産権を大きく、産業財産権と著作権に大別されます。しかし、最近では先 "
+        }
+      ],
+      "collected_at": "2025-12-30T11:25:53.307193",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "暑い",
+      "translation": "저는 출퇴근할때마다 저절로 '덥다더워~'하고 혼자 이야기하고 있더군요 ㅎㅎㅎ 덥다는 일본어로... 에어컨은 일본어로? ㅎㅎㅎ クーラー(쿠우라) 혹은 エアコン(에아콘) 이라고 해요 ...",
+      "definition": "春、夏、秋、冬など四季がはっきりした温帯気候である。 [ 1. 春] 3月~5月。朝夕は涼しく昼間は暖かい。花が美しく咲き誇る。3月にはまだ冬着が必要な日が続き、4月になると軽い服装が快適。5",
+      "examples": [
+        {
+          "title": "気候",
+          "desc": "春、夏、秋、冬など四季がはっきりした温帯気候である。 [ 1. 春] 3月~5月。朝夕は涼しく昼間は暖かい。花が美しく咲き誇る。3月にはまだ冬着が必要な日が続き、4月になると軽い服装が快適。5"
+        },
+        {
+          "title": "衣服文化",
+          "desc": "[ 1. 普段着] 韓国人は普段西洋風の服を着る。四季の変化に合わせて春 · 秋には長袖を、暑い夏には半袖の服を着る。寒い冬にはコートやジャンパーなどを羽織る。通勤の時や重要な集まりなど"
+        },
+        {
+          "title": "장어탕",
+          "desc": "장어를 뼈가 허물어질 때까지 푹 끓인 후, 된장과 고춧가루로 간을 하여 끓인 탕이다. 더운 여름에 먹는 보양식으로 유명하며, 방아 잎이나 들깻가루를 넣으면 국물이 진하고 깊은 맛이 난다. [일본"
+        }
+      ],
+      "collected_at": "2025-12-30T11:25:53.718280",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "寒い",
+      "translation": "두희의 오늘의 일본어  さむい [寒い] 사무이 1.춥다 2.오싹하다 3.가난하다 형용사 1. 춥다; 차다. 寒さむ い 地方ちほう 추운 지방 肌寒はださむ い 쌀쌀하다; 으스스 춥다 ...",
+      "definition": "The pollack used in this dish has had its innards and salt removed and been dried for three to four months through the winter in a cold alpine region. To prepare, tear the dried pollack into pieces and boil with clams, mushroom, bean sprouts, bean curd, and ra",
+      "examples": [
+        {
+          "title": "Hwangtaehaejangguk",
+          "desc": "The pollack used in this dish has had its innards and salt removed and been dried for three to four months through the winter in a cold alpine region. To prepare, tear the dried pollack into pieces and boil with clams, mushroom, bean sprouts, bean curd, and ra"
+        },
+        {
+          "title": "황태해장국",
+          "desc": "명태의 내장을 꺼내 염분을 제거한 뒤 추운 고산 지대에서 서너 달 이상 말려 낸 황태를 잘게 찢어 육수에 조개, 버섯, 콩나물, 두부, 무 등을 넣고 끓인 해장국이다. [일본어 표기] スケトウダラの "
+        },
+        {
+          "title": "気候",
+          "desc": "春、夏、秋、冬など四季がはっきりした温帯気候である。 [ 1. 春] 3月~5月。朝夕は涼しく昼間は暖かい。花が美しく咲き誇る。3月にはまだ冬着が必要な日が続き、4月になると軽い服装が快適。5"
+        }
+      ],
+      "collected_at": "2025-12-30T11:25:54.136357",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "熱い",
+      "translation": "こんにちは。오데꼬쌤입니다 오늘은 같은 발음인데 한자에 따라 뜻이 완전히 달라지는 일본어 형용사... * 蒸(む)し暑(あつ)い 무덥다 ② 熱い(あつい)： 뜨겁다  우리나라 한자 뜻 ...",
+      "definition": "[ 1. 住居の種類] 韓国での一般的な住居形態は一戸建て住宅、アパート、オフィステル、多世帯、多家口住宅などがある。最近、都市で生活する韓国の人々は生活の便利さのためにアパートなど ",
+      "examples": [
+        {
+          "title": "住宅生活",
+          "desc": "[ 1. 住居の種類] 韓国での一般的な住居形態は一戸建て住宅、アパート、オフィステル、多世帯、多家口住宅などがある。最近、都市で生活する韓国の人々は生活の便利さのためにアパートなど "
+        },
+        {
+          "title": "応急措置",
+          "desc": "事故が発生した際には正しく迅速に応急措置を取ると、それだけでも患者の痛みを抑え、病気の悪化をとめられる。応急措置後は迅速に ☎ 119(緊急救助電話)や病院の救急室に連絡し、安全に病 "
+        },
+        {
+          "title": "近隣生活施設の利用",
+          "desc": "[ 1. 美容室] パーマ、カット、ヘアカラーリング、明日ケア、メイクサービスを利用できる。料金はサービスの内容によって異なるが、一般カットの場合には大概が11,000ウォン~15,000ウォン、パー"
+        }
+      ],
+      "collected_at": "2025-12-30T11:25:54.525699",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "冷たい",
+      "translation": "あの人は冷静で信用が厚い。 *冷静だ는 냉철하다 ですね。전화 일본어 학생이 알려줬습니다. みなさんは、冷静なタイプですか？ 원어민 일본어 冷静？冷情？冷たい？냉정하다...",
+      "definition": "살아있는 오징어를 채 썰어 오이, 양파, 당근, 고추 등과 함께 초고추장으로 양념하고 물을 부어 말아 먹는 음식이다. 차가운 국물과 회를 함께 먹는 음식으로 주로 여름철에 먹는다. [일본어 표기] ",
+      "examples": [
+        {
+          "title": "오징어물회",
+          "desc": "살아있는 오징어를 채 썰어 오이, 양파, 당근, 고추 등과 함께 초고추장으로 양념하고 물을 부어 말아 먹는 음식이다. 차가운 국물과 회를 함께 먹는 음식으로 주로 여름철에 먹는다. [일본어 표기] "
+        },
+        {
+          "title": "Mulhoe",
+          "desc": "In this dish, sliced fish and vegetables are mixed with seasoned spicy hot pepper paste and cold soup is added to it. Whitesaddled reeffish, squid, conch, cuttlefish, and abalone are commonly used. [Japanese] 刺身入り冷やしスープ 魚を細かく切 "
+        },
+        {
+          "title": "Ojingeomulhoe",
+          "desc": "Live squid sliced and mixed with cucumber, onion, carrot, and green pepper, seasoned with a vinegar-based gochujang (red chili paste) sauce, and served in cold water. This soup is a summer delicacy. [Japanese] イカ入り冷やしスープ 生きたイカを "
+        }
+      ],
+      "collected_at": "2025-12-30T11:25:54.905634",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "甘い",
+      "translation": "오늘의 일본어 단어 “甘い”(あまい）(무르다) 砂糖や蜜 のような味である しっかりした心構えができていない。 설탕이나 꿀 같은 맛이 남. 똑부러지지 못한 마음 가짐. 안녕하세요, 모후모...",
+      "definition": "[ 1. 普段の食生活] 韓国人は皆で集まって食べたり、隣り近所と分け合って食べるのが好きだ。お客さんを招待したときは、普段の食事より豪華な料理でもてなすことが多い。韓国人の普段の食 ",
+      "examples": [
+        {
+          "title": "食生活",
+          "desc": "[ 1. 普段の食生活] 韓国人は皆で集まって食べたり、隣り近所と分け合って食べるのが好きだ。お客さんを招待したときは、普段の食事より豪華な料理でもてなすことが多い。韓国人の普段の食 "
+        },
+        {
+          "title": "白翎島",
+          "desc": "昔、黄海道(ファンヘド)のある村にソンビ(学識が優れ礼節があって義理と原則を守って権力と富裕栄華を貪らない高潔な人柄を持った人に対する呼称)が住んでいたのだが、彼は使道(サト、朝鮮"
+        },
+        {
+          "title": "トッポッキ",
+          "desc": "細長く切った棒状の餅と様々な野菜をコチュジャンやカンジャンで炒めた料理。韓国では辛味を代表する料理だが、日本の人向けにたれを甘めにし、海苔をふりかけた。 [材料及び分量 (10人份)]"
+        }
+      ],
+      "collected_at": "2025-12-30T11:26:23.899769",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "辛い",
+      "translation": "しょっぱい에는 짜다라는 뜻 뿐만 아니라 한심하다, 시시하다 라는 뜻도 있는데요. 이는 일본... 서일본 동일본 辛(から)い 혀를 자극하는 맛 전반에 사용 혀를 자극하는 맛, 하지만...",
+      "definition": "소의 잡 뼈를 우린 국물에 우거지를 넣어 얼큰하게 끓인 해장국으로, 술 먹은 다음 날 속풀이용으로 많이 먹는다. [일본어 표기] 白菜酔い覚ましスープ 牛骨でとった出し汁に白菜の外葉を入れて ",
+      "examples": [
+        {
+          "title": "우거지해장국",
+          "desc": "소의 잡 뼈를 우린 국물에 우거지를 넣어 얼큰하게 끓인 해장국으로, 술 먹은 다음 날 속풀이용으로 많이 먹는다. [일본어 표기] 白菜酔い覚ましスープ 牛骨でとった出し汁に白菜の外葉を入れて "
+        },
+        {
+          "title": "Ugeojihaejangguk",
+          "desc": "Made by boiling ugeoji (dried outer leaves of napa cabbage) in a beef bone broth, this is a spicy hangover remedy commonly consumed the day after a night of heavy drinking. [Japanese] 白菜酔い覚ましスープ 牛骨でとった出し汁に白菜の外葉"
+        },
+        {
+          "title": "사골우거지해장국",
+          "desc": "소뼈를 우린 국물에 우거지를 넣어 얼큰하게 끓인 해장국으로, 전국 어디에서나 먹을 수 있는 대중음식이다. [일본어 표기] 牛骨と白菜の酔い覚ましスープ 牛骨で煮出した出し汁に白菜の外葉を "
+        }
+      ],
+      "collected_at": "2025-12-30T11:26:24.298701",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "美味しい",
+      "translation": "게다가, 이는 매우 딜리셔스하고 어떤 요리라도 크리미하고 아주 맛있게 만들어 줍니다 일본어 프랑스어 Delicious 딜리셔스 美味しい 오이시이 Délicieux Delectabl...",
+      "definition": "데친 미역에 소금, 설탕, 식초를 넣고 상큼하게 간을 한 음식이다. 기호에 따라 오이나 고추를 같이 넣으면 맛있다. [일본어 표기] ワカメ酢の物 ゆがいたワカメに塩、砂糖、酢を加えてさっぱりと",
+      "examples": [
+        {
+          "title": "미역초무침",
+          "desc": "데친 미역에 소금, 설탕, 식초를 넣고 상큼하게 간을 한 음식이다. 기호에 따라 오이나 고추를 같이 넣으면 맛있다. [일본어 표기] ワカメ酢の物 ゆがいたワカメに塩、砂糖、酢を加えてさっぱりと"
+        },
+        {
+          "title": "표고버섯볶음",
+          "desc": "말린 표고버섯을 부드럽게 불려서 양념하여 볶은 음식이다. 고추나 양파를 함께 넣어 볶아도 맛있다. 표고버섯은 특유의 은은한 향과 씹는 맛이 좋고, 고기와도 잘 어울린다. [일본어 표기] シイタ "
+        },
+        {
+          "title": "Pyeogobeoseotbokkeum",
+          "desc": "This is dried shiitake mushroom that is soaked in water, seasoned, and stir-fried. It goes well with green pepper and onion. The unique fragrance and chewy texture of golden oak mushroom make it a perfect match for meat. [Japanese] シイタケ炒め 干しシ"
+        }
+      ],
+      "collected_at": "2025-12-30T11:26:24.700768",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "楽しい",
+      "translation": "그렇다면 面白(おもしろ)い와 楽(たの)しい의 차이점은 무엇일까요? 두 가지 일본어 단어의 뉘앙스 차이를 알아보고 예문으로 익혀봅시다. Yahoo!Japan검색, AI의 대답을 보면...",
+      "definition": "徳積面(トクジョクミョン)は42の有·無人島で形成されており、日帝の侵略前には「トクムル島」と呼んだが、日帝の侵略後に日本人が住み「住民たちが善良で徳がある」といい「徳積島」と呼 ",
+      "examples": [
+        {
+          "title": "徳積島",
+          "desc": "徳積面(トクジョクミョン)は42の有·無人島で形成されており、日帝の侵略前には「トクムル島」と呼んだが、日帝の侵略後に日本人が住み「住民たちが善良で徳がある」といい「徳積島」と呼 "
+        },
+        {
+          "title": "小学校教育",
+          "desc": "小学校課程は6年である。満6歳から(韓国の年齢で8歳に該当する。韓国は生まれた年に1歳になって翌年1月1日から2歳になる。2016年12月31日に生まれた子どもの場合、2017年1月1日に2歳となる)小学 "
+        },
+        {
+          "title": "ドライブ",
+          "desc": "広い道路と素敵な夜景、そして海まで。仁川はドライブするのによい要素を全て備えている。今週はお気に入りの音楽を聞きながら好きな人と一緒にドライブをし、日頃のストレスを吹き飛ば "
+        }
+      ],
+      "collected_at": "2025-12-30T11:26:25.111353",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
+    },
+    {
+      "word": "嬉しい",
+      "translation": "기쁨 喜び, 너무 기쁘다 とても嬉しい에 들어간 한자를 보시면 눈여겨보실 부분이 하나 있습니다 喜嬉... 원칙이 일본어에 그대로 적용됩니다 喜び요로코비는 마음의 기쁨으로 joy를 의...",
+      "definition": "[일본어의 구조] 일본어는 어순으로 보면 주어-목적어-동사의 SOV형에 속하지만 엄밀히 이야기하면 「S-P」의 주어-술어 구조라고 말할 수 있다. 그러나 실제 일본어에서는 영어의 문장구조와 달라 ",
+      "examples": [
+        {
+          "title": "일본어의 기본 문법",
+          "desc": "[일본어의 구조] 일본어는 어순으로 보면 주어-목적어-동사의 SOV형에 속하지만 엄밀히 이야기하면 「S-P」의 주어-술어 구조라고 말할 수 있다. 그러나 실제 일본어에서는 영어의 문장구조와 달라 "
+        },
+        {
+          "title": "小学校教育",
+          "desc": "小学校課程は6年である。満6歳から(韓国の年齢で8歳に該当する。韓国は生まれた年に1歳になって翌年1月1日から2歳になる。2016年12月31日に生まれた子どもの場合、2017年1月1日に2歳となる)小学 "
+        }
+      ],
+      "collected_at": "2025-12-30T11:26:25.494265",
+      "visual_asset": {
+        "type": "default",
+        "icon": "📝",
+        "fa": "fa-pen-to-square"
+      },
+      "category": "jlpt_n5",
+      "category_name": "JLPT N5 기초",
+      "level": "beginner"
     }
   ]
 }
