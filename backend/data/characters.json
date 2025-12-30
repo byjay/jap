@@ -1,0 +1,593 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-12-30T10:41:25.149260",
+    "total_characters": 40,
+    "total_actions": 10
+  },
+  "categories": [
+    {
+      "id": "teachers",
+      "name": "선생님",
+      "count": 8
+    },
+    {
+      "id": "students",
+      "name": "학생",
+      "count": 8
+    },
+    {
+      "id": "companions",
+      "name": "마스코트",
+      "count": 8
+    },
+    {
+      "id": "professionals",
+      "name": "전문가",
+      "count": 8
+    },
+    {
+      "id": "cultural",
+      "name": "문화",
+      "count": 8
+    }
+  ],
+  "action_categories": [
+    "learning",
+    "emotions",
+    "cultural",
+    "progress"
+  ],
+  "total_action_patterns": 100,
+  "characters": [
+    {
+      "id": "tanaka_sensei",
+      "category": "teachers",
+      "name": "田中先生",
+      "kr_name": "다나카 선생님",
+      "personality": "친절하고 인내심 있는",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.427130"
+    },
+    {
+      "id": "yamamoto_sensei",
+      "category": "teachers",
+      "name": "山本先生",
+      "kr_name": "야마모토 선생님",
+      "personality": "열정적이고 재미있는",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.427259"
+    },
+    {
+      "id": "suzuki_sensei",
+      "category": "teachers",
+      "name": "鈴木先生",
+      "kr_name": "스즈키 선생님",
+      "personality": "차분하고 꼼꼼한",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.427361"
+    },
+    {
+      "id": "sato_sensei",
+      "category": "teachers",
+      "name": "佐藤先生",
+      "kr_name": "사토 선생님",
+      "personality": "활기차고 격려하는",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.427446"
+    },
+    {
+      "id": "watanabe_sensei",
+      "category": "teachers",
+      "name": "渡辺先生",
+      "kr_name": "와타나베 선생님",
+      "personality": "유머러스한",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.427530"
+    },
+    {
+      "id": "takahashi_sensei",
+      "category": "teachers",
+      "name": "高橋先生",
+      "kr_name": "다카하시 선생님",
+      "personality": "엄격하지만 따뜻한",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.427636"
+    },
+    {
+      "id": "ito_sensei",
+      "category": "teachers",
+      "name": "伊藤先生",
+      "kr_name": "이토 선생님",
+      "personality": "창의적인",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.427721"
+    },
+    {
+      "id": "kobayashi_sensei",
+      "category": "teachers",
+      "name": "小林先生",
+      "kr_name": "고바야시 선생님",
+      "personality": "모험적인",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.427820"
+    },
+    {
+      "id": "yuki",
+      "category": "students",
+      "name": "ゆき",
+      "kr_name": "유키",
+      "personality": "밝고 호기심 많은",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.427906"
+    },
+    {
+      "id": "kenji",
+      "category": "students",
+      "name": "けんじ",
+      "kr_name": "켄지",
+      "personality": "차분하고 성실한",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.427988"
+    },
+    {
+      "id": "sakura",
+      "category": "students",
+      "name": "さくら",
+      "kr_name": "사쿠라",
+      "personality": "활발하고 사교적인",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428078"
+    },
+    {
+      "id": "taro",
+      "category": "students",
+      "name": "たろう",
+      "kr_name": "타로",
+      "personality": "소심하지만 노력하는",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428154"
+    },
+    {
+      "id": "mina",
+      "category": "students",
+      "name": "みな",
+      "kr_name": "미나",
+      "personality": "똑똑하고 분석적인",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428225"
+    },
+    {
+      "id": "ryu",
+      "category": "students",
+      "name": "りゅう",
+      "kr_name": "류",
+      "personality": "장난스러운",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428299"
+    },
+    {
+      "id": "hana",
+      "category": "students",
+      "name": "はな",
+      "kr_name": "하나",
+      "personality": "예술적인",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428391"
+    },
+    {
+      "id": "sota",
+      "category": "students",
+      "name": "そうた",
+      "kr_name": "소타",
+      "personality": "운동을 좋아하는",
+      "type": "",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428467"
+    },
+    {
+      "id": "shiba",
+      "category": "companions",
+      "name": "シバ",
+      "kr_name": "시바",
+      "personality": "충성스럽고 귀여운",
+      "type": "시바견",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428559"
+    },
+    {
+      "id": "neko",
+      "category": "companions",
+      "name": "ネコ",
+      "kr_name": "네코",
+      "personality": "도도하지만 사랑스러운",
+      "type": "고양이",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428636"
+    },
+    {
+      "id": "tanuki",
+      "category": "companions",
+      "name": "タヌキ",
+      "kr_name": "타누키",
+      "personality": "장난꾸러기",
+      "type": "너구리",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428722"
+    },
+    {
+      "id": "usagi",
+      "category": "companions",
+      "name": "ウサギ",
+      "kr_name": "우사기",
+      "personality": "순수하고 부드러운",
+      "type": "토끼",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428795"
+    },
+    {
+      "id": "kitsune",
+      "category": "companions",
+      "name": "キツネ",
+      "kr_name": "키츠네",
+      "personality": "영리하고 신비로운",
+      "type": "여우",
+      "job": "",
+      "culture": "",
+      "actions": {
+        "matsuri_dance": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:41:25.114306",
+          "frames": 12,
+          "folder_path": "characters/companions/kitsune/matsuri_dance"
+        }
+      },
+      "created_at": "2025-12-30T10:22:27.428877"
+    },
+    {
+      "id": "panda",
+      "category": "companions",
+      "name": "パンダ",
+      "kr_name": "판다",
+      "personality": "느긋하고 귀여운",
+      "type": "판다",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.428949"
+    },
+    {
+      "id": "daruma",
+      "category": "companions",
+      "name": "ダルマ",
+      "kr_name": "다루마",
+      "personality": "끈기있는",
+      "type": "달마",
+      "job": "",
+      "culture": "",
+      "actions": {
+        "crying_happy": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:41:25.101101",
+          "frames": 8,
+          "folder_path": "characters/companions/daruma/crying_happy"
+        }
+      },
+      "created_at": "2025-12-30T10:22:27.429028"
+    },
+    {
+      "id": "maneki",
+      "category": "companions",
+      "name": "招き猫",
+      "kr_name": "마네키",
+      "personality": "행운을 부르는",
+      "type": "복고양이",
+      "job": "",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.429105"
+    },
+    {
+      "id": "chef",
+      "category": "professionals",
+      "name": "シェフ",
+      "kr_name": "셰프",
+      "personality": "",
+      "type": "",
+      "job": "요리사",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.429183"
+    },
+    {
+      "id": "doctor",
+      "category": "professionals",
+      "name": "医者",
+      "kr_name": "의사",
+      "personality": "",
+      "type": "",
+      "job": "의사",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.429264"
+    },
+    {
+      "id": "pilot",
+      "category": "professionals",
+      "name": "パイロット",
+      "kr_name": "파일럿",
+      "personality": "",
+      "type": "",
+      "job": "조종사",
+      "culture": "",
+      "actions": {
+        "sumo_pose": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:41:25.134640",
+          "frames": 8,
+          "folder_path": "characters/professionals/pilot/sumo_pose"
+        }
+      },
+      "created_at": "2025-12-30T10:22:27.429338"
+    },
+    {
+      "id": "artist",
+      "category": "professionals",
+      "name": "芸術家",
+      "kr_name": "예술가",
+      "personality": "",
+      "type": "",
+      "job": "예술가",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.429442"
+    },
+    {
+      "id": "scientist",
+      "category": "professionals",
+      "name": "科学者",
+      "kr_name": "과학자",
+      "personality": "",
+      "type": "",
+      "job": "과학자",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.429545"
+    },
+    {
+      "id": "musician",
+      "category": "professionals",
+      "name": "音楽家",
+      "kr_name": "음악가",
+      "personality": "",
+      "type": "",
+      "job": "음악가",
+      "culture": "",
+      "actions": {
+        "wave_hello": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:41:25.123944",
+          "frames": 8,
+          "folder_path": "characters/professionals/musician/wave_hello"
+        },
+        "karaoke": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:41:25.139837",
+          "frames": 10,
+          "folder_path": "characters/professionals/musician/karaoke"
+        }
+      },
+      "created_at": "2025-12-30T10:22:27.429657"
+    },
+    {
+      "id": "athlete",
+      "category": "professionals",
+      "name": "運動選手",
+      "kr_name": "운동선수",
+      "personality": "",
+      "type": "",
+      "job": "운동선수",
+      "culture": "",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.429750"
+    },
+    {
+      "id": "businessman",
+      "category": "professionals",
+      "name": "ビジネスマン",
+      "kr_name": "비즈니스맨",
+      "personality": "",
+      "type": "",
+      "job": "사업가",
+      "culture": "",
+      "actions": {
+        "celebrating": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:41:25.107148",
+          "frames": 12,
+          "folder_path": "characters/professionals/businessman/celebrating"
+        }
+      },
+      "created_at": "2025-12-30T10:22:27.429852"
+    },
+    {
+      "id": "samurai",
+      "category": "cultural",
+      "name": "侍",
+      "kr_name": "사무라이",
+      "personality": "",
+      "type": "",
+      "job": "",
+      "culture": "무사도",
+      "actions": {
+        "chapter_complete": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:41:25.149251",
+          "frames": 16,
+          "folder_path": "characters/cultural/samurai/chapter_complete"
+        }
+      },
+      "created_at": "2025-12-30T10:22:27.429964"
+    },
+    {
+      "id": "geisha",
+      "category": "cultural",
+      "name": "芸者",
+      "kr_name": "게이샤",
+      "personality": "",
+      "type": "",
+      "job": "",
+      "culture": "전통 예술",
+      "actions": {
+        "excited": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:41:25.096416",
+          "frames": 10,
+          "folder_path": "characters/cultural/geisha/excited"
+        }
+      },
+      "created_at": "2025-12-30T10:22:27.430058"
+    },
+    {
+      "id": "ninja",
+      "category": "cultural",
+      "name": "忍者",
+      "kr_name": "닌자",
+      "personality": "",
+      "type": "",
+      "job": "",
+      "culture": "인술",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.430167"
+    },
+    {
+      "id": "sumo",
+      "category": "cultural",
+      "name": "力士",
+      "kr_name": "스모선수",
+      "personality": "",
+      "type": "",
+      "job": "",
+      "culture": "스모",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.430280"
+    },
+    {
+      "id": "miko",
+      "category": "cultural",
+      "name": "巫女",
+      "kr_name": "무녀",
+      "personality": "",
+      "type": "",
+      "job": "",
+      "culture": "신사",
+      "actions": {
+        "lesson_start": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:41:25.129425",
+          "frames": 8,
+          "folder_path": "characters/cultural/miko/lesson_start"
+        }
+      },
+      "created_at": "2025-12-30T10:22:27.430389"
+    },
+    {
+      "id": "matsuri",
+      "category": "cultural",
+      "name": "祭り子",
+      "kr_name": "마츠리",
+      "personality": "",
+      "type": "",
+      "job": "",
+      "culture": "축제",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.430495"
+    },
+    {
+      "id": "okami",
+      "category": "cultural",
+      "name": "女将",
+      "kr_name": "오카미",
+      "personality": "",
+      "type": "",
+      "job": "",
+      "culture": "료칸",
+      "actions": {},
+      "created_at": "2025-12-30T10:22:27.430621"
+    },
+    {
+      "id": "kabuki",
+      "category": "cultural",
+      "name": "歌舞伎役者",
+      "kr_name": "가부키",
+      "personality": "",
+      "type": "",
+      "job": "",
+      "culture": "가부키",
+      "actions": {
+        "friend_beat": {
+          "status": "completed",
+          "last_updated": "2025-12-30T10:41:25.119518",
+          "frames": 10,
+          "folder_path": "characters/cultural/kabuki/friend_beat"
+        }
+      },
+      "created_at": "2025-12-30T10:22:27.430744"
+    }
+  ]
+}

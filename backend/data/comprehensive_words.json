@@ -1,0 +1,451 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-12-30T10:11:36.045321",
+    "total_words": 3,
+    "description": "듀오링고 스타일 종합 단어 학습 데이터"
+  },
+  "words": [
+    {
+      "word": "食べる",
+      "reading": "たべる",
+      "kanji": "食べる",
+      "meaning": "먹다",
+      "word_type": "동사",
+      "jlpt_level": "N5",
+      "audio_url": null,
+      "created_at": "2025-12-30T10:11:36.045257",
+      "definitions": [
+        {
+          "num": 1,
+          "meaning": "음식을 입에 넣고 씹어 삼키다",
+          "context": "일반적인 식사"
+        },
+        {
+          "num": 2,
+          "meaning": "생계를 유지하다",
+          "context": "비유적 표현",
+          "example": "この仕事で食べている"
+        }
+      ],
+      "grammar": {
+        "ます形": {
+          "name": "정중형 (ます形)",
+          "description": "공손한 표현으로, 격식 있는 상황에서 사용합니다.",
+          "formation": {
+            "1류": "어미를 い단으로 바꾸고 + ます",
+            "2류": "る를 빼고 + ます",
+            "3류": "する→します, くる→きます"
+          },
+          "usage": [
+            "일상 대화",
+            "비즈니스",
+            "처음 만난 사람과의 대화"
+          ],
+          "examples": [
+            "食べます (먹습니다)",
+            "行きます (갑니다)"
+          ]
+        },
+        "て形": {
+          "name": "연결형 (て形)",
+          "description": "동작의 연결, 진행, 부탁 등 다양한 표현에 사용됩니다.",
+          "formation": {
+            "1류_う/つ/る": "→って",
+            "1류_む/ぶ/ぬ": "→んで",
+            "1류_く": "→いて",
+            "1류_ぐ": "→いで",
+            "1류_す": "→して",
+            "2류": "る→て",
+            "3류": "する→して, くる→きて"
+          },
+          "usage": [
+            "~ている (진행)",
+            "~てください (부탁)",
+            "~てから (순서)"
+          ],
+          "examples": [
+            "食べて (먹고)",
+            "行って (가서)"
+          ]
+        },
+        "ない形": {
+          "name": "부정형 (ない形)",
+          "description": "동작의 부정을 나타냅니다.",
+          "formation": {
+            "1류": "어미를 あ단으로 바꾸고 + ない",
+            "2류": "る를 빼고 + ない",
+            "3류": "する→しない, くる→こない"
+          },
+          "usage": [
+            "부정문",
+            "~なければならない (해야 한다)"
+          ],
+          "examples": [
+            "食べない (먹지 않다)",
+            "行かない (가지 않다)"
+          ]
+        },
+        "過去形": {
+          "name": "과거형 (た形)",
+          "description": "과거의 동작이나 완료를 나타냅니다.",
+          "formation": {
+            "1류": "て形과 같지만 て→た, で→だ",
+            "2류": "る→た",
+            "3류": "する→した, くる→きた"
+          },
+          "usage": [
+            "과거 표현",
+            "경험 표현 (~たことがある)"
+          ],
+          "examples": [
+            "食べた (먹었다)",
+            "行った (갔다)"
+          ]
+        },
+        "可能形": {
+          "name": "가능형 (可能形)",
+          "description": "~할 수 있다는 능력이나 가능성을 나타냅니다.",
+          "formation": {
+            "1류": "어미를 え단으로 바꾸고 + る",
+            "2류": "る→られる",
+            "3류": "する→できる, くる→こられる"
+          },
+          "usage": [
+            "능력",
+            "가능성",
+            "허가"
+          ],
+          "examples": [
+            "食べられる (먹을 수 있다)",
+            "行ける (갈 수 있다)"
+          ]
+        }
+      },
+      "conjugations": {
+        "dictionary": "食べる",
+        "masu": "食べます",
+        "te": "食べて",
+        "ta": "食べた",
+        "nai": "食べない",
+        "potential": "食べられる",
+        "passive": "食べられる",
+        "causative": "食べさせる",
+        "imperative": "食べろ",
+        "volitional": "食べよう",
+        "conditional": "食べれば"
+      },
+      "examples": [
+        {
+          "jp": "朝ごはんを食べる",
+          "kr": "아침밥을 먹다",
+          "romaji": "asagohan wo taberu"
+        },
+        {
+          "jp": "一緒に食べましょう",
+          "kr": "함께 먹읍시다",
+          "romaji": "issho ni tabemashou"
+        },
+        {
+          "jp": "もう食べました",
+          "kr": "이미 먹었습니다",
+          "romaji": "mou tabemashita"
+        }
+      ],
+      "related": [
+        {
+          "word": "食事",
+          "reading": "しょくじ",
+          "meaning": "식사"
+        },
+        {
+          "word": "食べ物",
+          "reading": "たべもの",
+          "meaning": "음식"
+        },
+        {
+          "word": "食堂",
+          "reading": "しょくどう",
+          "meaning": "식당"
+        }
+      ],
+      "learning": {
+        "flashcard": {
+          "front": "食べる",
+          "back": "먹다",
+          "hint": "동사 - N5"
+        },
+        "fill_blank": [
+          {
+            "sentence": "私は毎日 _____ 。 (매일 먹다)",
+            "answer": "食べます",
+            "hint": "ます形을 사용하세요"
+          },
+          {
+            "sentence": "_____ ください。 (먹다 주세요)",
+            "answer": "食べて",
+            "hint": "て形 + ください = ~해 주세요"
+          }
+        ],
+        "matching": [
+          {
+            "japanese": "食べる",
+            "korean": "먹다"
+          }
+        ],
+        "translation": {
+          "jp_to_kr": {
+            "question": "食べる",
+            "answer": "먹다"
+          },
+          "kr_to_jp": {
+            "question": "먹다",
+            "answer": "食べる"
+          }
+        },
+        "grammar_quiz": [
+          {
+            "type": "conjugation",
+            "question": "'食べる'의 ます形은?",
+            "answer": "食べます",
+            "options": [
+              "食べます",
+              "食べて",
+              "食べない",
+              "食べた"
+            ],
+            "explanation": "ます形은 정중한 표현에 사용됩니다."
+          },
+          {
+            "type": "conjugation",
+            "question": "'食べる'의 て形은?",
+            "answer": "食べて",
+            "options": [
+              "食べて",
+              "食べます",
+              "食べた",
+              "食べない"
+            ],
+            "explanation": "て形은 동작의 연결이나 ~ている(진행)에 사용됩니다."
+          },
+          {
+            "type": "conjugation",
+            "question": "'食べる'의 부정형은?",
+            "answer": "食べない",
+            "options": [
+              "食べない",
+              "食べます",
+              "食べて",
+              "食べた"
+            ],
+            "explanation": "ない形은 ~하지 않다는 부정을 나타냅니다."
+          }
+        ]
+      },
+      "verb_group": 2,
+      "verb_group_name": "一段 (2류)"
+    },
+    {
+      "word": "美しい",
+      "reading": "うつくしい",
+      "kanji": "美しい",
+      "meaning": "아름답다",
+      "word_type": "형용사",
+      "jlpt_level": "N4",
+      "audio_url": null,
+      "created_at": "2025-12-30T10:11:36.045305",
+      "definitions": [
+        {
+          "num": 1,
+          "meaning": "(빛깔이 붉고) 아름답다",
+          "context": "외관"
+        },
+        {
+          "num": 2,
+          "meaning": "곱다, 예쁘다",
+          "context": "미적 표현"
+        },
+        {
+          "num": 3,
+          "meaning": "(칭찬할 만큼) 훌륭하다",
+          "context": "품질/행동"
+        }
+      ],
+      "grammar": {
+        "い형": {
+          "name": "い형용사",
+          "description": "い로 끝나는 형용사. 활용 시 い가 변합니다.",
+          "conjugation": {
+            "현재": "~い",
+            "과거": "い→かった",
+            "부정": "い→くない",
+            "과거부정": "い→くなかった",
+            "연결": "い→くて"
+          },
+          "examples": [
+            "高い→高かった (비쌌다)",
+            "美味しい→美味しくない (맛없다)"
+          ]
+        },
+        "な형": {
+          "name": "な형용사",
+          "description": "명사를 수식할 때 な를 붙이는 형용사.",
+          "conjugation": {
+            "현재": "~だ/です",
+            "과거": "~だった/でした",
+            "부정": "~じゃない/ではない",
+            "수식": "~な + 명사"
+          },
+          "examples": [
+            "静か→静かな部屋 (조용한 방)",
+            "きれい→きれいだった (예뻤다)"
+          ]
+        }
+      },
+      "conjugations": {},
+      "examples": [
+        {
+          "jp": "美しい花",
+          "kr": "아름다운 꽃",
+          "romaji": "utsukushii hana"
+        },
+        {
+          "jp": "景色が美しい",
+          "kr": "경치가 아름답다",
+          "romaji": "keshiki ga utsukushii"
+        }
+      ],
+      "related": [
+        {
+          "word": "きれい",
+          "reading": "きれい",
+          "meaning": "예쁜, 깨끗한"
+        },
+        {
+          "word": "美人",
+          "reading": "びじん",
+          "meaning": "미인"
+        }
+      ],
+      "learning": {
+        "flashcard": {
+          "front": "美しい",
+          "back": "아름답다",
+          "hint": "형용사 - N4"
+        },
+        "fill_blank": [],
+        "matching": [
+          {
+            "japanese": "美しい",
+            "korean": "아름답다"
+          }
+        ],
+        "translation": {
+          "jp_to_kr": {
+            "question": "美しい",
+            "answer": "아름답다"
+          },
+          "kr_to_jp": {
+            "question": "아름답다",
+            "answer": "美しい"
+          }
+        },
+        "grammar_quiz": []
+      }
+    },
+    {
+      "word": "学校",
+      "reading": "がっこう",
+      "kanji": "学校",
+      "meaning": "학교",
+      "word_type": "명사",
+      "jlpt_level": "N5",
+      "audio_url": null,
+      "created_at": "2025-12-30T10:11:36.045311",
+      "definitions": [
+        {
+          "num": 1,
+          "meaning": "교육을 위해 설립된 기관"
+        }
+      ],
+      "grammar": {
+        "です/だ": {
+          "name": "명사 술어",
+          "description": "명사 뒤에 です/だ를 붙여 문장을 완성합니다.",
+          "conjugation": {
+            "현재_정중": "~です",
+            "현재_보통": "~だ",
+            "과거_정중": "~でした",
+            "과거_보통": "~だった",
+            "부정_정중": "~じゃありません",
+            "부정_보통": "~じゃない"
+          },
+          "examples": [
+            "学生です (학생입니다)",
+            "日本人だった (일본인이었다)"
+          ]
+        }
+      },
+      "conjugations": {},
+      "examples": [
+        {
+          "jp": "学校に行く",
+          "kr": "학교에 가다",
+          "romaji": "gakkou ni iku"
+        },
+        {
+          "jp": "学校が好きです",
+          "kr": "학교를 좋아합니다",
+          "romaji": "gakkou ga suki desu"
+        }
+      ],
+      "related": [
+        {
+          "word": "大学",
+          "reading": "だいがく",
+          "meaning": "대학"
+        },
+        {
+          "word": "小学校",
+          "reading": "しょうがっこう",
+          "meaning": "초등학교"
+        },
+        {
+          "word": "中学校",
+          "reading": "ちゅうがっこう",
+          "meaning": "중학교"
+        },
+        {
+          "word": "高校",
+          "reading": "こうこう",
+          "meaning": "고등학교"
+        }
+      ],
+      "learning": {
+        "flashcard": {
+          "front": "学校",
+          "back": "학교",
+          "hint": "명사 - N5"
+        },
+        "fill_blank": [],
+        "matching": [
+          {
+            "japanese": "学校",
+            "korean": "학교"
+          }
+        ],
+        "translation": {
+          "jp_to_kr": {
+            "question": "学校",
+            "answer": "학교"
+          },
+          "kr_to_jp": {
+            "question": "학교",
+            "answer": "学校"
+          }
+        },
+        "grammar_quiz": []
+      }
+    }
+  ]
+}

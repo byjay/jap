@@ -1,0 +1,972 @@
+{
+    "immigration": {
+        "title": "입국 심사 (Immigration)",
+        "icon": "fas fa-passport",
+        "color": "blue",
+        "words": [
+            {
+                "id": 1,
+                "kanji": "パスポート",
+                "kana": "ぱすぽーと",
+                "kr_pron": "파스포-토",
+                "kr": "여권",
+                "en": "Passport",
+                "type": "명사"
+            },
+            {
+                "id": 2,
+                "kanji": "入国カード",
+                "kana": "にゅうこくかーど",
+                "kr_pron": "뉴-코쿠카-도",
+                "kr": "입국 카드",
+                "en": "Arrival Card",
+                "type": "명사"
+            },
+            {
+                "id": 3,
+                "kanji": "見せる",
+                "kana": "みせる",
+                "kr_pron": "미세루",
+                "kr": "보여주다",
+                "en": "To show",
+                "type": "동사"
+            },
+            {
+                "id": 4,
+                "kanji": "目的",
+                "kana": "もくてき",
+                "kr_pron": "모쿠테키",
+                "kr": "목적",
+                "en": "Purpose",
+                "type": "명사"
+            },
+            {
+                "id": 5,
+                "kanji": "観光",
+                "kana": "かんこう",
+                "kr_pron": "칸코-",
+                "kr": "관광",
+                "en": "Sightseeing",
+                "type": "명사"
+            },
+            {
+                "id": 6,
+                "kanji": "仕事",
+                "kana": "しごと",
+                "kr_pron": "시고토",
+                "kr": "일/업무",
+                "en": "Work/Job",
+                "type": "명사"
+            },
+            {
+                "id": 7,
+                "kanji": "滞在",
+                "kana": "たいざい",
+                "kr_pron": "타이자이",
+                "kr": "체류",
+                "en": "Stay",
+                "type": "명사"
+            },
+            {
+                "id": 8,
+                "kanji": "期間",
+                "kana": "きかん",
+                "kr_pron": "키칸",
+                "kr": "기간",
+                "en": "Period",
+                "type": "명사"
+            },
+            {
+                "id": 9,
+                "kanji": "泊まる",
+                "kana": "とまる",
+                "kr_pron": "토마루",
+                "kr": "묵다",
+                "en": "To stay",
+                "type": "동사"
+            },
+            {
+                "id": 10,
+                "kanji": "指紋",
+                "kana": "しもん",
+                "kr_pron": "시몬",
+                "kr": "지문",
+                "en": "Fingerprint",
+                "type": "명사"
+            }
+        ]
+    },
+    "transportation": {
+        "title": "교통 (Transportation)",
+        "icon": "fas fa-subway",
+        "color": "red",
+        "words": [
+            {
+                "id": 1,
+                "kanji": "電車",
+                "kana": "でんしゃ",
+                "kr_pron": "덴샤",
+                "kr": "전철",
+                "en": "Train",
+                "type": "명사"
+            },
+            {
+                "id": 2,
+                "kanji": "行く",
+                "kana": "いく",
+                "kr_pron": "이쿠",
+                "kr": "가다",
+                "en": "To go",
+                "type": "동사"
+            },
+            {
+                "id": 3,
+                "kanji": "反対",
+                "kana": "はんたい",
+                "kr_pron": "한타이",
+                "kr": "반대",
+                "en": "Opposite",
+                "type": "명사"
+            },
+            {
+                "id": 4,
+                "kanji": "方向",
+                "kana": "ほうこう",
+                "kr_pron": "호-코-",
+                "kr": "방향",
+                "en": "Direction",
+                "type": "명사"
+            },
+            {
+                "id": 5,
+                "kanji": "切符売り場",
+                "kana": "きっぷうりば",
+                "kr_pron": "킵푸 우리바",
+                "kr": "매표소",
+                "en": "Ticket Office",
+                "type": "명사"
+            },
+            {
+                "id": 6,
+                "kanji": "改札",
+                "kana": "かいさつ",
+                "kr_pron": "카이사츠",
+                "kr": "개찰구",
+                "en": "Ticket Gate",
+                "type": "명사"
+            },
+            {
+                "id": 7,
+                "kanji": "隣",
+                "kana": "となり",
+                "kr_pron": "토나리",
+                "kr": "옆",
+                "en": "Next to",
+                "type": "명사"
+            },
+            {
+                "id": 8,
+                "kanji": "自動券売機",
+                "kana": "じどうけんばいき",
+                "kr_pron": "지도-켄바이키",
+                "kr": "자동 발매기",
+                "en": "Ticket Machine",
+                "type": "명사"
+            },
+            {
+                "id": 9,
+                "kanji": "乗り換え",
+                "kana": "のりかえ",
+                "kr_pron": "노리카에",
+                "kr": "환승",
+                "en": "Transfer",
+                "type": "명사"
+            },
+            {
+                "id": 10,
+                "kanji": "降ろす",
+                "kana": "おろす",
+                "kr_pron": "오로스",
+                "kr": "내려주다",
+                "en": "To drop off",
+                "type": "동사"
+            }
+        ]
+    },
+    "hotel": {
+        "title": "호텔 (Hotel)",
+        "icon": "fas fa-bed",
+        "color": "green",
+        "words": [
+            {
+                "id": 1,
+                "kanji": "チェックイン",
+                "kana": "ちぇっくいん",
+                "kr_pron": "쳇쿠인",
+                "kr": "체크인",
+                "en": "Check-in",
+                "type": "명사"
+            },
+            {
+                "id": 2,
+                "kanji": "名前",
+                "kana": "なまえ",
+                "kr_pron": "나마에",
+                "kr": "이름",
+                "en": "Name",
+                "type": "명사"
+            },
+            {
+                "id": 3,
+                "kanji": "預かる",
+                "kana": "あずかる",
+                "kr_pron": "아즈카루",
+                "kr": "맡다",
+                "en": "To keep",
+                "type": "동사"
+            },
+            {
+                "id": 4,
+                "kanji": "朝食",
+                "kana": "ちょうしょく",
+                "kr_pron": "쵸-쇼쿠",
+                "kr": "조식",
+                "en": "Breakfast",
+                "type": "명사"
+            },
+            {
+                "id": 5,
+                "kanji": "部屋番号",
+                "kana": "へやばんごう",
+                "kr_pron": "헤야 방고-",
+                "kr": "방 번호",
+                "en": "Room Number",
+                "type": "명사"
+            },
+            {
+                "id": 6,
+                "kanji": "荷物",
+                "kana": "にもつ",
+                "kr_pron": "니모츠",
+                "kr": "짐",
+                "en": "Luggage",
+                "type": "명사"
+            },
+            {
+                "id": 7,
+                "kanji": "引換証",
+                "kana": "ひきかえしょう",
+                "kr_pron": "히키카에쇼-",
+                "kr": "보관증",
+                "en": "Claim Tag",
+                "type": "명사"
+            },
+            {
+                "id": 8,
+                "kanji": "お湯",
+                "kana": "おゆ",
+                "kr_pron": "오유",
+                "kr": "뜨거운 물",
+                "en": "Hot water",
+                "type": "명사"
+            },
+            {
+                "id": 9,
+                "kanji": "予約",
+                "kana": "よやく",
+                "kr_pron": "요야쿠",
+                "kr": "예약",
+                "en": "Reservation",
+                "type": "명사"
+            },
+            {
+                "id": 10,
+                "kanji": "満室",
+                "kana": "まんしつ",
+                "kr_pron": "만시츠",
+                "kr": "만실",
+                "en": "No vacancy",
+                "type": "명사"
+            }
+        ]
+    },
+    "restaurant": {
+        "title": "식당 (Restaurant)",
+        "icon": "fas fa-utensils",
+        "color": "orange",
+        "words": [
+            {
+                "id": 1,
+                "kanji": "何名",
+                "kana": "なんめい",
+                "kr_pron": "난메-",
+                "kr": "몇 명",
+                "en": "How many people",
+                "type": "명사"
+            },
+            {
+                "id": 2,
+                "kanji": "席",
+                "kana": "せき",
+                "kr_pron": "세키",
+                "kr": "좌석",
+                "en": "Seat",
+                "type": "명사"
+            },
+            {
+                "id": 3,
+                "kanji": "注文",
+                "kana": "ちゅうもん",
+                "kr_pron": "츄-몬",
+                "kr": "주문",
+                "en": "Order",
+                "type": "명사"
+            },
+            {
+                "id": 4,
+                "kanji": "決まる",
+                "kana": "きまる",
+                "kr_pron": "키마루",
+                "kr": "정해지다",
+                "en": "To be decided",
+                "type": "동사"
+            },
+            {
+                "id": 5,
+                "kanji": "おすすめ",
+                "kana": "おすすめ",
+                "kr_pron": "오스스메",
+                "kr": "추천",
+                "en": "Recommendation",
+                "type": "명사"
+            },
+            {
+                "id": 6,
+                "kanji": "会計",
+                "kana": "かいけい",
+                "kr_pron": "카이케이",
+                "kr": "계산",
+                "en": "Check/Bill",
+                "type": "명사"
+            },
+            {
+                "id": 7,
+                "kanji": "別々",
+                "kana": "べつべつ",
+                "kr_pron": "베츠베츠",
+                "kr": "따로따로",
+                "en": "Separately",
+                "type": "명사"
+            },
+            {
+                "id": 8,
+                "kanji": "現金",
+                "kana": "げんきん",
+                "kr_pron": "겐킨",
+                "kr": "현금",
+                "en": "Cash",
+                "type": "명사"
+            },
+            {
+                "id": 9,
+                "kanji": "美味しい",
+                "kana": "おいしい",
+                "kr_pron": "오이시-",
+                "kr": "맛있다",
+                "en": "Delicious",
+                "type": "형용사"
+            },
+            {
+                "id": 10,
+                "kanji": "水",
+                "kana": "みず",
+                "kr_pron": "미즈",
+                "kr": "물",
+                "en": "Water",
+                "type": "명사"
+            }
+        ]
+    },
+    "shopping": {
+        "title": "쇼핑 (Shopping)",
+        "icon": "fas fa-shopping-bag",
+        "color": "purple",
+        "words": [
+            {
+                "id": 1,
+                "kanji": "試着",
+                "kana": "しちゃく",
+                "kr_pron": "시챠쿠",
+                "kr": "시착",
+                "en": "Trying on",
+                "type": "명사"
+            },
+            {
+                "id": 2,
+                "kanji": "探す",
+                "kana": "さがす",
+                "kr_pron": "사가스",
+                "kr": "찾다",
+                "en": "To look for",
+                "type": "동사"
+            },
+            {
+                "id": 3,
+                "kanji": "在庫",
+                "kana": "ざいこ",
+                "kr_pron": "자이코",
+                "kr": "재고",
+                "en": "Stock",
+                "type": "명사"
+            },
+            {
+                "id": 4,
+                "kanji": "免税",
+                "kana": "めんぜい",
+                "kr_pron": "멘제-",
+                "kr": "면세",
+                "en": "Tax-free",
+                "type": "명사"
+            },
+            {
+                "id": 5,
+                "kanji": "包む",
+                "kana": "つつむ",
+                "kr_pron": "츠츠무",
+                "kr": "포장하다",
+                "en": "To wrap",
+                "type": "동사"
+            },
+            {
+                "id": 6,
+                "kanji": "有料",
+                "kana": "ゆうりょう",
+                "kr_pron": "유-료-",
+                "kr": "유료",
+                "en": "Fee-based",
+                "type": "명사"
+            },
+            {
+                "id": 7,
+                "kanji": "鏡",
+                "kana": "かがみ",
+                "kr_pron": "카가미",
+                "kr": "거울",
+                "en": "Mirror",
+                "type": "명사"
+            },
+            {
+                "id": 8,
+                "kanji": "高い",
+                "kana": "たかい",
+                "kr_pron": "타카이",
+                "kr": "비싸다/높다",
+                "en": "Expensive",
+                "type": "형용사"
+            },
+            {
+                "id": 9,
+                "kanji": "安い",
+                "kana": "やすい",
+                "kr_pron": "야스이",
+                "kr": "싸다",
+                "en": "Cheap",
+                "type": "형용사"
+            },
+            {
+                "id": 10,
+                "kanji": "現金",
+                "kana": "げんきん",
+                "kr_pron": "겐킨",
+                "kr": "현금",
+                "en": "Cash",
+                "type": "명사"
+            }
+        ]
+    },
+    "convenience": {
+        "title": "편의점 (Convenience Store)",
+        "icon": "fas fa-store",
+        "color": "teal",
+        "words": [
+            {
+                "id": 1,
+                "kanji": "お弁当",
+                "kana": "おべんとう",
+                "kr_pron": "오벤토-",
+                "kr": "도시락",
+                "en": "Bento",
+                "type": "명사"
+            },
+            {
+                "id": 2,
+                "kanji": "温める",
+                "kana": "あたためる",
+                "kr_pron": "아타타메루",
+                "kr": "데우다",
+                "en": "To warm up",
+                "type": "동사"
+            },
+            {
+                "id": 3,
+                "kanji": "袋",
+                "kana": "ふくろ",
+                "kr_pron": "후쿠로",
+                "kr": "봉투",
+                "en": "Bag",
+                "type": "명사"
+            },
+            {
+                "id": 4,
+                "kanji": "年齢",
+                "kana": "ねんれい",
+                "kr_pron": "넨레-",
+                "kr": "나이",
+                "en": "Age",
+                "type": "명사"
+            },
+            {
+                "id": 5,
+                "kanji": "押す",
+                "kana": "おす",
+                "kr_pron": "오스",
+                "kr": "누르다",
+                "en": "To push",
+                "type": "동사"
+            },
+            {
+                "id": 6,
+                "kanji": "画面",
+                "kana": "がめん",
+                "kr_pron": "가멘",
+                "kr": "화면",
+                "en": "Screen",
+                "type": "명사"
+            },
+            {
+                "id": 7,
+                "kanji": "借りる",
+                "kana": "かりる",
+                "kr_pron": "카리루",
+                "kr": "빌리다",
+                "en": "To borrow",
+                "type": "동사"
+            },
+            {
+                "id": 8,
+                "kanji": "箸",
+                "kana": "はし",
+                "kr_pron": "하시",
+                "kr": "젓가락",
+                "en": "Chopsticks",
+                "type": "명사"
+            },
+            {
+                "id": 9,
+                "kanji": "スプーン",
+                "kana": "すぷーん",
+                "kr_pron": "스푸-ㄴ",
+                "kr": "숟가락",
+                "en": "Spoon",
+                "type": "명사"
+            },
+            {
+                "id": 10,
+                "kanji": "トイレ",
+                "kana": "といれ",
+                "kr_pron": "토이레",
+                "kr": "화장실",
+                "en": "Toilet",
+                "type": "명사"
+            }
+        ]
+    },
+    "cafe": {
+        "title": "카페 (Cafe)",
+        "icon": "fas fa-coffee",
+        "color": "brown",
+        "words": [
+            {
+                "id": 1,
+                "kanji": "店内",
+                "kana": "てんない",
+                "kr_pron": "텐나이",
+                "kr": "매장 내",
+                "en": "In-store",
+                "type": "명사"
+            },
+            {
+                "id": 2,
+                "kanji": "持ち帰り",
+                "kana": "もちかえり",
+                "kr_pron": "모치카에리",
+                "kr": "포장",
+                "en": "Take-out",
+                "type": "명사"
+            },
+            {
+                "id": 3,
+                "kanji": "氷",
+                "kana": "こおり",
+                "kr_pron": "코-리",
+                "kr": "얼음",
+                "en": "Ice",
+                "type": "명사"
+            },
+            {
+                "id": 4,
+                "kanji": "少なめ",
+                "kana": "すくなめ",
+                "kr_pron": "스쿠나메",
+                "kr": "적게",
+                "en": "Less",
+                "type": "명사"
+            },
+            {
+                "id": 5,
+                "kanji": "足す",
+                "kana": "たす",
+                "kr_pron": "타스",
+                "kr": "더하다",
+                "en": "To add",
+                "type": "동사"
+            },
+            {
+                "id": 6,
+                "kanji": "返却口",
+                "kana": "へんきゃくぐち",
+                "kr_pron": "헨캬쿠구치",
+                "kr": "반납구",
+                "en": "Return counter",
+                "type": "명사"
+            },
+            {
+                "id": 7,
+                "kanji": "砂糖",
+                "kana": "さとう",
+                "kr_pron": "사토-",
+                "kr": "설탕",
+                "en": "Sugar",
+                "type": "명사"
+            },
+            {
+                "id": 8,
+                "kanji": "甘い",
+                "kana": "あまい",
+                "kr_pron": "아마이",
+                "kr": "달다",
+                "en": "Sweet",
+                "type": "형용사"
+            },
+            {
+                "id": 9,
+                "kanji": "苦い",
+                "kana": "にがい",
+                "kr_pron": "니가이",
+                "kr": "쓰다",
+                "en": "Bitter",
+                "type": "형용사"
+            },
+            {
+                "id": 10,
+                "kanji": "注文",
+                "kana": "ちゅうもん",
+                "kr_pron": "츄-몬",
+                "kr": "주문",
+                "en": "Order",
+                "type": "명사"
+            }
+        ]
+    },
+    "tourism": {
+        "title": "관광 (Tourism)",
+        "icon": "fas fa-map-marked-alt",
+        "color": "indigo",
+        "words": [
+            {
+                "id": 1,
+                "kanji": "写真",
+                "kana": "しゃしん",
+                "kr_pron": "샤신",
+                "kr": "사진",
+                "en": "Photo",
+                "type": "명사"
+            },
+            {
+                "id": 2,
+                "kanji": "撮る",
+                "kana": "とる",
+                "kr_pron": "토루",
+                "kr": "찍다",
+                "en": "To take (photo)",
+                "type": "동사"
+            },
+            {
+                "id": 3,
+                "kanji": "大人",
+                "kana": "おとな",
+                "kr_pron": "오토나",
+                "kr": "어른",
+                "en": "Adult",
+                "type": "명사"
+            },
+            {
+                "id": 4,
+                "kanji": "子供",
+                "kana": "こども",
+                "kr_pron": "코도모",
+                "kr": "아이",
+                "en": "Child",
+                "type": "명사"
+            },
+            {
+                "id": 5,
+                "kanji": "近い",
+                "kana": "ちかい",
+                "kr_pron": "치카이",
+                "kr": "가깝다",
+                "en": "Near",
+                "type": "형용사"
+            },
+            {
+                "id": 6,
+                "kanji": "歩く",
+                "kana": "あるく",
+                "kr_pron": "아루쿠",
+                "kr": "걷다",
+                "en": "To walk",
+                "type": "동사"
+            },
+            {
+                "id": 7,
+                "kanji": "最終",
+                "kana": "さいしゅう",
+                "kr_pron": "사이슈-",
+                "kr": "최종/마지막",
+                "en": "Final",
+                "type": "명사"
+            },
+            {
+                "id": 8,
+                "kanji": "入場",
+                "kana": "にゅうじょう",
+                "kr_pron": "뉴-죠-",
+                "kr": "입장",
+                "en": "Admission",
+                "type": "명사"
+            },
+            {
+                "id": 9,
+                "kanji": "地図",
+                "kana": "ちず",
+                "kr_pron": "치즈",
+                "kr": "지도",
+                "en": "Map",
+                "type": "명사"
+            },
+            {
+                "id": 10,
+                "kanji": "無料",
+                "kana": "むりょう",
+                "kr_pron": "무료",
+                "kr": "무료",
+                "en": "Free",
+                "type": "명사"
+            }
+        ]
+    },
+    "emergency": {
+        "title": "긴급 (Emergency)",
+        "icon": "fas fa-first-aid",
+        "color": "red",
+        "words": [
+            {
+                "id": 1,
+                "kanji": "頭",
+                "kana": "あたま",
+                "kr_pron": "아타마",
+                "kr": "머리",
+                "en": "Head",
+                "type": "명사"
+            },
+            {
+                "id": 2,
+                "kanji": "痛い",
+                "kana": "いたい",
+                "kr_pron": "이타이",
+                "kr": "아프다",
+                "en": "Painful",
+                "type": "형용사"
+            },
+            {
+                "id": 3,
+                "kanji": "薬",
+                "kana": "くすり",
+                "kr_pron": "쿠스리",
+                "kr": "약",
+                "en": "Medicine",
+                "type": "명사"
+            },
+            {
+                "id": 4,
+                "kanji": "相談",
+                "kana": "そうだん",
+                "kr_pron": "소-단",
+                "kr": "상담",
+                "en": "Consultation",
+                "type": "명사"
+            },
+            {
+                "id": 5,
+                "kanji": "なくす",
+                "kana": "なくす",
+                "kr_pron": "나쿠스",
+                "kr": "잃어버리다",
+                "en": "To lose",
+                "type": "동사"
+            },
+            {
+                "id": 6,
+                "kanji": "交番",
+                "kana": "こうばん",
+                "kr_pron": "코-반",
+                "kr": "파출소",
+                "en": "Police box",
+                "type": "명사"
+            },
+            {
+                "id": 7,
+                "kanji": "呼ぶ",
+                "kana": "よぶ",
+                "kr_pron": "요부",
+                "kr": "부르다",
+                "en": "To call",
+                "type": "동사"
+            },
+            {
+                "id": 8,
+                "kanji": "救急車",
+                "kana": "きゅうきゅうしゃ",
+                "kr_pron": "큐-큐-샤",
+                "kr": "구급차",
+                "en": "Ambulance",
+                "type": "명사"
+            },
+            {
+                "id": 9,
+                "kanji": "警察",
+                "kana": "けいさつ",
+                "kr_pron": "케이사츠",
+                "kr": "경찰",
+                "en": "Police",
+                "type": "명사"
+            },
+            {
+                "id": 10,
+                "kanji": "助けて",
+                "kana": "たすけて",
+                "kr_pron": "타스케테",
+                "kr": "도와줘",
+                "en": "Help me",
+                "type": "문장"
+            }
+        ]
+    },
+    "social": {
+        "title": "사교 (Social)",
+        "icon": "fas fa-handshake",
+        "color": "pink",
+        "words": [
+            {
+                "id": 1,
+                "kanji": "来る",
+                "kana": "くる",
+                "kr_pron": "쿠루",
+                "kr": "오다",
+                "en": "To come",
+                "type": "동사"
+            },
+            {
+                "id": 2,
+                "kanji": "勉強",
+                "kana": "べんきょう",
+                "kr_pron": "벤쿄-",
+                "kr": "공부",
+                "en": "Study",
+                "type": "명사"
+            },
+            {
+                "id": 3,
+                "kanji": "時計",
+                "kana": "とけい",
+                "kr_pron": "토케-",
+                "kr": "시계",
+                "en": "Clock",
+                "type": "명사"
+            },
+            {
+                "id": 4,
+                "kanji": "天気",
+                "kana": "てんき",
+                "kr_pron": "텐키",
+                "kr": "날씨",
+                "en": "Weather",
+                "type": "명사"
+            },
+            {
+                "id": 5,
+                "kanji": "散歩",
+                "kana": "さんぽ",
+                "kr_pron": "산포",
+                "kr": "산책",
+                "en": "Walk",
+                "type": "명사"
+            },
+            {
+                "id": 6,
+                "kanji": "尋ねる",
+                "kana": "たずねる",
+                "kr_pron": "타즈네루",
+                "kr": "묻다",
+                "en": "To ask",
+                "type": "동사"
+            },
+            {
+                "id": 7,
+                "kanji": "急ぐ",
+                "kana": "いそぐ",
+                "kr_pron": "이소구",
+                "kr": "서두르다",
+                "en": "To hurry",
+                "type": "동사"
+            },
+            {
+                "id": 8,
+                "kanji": "雨",
+                "kana": "あめ",
+                "kr_pron": "아메",
+                "kr": "비",
+                "en": "Rain",
+                "type": "명사"
+            },
+            {
+                "id": 9,
+                "kanji": "友達",
+                "kana": "ともだち",
+                "kr_pron": "토모다치",
+                "kr": "친구",
+                "en": "Friend",
+                "type": "명사"
+            },
+            {
+                "id": 10,
+                "kanji": "趣味",
+                "kana": "しゅみ",
+                "kr_pron": "슈미",
+                "kr": "취미",
+                "en": "Hobby",
+                "type": "명사"
+            }
+        ]
+    }
+}

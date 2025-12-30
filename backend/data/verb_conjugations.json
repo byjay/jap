@@ -1,0 +1,1209 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-12-30T10:09:35.601121",
+    "total_verbs": 60
+  },
+  "verbs": [
+    {
+      "verb": "食べる",
+      "meaning": "먹다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "食べる",
+        "masu": "食べます",
+        "te": "食べて",
+        "ta": "食べた",
+        "nai": "食べない",
+        "potential": "食べられる",
+        "passive": "食べられる",
+        "causative": "食べさせる",
+        "imperative": "食べろ",
+        "volitional": "食べよう",
+        "conditional": "食べれば"
+      },
+      "created_at": "2025-12-30T10:09:35.595467"
+    },
+    {
+      "verb": "飲む",
+      "meaning": "마시다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "飲む",
+        "masu": "飲みます",
+        "te": "飲んで",
+        "ta": "飲んだ",
+        "nai": "飲まない",
+        "potential": "飲める",
+        "passive": "飲まれる",
+        "causative": "飲ませる",
+        "imperative": "飲め",
+        "volitional": "飲もう",
+        "conditional": "飲めば"
+      },
+      "created_at": "2025-12-30T10:09:35.595581"
+    },
+    {
+      "verb": "見る",
+      "meaning": "보다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "見る",
+        "masu": "見ります",
+        "te": "見って",
+        "ta": "見った",
+        "nai": "見らない",
+        "potential": "見れる",
+        "passive": "見られる",
+        "causative": "見らせる",
+        "imperative": "見れ",
+        "volitional": "見ろう",
+        "conditional": "見れば"
+      },
+      "created_at": "2025-12-30T10:09:35.595679"
+    },
+    {
+      "verb": "聞く",
+      "meaning": "듣다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "聞く",
+        "masu": "聞きます",
+        "te": "聞いて",
+        "ta": "聞いた",
+        "nai": "聞かない",
+        "potential": "聞ける",
+        "passive": "聞かれる",
+        "causative": "聞かせる",
+        "imperative": "聞け",
+        "volitional": "聞こう",
+        "conditional": "聞けば"
+      },
+      "created_at": "2025-12-30T10:09:35.595770"
+    },
+    {
+      "verb": "読む",
+      "meaning": "읽다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "読む",
+        "masu": "読みます",
+        "te": "読んで",
+        "ta": "読んだ",
+        "nai": "読まない",
+        "potential": "読める",
+        "passive": "読まれる",
+        "causative": "読ませる",
+        "imperative": "読め",
+        "volitional": "読もう",
+        "conditional": "読めば"
+      },
+      "created_at": "2025-12-30T10:09:35.595864"
+    },
+    {
+      "verb": "書く",
+      "meaning": "쓰다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "書く",
+        "masu": "書きます",
+        "te": "書いて",
+        "ta": "書いた",
+        "nai": "書かない",
+        "potential": "書ける",
+        "passive": "書かれる",
+        "causative": "書かせる",
+        "imperative": "書け",
+        "volitional": "書こう",
+        "conditional": "書けば"
+      },
+      "created_at": "2025-12-30T10:09:35.595953"
+    },
+    {
+      "verb": "話す",
+      "meaning": "말하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "話す",
+        "masu": "話します",
+        "te": "話して",
+        "ta": "話した",
+        "nai": "話さない",
+        "potential": "話せる",
+        "passive": "話される",
+        "causative": "話させる",
+        "imperative": "話せ",
+        "volitional": "話そう",
+        "conditional": "話せば"
+      },
+      "created_at": "2025-12-30T10:09:35.596042"
+    },
+    {
+      "verb": "行く",
+      "meaning": "가다",
+      "group": 3,
+      "group_name": "不規則 (3류)",
+      "conjugations": {
+        "dictionary": "行く",
+        "masu": "行きます",
+        "te": "行って",
+        "ta": "行った",
+        "nai": "行かない",
+        "potential": "行ける",
+        "passive": "行かれる",
+        "causative": "行かせる",
+        "imperative": "行け",
+        "volitional": "行こう",
+        "conditional": "行けば"
+      },
+      "created_at": "2025-12-30T10:09:35.596128"
+    },
+    {
+      "verb": "来る",
+      "meaning": "오다",
+      "group": 3,
+      "group_name": "不規則 (3류)",
+      "conjugations": {
+        "dictionary": "来る",
+        "masu": "来ます",
+        "te": "来て",
+        "ta": "来た",
+        "nai": "来ない",
+        "potential": "来られる",
+        "passive": "来られる",
+        "causative": "来させる",
+        "imperative": "来い",
+        "volitional": "来よう",
+        "conditional": "来れば"
+      },
+      "created_at": "2025-12-30T10:09:35.596238"
+    },
+    {
+      "verb": "帰る",
+      "meaning": "돌아가다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "帰る",
+        "masu": "帰ります",
+        "te": "帰って",
+        "ta": "帰った",
+        "nai": "帰らない",
+        "potential": "帰れる",
+        "passive": "帰られる",
+        "causative": "帰らせる",
+        "imperative": "帰れ",
+        "volitional": "帰ろう",
+        "conditional": "帰れば"
+      },
+      "created_at": "2025-12-30T10:09:35.596322"
+    },
+    {
+      "verb": "買う",
+      "meaning": "사다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "買う",
+        "masu": "買います",
+        "te": "買って",
+        "ta": "買った",
+        "nai": "買わない",
+        "potential": "買える",
+        "passive": "買われる",
+        "causative": "買わせる",
+        "imperative": "買え",
+        "volitional": "買おう",
+        "conditional": "買えば"
+      },
+      "created_at": "2025-12-30T10:09:35.596403"
+    },
+    {
+      "verb": "売る",
+      "meaning": "팔다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "売る",
+        "masu": "売ります",
+        "te": "売って",
+        "ta": "売った",
+        "nai": "売らない",
+        "potential": "売れる",
+        "passive": "売られる",
+        "causative": "売らせる",
+        "imperative": "売れ",
+        "volitional": "売ろう",
+        "conditional": "売れば"
+      },
+      "created_at": "2025-12-30T10:09:35.596489"
+    },
+    {
+      "verb": "作る",
+      "meaning": "만들다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "作る",
+        "masu": "作ります",
+        "te": "作って",
+        "ta": "作った",
+        "nai": "作らない",
+        "potential": "作れる",
+        "passive": "作られる",
+        "causative": "作らせる",
+        "imperative": "作れ",
+        "volitional": "作ろう",
+        "conditional": "作れば"
+      },
+      "created_at": "2025-12-30T10:09:35.596563"
+    },
+    {
+      "verb": "使う",
+      "meaning": "사용하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "使う",
+        "masu": "使います",
+        "te": "使って",
+        "ta": "使った",
+        "nai": "使わない",
+        "potential": "使える",
+        "passive": "使われる",
+        "causative": "使わせる",
+        "imperative": "使え",
+        "volitional": "使おう",
+        "conditional": "使えば"
+      },
+      "created_at": "2025-12-30T10:09:35.596629"
+    },
+    {
+      "verb": "待つ",
+      "meaning": "기다리다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "待つ",
+        "masu": "待ちます",
+        "te": "待って",
+        "ta": "待った",
+        "nai": "待たない",
+        "potential": "待てる",
+        "passive": "待たれる",
+        "causative": "待たせる",
+        "imperative": "待て",
+        "volitional": "待とう",
+        "conditional": "待てば"
+      },
+      "created_at": "2025-12-30T10:09:35.596729"
+    },
+    {
+      "verb": "会う",
+      "meaning": "만나다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "会う",
+        "masu": "会います",
+        "te": "会って",
+        "ta": "会った",
+        "nai": "会わない",
+        "potential": "会える",
+        "passive": "会われる",
+        "causative": "会わせる",
+        "imperative": "会え",
+        "volitional": "会おう",
+        "conditional": "会えば"
+      },
+      "created_at": "2025-12-30T10:09:35.596817"
+    },
+    {
+      "verb": "分かる",
+      "meaning": "알다/이해하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "分かる",
+        "masu": "分かります",
+        "te": "分かって",
+        "ta": "分かった",
+        "nai": "分からない",
+        "potential": "分かれる",
+        "passive": "分かられる",
+        "causative": "分からせる",
+        "imperative": "分かれ",
+        "volitional": "分かろう",
+        "conditional": "分かれば"
+      },
+      "created_at": "2025-12-30T10:09:35.596906"
+    },
+    {
+      "verb": "知る",
+      "meaning": "알다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "知る",
+        "masu": "知ります",
+        "te": "知って",
+        "ta": "知った",
+        "nai": "知らない",
+        "potential": "知れる",
+        "passive": "知られる",
+        "causative": "知らせる",
+        "imperative": "知れ",
+        "volitional": "知ろう",
+        "conditional": "知れば"
+      },
+      "created_at": "2025-12-30T10:09:35.596984"
+    },
+    {
+      "verb": "思う",
+      "meaning": "생각하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "思う",
+        "masu": "思います",
+        "te": "思って",
+        "ta": "思った",
+        "nai": "思わない",
+        "potential": "思える",
+        "passive": "思われる",
+        "causative": "思わせる",
+        "imperative": "思え",
+        "volitional": "思おう",
+        "conditional": "思えば"
+      },
+      "created_at": "2025-12-30T10:09:35.597064"
+    },
+    {
+      "verb": "考える",
+      "meaning": "생각하다/고려하다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "考える",
+        "masu": "考えます",
+        "te": "考えて",
+        "ta": "考えた",
+        "nai": "考えない",
+        "potential": "考えられる",
+        "passive": "考えられる",
+        "causative": "考えさせる",
+        "imperative": "考えろ",
+        "volitional": "考えよう",
+        "conditional": "考えれば"
+      },
+      "created_at": "2025-12-30T10:09:35.597134"
+    },
+    {
+      "verb": "する",
+      "meaning": "하다",
+      "group": 3,
+      "group_name": "不規則 (3류)",
+      "conjugations": {
+        "dictionary": "する",
+        "masu": "します",
+        "te": "して",
+        "ta": "した",
+        "nai": "しない",
+        "potential": "できる",
+        "passive": "される",
+        "causative": "させる",
+        "imperative": "しろ",
+        "volitional": "しよう",
+        "conditional": "すれば"
+      },
+      "created_at": "2025-12-30T10:09:35.597210"
+    },
+    {
+      "verb": "起きる",
+      "meaning": "일어나다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "起きる",
+        "masu": "起きます",
+        "te": "起きて",
+        "ta": "起きた",
+        "nai": "起きない",
+        "potential": "起きられる",
+        "passive": "起きられる",
+        "causative": "起きさせる",
+        "imperative": "起きろ",
+        "volitional": "起きよう",
+        "conditional": "起きれば"
+      },
+      "created_at": "2025-12-30T10:09:35.597301"
+    },
+    {
+      "verb": "寝る",
+      "meaning": "자다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "寝る",
+        "masu": "寝ります",
+        "te": "寝って",
+        "ta": "寝った",
+        "nai": "寝らない",
+        "potential": "寝れる",
+        "passive": "寝られる",
+        "causative": "寝らせる",
+        "imperative": "寝れ",
+        "volitional": "寝ろう",
+        "conditional": "寝れば"
+      },
+      "created_at": "2025-12-30T10:09:35.597390"
+    },
+    {
+      "verb": "着る",
+      "meaning": "입다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "着る",
+        "masu": "着ります",
+        "te": "着って",
+        "ta": "着った",
+        "nai": "着らない",
+        "potential": "着れる",
+        "passive": "着られる",
+        "causative": "着らせる",
+        "imperative": "着れ",
+        "volitional": "着ろう",
+        "conditional": "着れば"
+      },
+      "created_at": "2025-12-30T10:09:35.597477"
+    },
+    {
+      "verb": "脱ぐ",
+      "meaning": "벗다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "脱ぐ",
+        "masu": "脱ぎます",
+        "te": "脱いで",
+        "ta": "脱いだ",
+        "nai": "脱がない",
+        "potential": "脱げる",
+        "passive": "脱がれる",
+        "causative": "脱がせる",
+        "imperative": "脱げ",
+        "volitional": "脱ごう",
+        "conditional": "脱げば"
+      },
+      "created_at": "2025-12-30T10:09:35.597560"
+    },
+    {
+      "verb": "洗う",
+      "meaning": "씻다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "洗う",
+        "masu": "洗います",
+        "te": "洗って",
+        "ta": "洗った",
+        "nai": "洗わない",
+        "potential": "洗える",
+        "passive": "洗われる",
+        "causative": "洗わせる",
+        "imperative": "洗え",
+        "volitional": "洗おう",
+        "conditional": "洗えば"
+      },
+      "created_at": "2025-12-30T10:09:35.597646"
+    },
+    {
+      "verb": "歩く",
+      "meaning": "걷다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "歩く",
+        "masu": "歩きます",
+        "te": "歩いて",
+        "ta": "歩いた",
+        "nai": "歩かない",
+        "potential": "歩ける",
+        "passive": "歩かれる",
+        "causative": "歩かせる",
+        "imperative": "歩け",
+        "volitional": "歩こう",
+        "conditional": "歩けば"
+      },
+      "created_at": "2025-12-30T10:09:35.597729"
+    },
+    {
+      "verb": "走る",
+      "meaning": "달리다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "走る",
+        "masu": "走ります",
+        "te": "走って",
+        "ta": "走った",
+        "nai": "走らない",
+        "potential": "走れる",
+        "passive": "走られる",
+        "causative": "走らせる",
+        "imperative": "走れ",
+        "volitional": "走ろう",
+        "conditional": "走れば"
+      },
+      "created_at": "2025-12-30T10:09:35.597811"
+    },
+    {
+      "verb": "泳ぐ",
+      "meaning": "수영하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "泳ぐ",
+        "masu": "泳ぎます",
+        "te": "泳いで",
+        "ta": "泳いだ",
+        "nai": "泳がない",
+        "potential": "泳げる",
+        "passive": "泳がれる",
+        "causative": "泳がせる",
+        "imperative": "泳げ",
+        "volitional": "泳ごう",
+        "conditional": "泳げば"
+      },
+      "created_at": "2025-12-30T10:09:35.597891"
+    },
+    {
+      "verb": "遊ぶ",
+      "meaning": "놀다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "遊ぶ",
+        "masu": "遊びます",
+        "te": "遊んで",
+        "ta": "遊んだ",
+        "nai": "遊ばない",
+        "potential": "遊べる",
+        "passive": "遊ばれる",
+        "causative": "遊ばせる",
+        "imperative": "遊べ",
+        "volitional": "遊ぼう",
+        "conditional": "遊べば"
+      },
+      "created_at": "2025-12-30T10:09:35.597968"
+    },
+    {
+      "verb": "働く",
+      "meaning": "일하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "働く",
+        "masu": "働きます",
+        "te": "働いて",
+        "ta": "働いた",
+        "nai": "働かない",
+        "potential": "働ける",
+        "passive": "働かれる",
+        "causative": "働かせる",
+        "imperative": "働け",
+        "volitional": "働こう",
+        "conditional": "働けば"
+      },
+      "created_at": "2025-12-30T10:09:35.598053"
+    },
+    {
+      "verb": "休む",
+      "meaning": "쉬다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "休む",
+        "masu": "休みます",
+        "te": "休んで",
+        "ta": "休んだ",
+        "nai": "休まない",
+        "potential": "休める",
+        "passive": "休まれる",
+        "causative": "休ませる",
+        "imperative": "休め",
+        "volitional": "休もう",
+        "conditional": "休めば"
+      },
+      "created_at": "2025-12-30T10:09:35.598129"
+    },
+    {
+      "verb": "勉強する",
+      "meaning": "공부하다",
+      "group": 3,
+      "group_name": "不規則 (3류)",
+      "conjugations": {
+        "dictionary": "勉強する",
+        "masu": "勉強します",
+        "te": "勉強して",
+        "ta": "勉強した",
+        "nai": "勉強しない",
+        "potential": "勉強できる",
+        "passive": "勉強される",
+        "causative": "勉強させる",
+        "imperative": "勉強しろ",
+        "volitional": "勉強しよう",
+        "conditional": "勉強すれば"
+      },
+      "created_at": "2025-12-30T10:09:35.598223"
+    },
+    {
+      "verb": "教える",
+      "meaning": "가르치다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "教える",
+        "masu": "教えます",
+        "te": "教えて",
+        "ta": "教えた",
+        "nai": "教えない",
+        "potential": "教えられる",
+        "passive": "教えられる",
+        "causative": "教えさせる",
+        "imperative": "教えろ",
+        "volitional": "教えよう",
+        "conditional": "教えれば"
+      },
+      "created_at": "2025-12-30T10:09:35.598300"
+    },
+    {
+      "verb": "習う",
+      "meaning": "배우다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "習う",
+        "masu": "習います",
+        "te": "習って",
+        "ta": "習った",
+        "nai": "習わない",
+        "potential": "習える",
+        "passive": "習われる",
+        "causative": "習わせる",
+        "imperative": "習え",
+        "volitional": "習おう",
+        "conditional": "習えば"
+      },
+      "created_at": "2025-12-30T10:09:35.598388"
+    },
+    {
+      "verb": "覚える",
+      "meaning": "기억하다/외우다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "覚える",
+        "masu": "覚えます",
+        "te": "覚えて",
+        "ta": "覚えた",
+        "nai": "覚えない",
+        "potential": "覚えられる",
+        "passive": "覚えられる",
+        "causative": "覚えさせる",
+        "imperative": "覚えろ",
+        "volitional": "覚えよう",
+        "conditional": "覚えれば"
+      },
+      "created_at": "2025-12-30T10:09:35.598481"
+    },
+    {
+      "verb": "忘れる",
+      "meaning": "잊다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "忘れる",
+        "masu": "忘れます",
+        "te": "忘れて",
+        "ta": "忘れた",
+        "nai": "忘れない",
+        "potential": "忘れられる",
+        "passive": "忘れられる",
+        "causative": "忘れさせる",
+        "imperative": "忘れろ",
+        "volitional": "忘れよう",
+        "conditional": "忘れれば"
+      },
+      "created_at": "2025-12-30T10:09:35.598565"
+    },
+    {
+      "verb": "開ける",
+      "meaning": "열다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "開ける",
+        "masu": "開けます",
+        "te": "開けて",
+        "ta": "開けた",
+        "nai": "開けない",
+        "potential": "開けられる",
+        "passive": "開けられる",
+        "causative": "開けさせる",
+        "imperative": "開けろ",
+        "volitional": "開けよう",
+        "conditional": "開ければ"
+      },
+      "created_at": "2025-12-30T10:09:35.598651"
+    },
+    {
+      "verb": "閉める",
+      "meaning": "닫다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "閉める",
+        "masu": "閉めます",
+        "te": "閉めて",
+        "ta": "閉めた",
+        "nai": "閉めない",
+        "potential": "閉められる",
+        "passive": "閉められる",
+        "causative": "閉めさせる",
+        "imperative": "閉めろ",
+        "volitional": "閉めよう",
+        "conditional": "閉めれば"
+      },
+      "created_at": "2025-12-30T10:09:35.598726"
+    },
+    {
+      "verb": "始める",
+      "meaning": "시작하다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "始める",
+        "masu": "始めます",
+        "te": "始めて",
+        "ta": "始めた",
+        "nai": "始めない",
+        "potential": "始められる",
+        "passive": "始められる",
+        "causative": "始めさせる",
+        "imperative": "始めろ",
+        "volitional": "始めよう",
+        "conditional": "始めれば"
+      },
+      "created_at": "2025-12-30T10:09:35.598803"
+    },
+    {
+      "verb": "終わる",
+      "meaning": "끝나다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "終わる",
+        "masu": "終わります",
+        "te": "終わって",
+        "ta": "終わった",
+        "nai": "終わらない",
+        "potential": "終われる",
+        "passive": "終わられる",
+        "causative": "終わらせる",
+        "imperative": "終われ",
+        "volitional": "終わろう",
+        "conditional": "終われば"
+      },
+      "created_at": "2025-12-30T10:09:35.598876"
+    },
+    {
+      "verb": "変わる",
+      "meaning": "변하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "変わる",
+        "masu": "変わります",
+        "te": "変わって",
+        "ta": "変わった",
+        "nai": "変わらない",
+        "potential": "変われる",
+        "passive": "変わられる",
+        "causative": "変わらせる",
+        "imperative": "変われ",
+        "volitional": "変わろう",
+        "conditional": "変われば"
+      },
+      "created_at": "2025-12-30T10:09:35.598984"
+    },
+    {
+      "verb": "変える",
+      "meaning": "바꾸다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "変える",
+        "masu": "変えます",
+        "te": "変えて",
+        "ta": "変えた",
+        "nai": "変えない",
+        "potential": "変えられる",
+        "passive": "変えられる",
+        "causative": "変えさせる",
+        "imperative": "変えろ",
+        "volitional": "変えよう",
+        "conditional": "変えれば"
+      },
+      "created_at": "2025-12-30T10:09:35.599084"
+    },
+    {
+      "verb": "決める",
+      "meaning": "정하다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "決める",
+        "masu": "決めます",
+        "te": "決めて",
+        "ta": "決めた",
+        "nai": "決めない",
+        "potential": "決められる",
+        "passive": "決められる",
+        "causative": "決めさせる",
+        "imperative": "決めろ",
+        "volitional": "決めよう",
+        "conditional": "決めれば"
+      },
+      "created_at": "2025-12-30T10:09:35.599186"
+    },
+    {
+      "verb": "探す",
+      "meaning": "찾다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "探す",
+        "masu": "探します",
+        "te": "探して",
+        "ta": "探した",
+        "nai": "探さない",
+        "potential": "探せる",
+        "passive": "探される",
+        "causative": "探させる",
+        "imperative": "探せ",
+        "volitional": "探そう",
+        "conditional": "探せば"
+      },
+      "created_at": "2025-12-30T10:09:35.599324"
+    },
+    {
+      "verb": "見つける",
+      "meaning": "발견하다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "見つける",
+        "masu": "見つけます",
+        "te": "見つけて",
+        "ta": "見つけた",
+        "nai": "見つけない",
+        "potential": "見つけられる",
+        "passive": "見つけられる",
+        "causative": "見つけさせる",
+        "imperative": "見つけろ",
+        "volitional": "見つけよう",
+        "conditional": "見つければ"
+      },
+      "created_at": "2025-12-30T10:09:35.599449"
+    },
+    {
+      "verb": "届ける",
+      "meaning": "전하다/배달하다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "届ける",
+        "masu": "届けます",
+        "te": "届けて",
+        "ta": "届けた",
+        "nai": "届けない",
+        "potential": "届けられる",
+        "passive": "届けられる",
+        "causative": "届けさせる",
+        "imperative": "届けろ",
+        "volitional": "届けよう",
+        "conditional": "届ければ"
+      },
+      "created_at": "2025-12-30T10:09:35.599538"
+    },
+    {
+      "verb": "届く",
+      "meaning": "도착하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "届く",
+        "masu": "届きます",
+        "te": "届いて",
+        "ta": "届いた",
+        "nai": "届かない",
+        "potential": "届ける",
+        "passive": "届かれる",
+        "causative": "届かせる",
+        "imperative": "届け",
+        "volitional": "届こう",
+        "conditional": "届けば"
+      },
+      "created_at": "2025-12-30T10:09:35.599634"
+    },
+    {
+      "verb": "送る",
+      "meaning": "보내다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "送る",
+        "masu": "送ります",
+        "te": "送って",
+        "ta": "送った",
+        "nai": "送らない",
+        "potential": "送れる",
+        "passive": "送られる",
+        "causative": "送らせる",
+        "imperative": "送れ",
+        "volitional": "送ろう",
+        "conditional": "送れば"
+      },
+      "created_at": "2025-12-30T10:09:35.599729"
+    },
+    {
+      "verb": "受ける",
+      "meaning": "받다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "受ける",
+        "masu": "受けます",
+        "te": "受けて",
+        "ta": "受けた",
+        "nai": "受けない",
+        "potential": "受けられる",
+        "passive": "受けられる",
+        "causative": "受けさせる",
+        "imperative": "受けろ",
+        "volitional": "受けよう",
+        "conditional": "受ければ"
+      },
+      "created_at": "2025-12-30T10:09:35.599864"
+    },
+    {
+      "verb": "伝える",
+      "meaning": "전하다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "伝える",
+        "masu": "伝えます",
+        "te": "伝えて",
+        "ta": "伝えた",
+        "nai": "伝えない",
+        "potential": "伝えられる",
+        "passive": "伝えられる",
+        "causative": "伝えさせる",
+        "imperative": "伝えろ",
+        "volitional": "伝えよう",
+        "conditional": "伝えれば"
+      },
+      "created_at": "2025-12-30T10:09:35.599956"
+    },
+    {
+      "verb": "連絡する",
+      "meaning": "연락하다",
+      "group": 3,
+      "group_name": "不規則 (3류)",
+      "conjugations": {
+        "dictionary": "連絡する",
+        "masu": "連絡します",
+        "te": "連絡して",
+        "ta": "連絡した",
+        "nai": "連絡しない",
+        "potential": "連絡できる",
+        "passive": "連絡される",
+        "causative": "連絡させる",
+        "imperative": "連絡しろ",
+        "volitional": "連絡しよう",
+        "conditional": "連絡すれば"
+      },
+      "created_at": "2025-12-30T10:09:35.600057"
+    },
+    {
+      "verb": "相談する",
+      "meaning": "상담하다",
+      "group": 3,
+      "group_name": "不規則 (3류)",
+      "conjugations": {
+        "dictionary": "相談する",
+        "masu": "相談します",
+        "te": "相談して",
+        "ta": "相談した",
+        "nai": "相談しない",
+        "potential": "相談できる",
+        "passive": "相談される",
+        "causative": "相談させる",
+        "imperative": "相談しろ",
+        "volitional": "相談しよう",
+        "conditional": "相談すれば"
+      },
+      "created_at": "2025-12-30T10:09:35.600152"
+    },
+    {
+      "verb": "頼む",
+      "meaning": "부탁하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "頼む",
+        "masu": "頼みます",
+        "te": "頼んで",
+        "ta": "頼んだ",
+        "nai": "頼まない",
+        "potential": "頼める",
+        "passive": "頼まれる",
+        "causative": "頼ませる",
+        "imperative": "頼め",
+        "volitional": "頼もう",
+        "conditional": "頼めば"
+      },
+      "created_at": "2025-12-30T10:09:35.600271"
+    },
+    {
+      "verb": "断る",
+      "meaning": "거절하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "断る",
+        "masu": "断ります",
+        "te": "断って",
+        "ta": "断った",
+        "nai": "断らない",
+        "potential": "断れる",
+        "passive": "断られる",
+        "causative": "断らせる",
+        "imperative": "断れ",
+        "volitional": "断ろう",
+        "conditional": "断れば"
+      },
+      "created_at": "2025-12-30T10:09:35.600380"
+    },
+    {
+      "verb": "許す",
+      "meaning": "용서하다",
+      "group": 1,
+      "group_name": "五段 (1류)",
+      "conjugations": {
+        "dictionary": "許す",
+        "masu": "許します",
+        "te": "許して",
+        "ta": "許した",
+        "nai": "許さない",
+        "potential": "許せる",
+        "passive": "許される",
+        "causative": "許させる",
+        "imperative": "許せ",
+        "volitional": "許そう",
+        "conditional": "許せば"
+      },
+      "created_at": "2025-12-30T10:09:35.600490"
+    },
+    {
+      "verb": "諦める",
+      "meaning": "포기하다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "諦める",
+        "masu": "諦めます",
+        "te": "諦めて",
+        "ta": "諦めた",
+        "nai": "諦めない",
+        "potential": "諦められる",
+        "passive": "諦められる",
+        "causative": "諦めさせる",
+        "imperative": "諦めろ",
+        "volitional": "諦めよう",
+        "conditional": "諦めれば"
+      },
+      "created_at": "2025-12-30T10:09:35.600586"
+    },
+    {
+      "verb": "続ける",
+      "meaning": "계속하다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "続ける",
+        "masu": "続けます",
+        "te": "続けて",
+        "ta": "続けた",
+        "nai": "続けない",
+        "potential": "続けられる",
+        "passive": "続けられる",
+        "causative": "続けさせる",
+        "imperative": "続けろ",
+        "volitional": "続けよう",
+        "conditional": "続ければ"
+      },
+      "created_at": "2025-12-30T10:09:35.600700"
+    },
+    {
+      "verb": "やめる",
+      "meaning": "그만두다",
+      "group": 2,
+      "group_name": "一段 (2류)",
+      "conjugations": {
+        "dictionary": "やめる",
+        "masu": "やめます",
+        "te": "やめて",
+        "ta": "やめた",
+        "nai": "やめない",
+        "potential": "やめられる",
+        "passive": "やめられる",
+        "causative": "やめさせる",
+        "imperative": "やめろ",
+        "volitional": "やめよう",
+        "conditional": "やめれば"
+      },
+      "created_at": "2025-12-30T10:09:35.600820"
+    },
+    {
+      "verb": "努力する",
+      "meaning": "노력하다",
+      "group": 3,
+      "group_name": "不規則 (3류)",
+      "conjugations": {
+        "dictionary": "努力する",
+        "masu": "努力します",
+        "te": "努力して",
+        "ta": "努力した",
+        "nai": "努力しない",
+        "potential": "努力できる",
+        "passive": "努力される",
+        "causative": "努力させる",
+        "imperative": "努力しろ",
+        "volitional": "努力しよう",
+        "conditional": "努力すれば"
+      },
+      "created_at": "2025-12-30T10:09:35.600969"
+    }
+  ]
+}

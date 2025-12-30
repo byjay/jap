@@ -1,0 +1,43 @@
+name: Daily Word Data Sync
+
+on:
+  schedule:
+    # 매일 12:30 KST (03:30 UTC) - Railway Cron(03:00) 이후 실행
+    - cron: '30 3 * * *'
+  workflow_dispatch: # 수동 실행 허용
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Pull Latest Data from Backend API
+        run: |
+          # Railway 엔드포인트에서 최신 json 데이터를 가져와 로컬 파일 업데이트
+          mkdir -p backend/data
+          curl -s https://jap-bong-production.up.railway.app/api/collected/words > backend/data/collected_words.json
+          curl -s https://jap-bong-production.up.railway.app/api/collected/stats > backend/data/collection_stats.json
+          curl -s https://jap-bong-production.up.railway.app/api/data/characters > backend/data/characters.json
+          curl -s https://jap-bong-production.up.railway.app/api/data/kanji > backend/data/kanji_data.json
+          curl -s https://jap-bong-production.up.railway.app/api/data/grammar > backend/data/grammar_data.json
+          curl -s https://jap-bong-production.up.railway.app/api/data/verb-conjugations > backend/data/verb_conjugations.json
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add backend/data/*.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "data: Daily word collection update [skip ci]" && git push)

@@ -1,0 +1,429 @@
+/* 3D Flip Animation */
+.perspective-1000 {
+    perspective: 1000px;
+}
+
+.transform-style-3d {
+    transform-style: preserve-3d;
+}
+
+.backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+    transform: rotateY(180deg);
+}
+
+.card-inner {
+    transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.card-flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Sticky Navigation */
+.sticky-nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #e5e7eb;
+    padding: 12px 0;
+    margin-bottom: 24px;
+    width: 100%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* [핵심] 단어장 동적 그리드 (Masonry Flexbox) */
+.vocab-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-content: flex-start;
+    padding-bottom: 10px;
+}
+
+/* 단어 카드 아이템: 내용에 따라 너비 유동적 조절 */
+.vocab-item {
+    flex: 1 1 auto;
+    /* 기본적으로 내용물 크기에 맞춤, 공간 남으면 늘어남 */
+    min-width: 100px;
+    /* 최소 너비 보장 */
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.vocab-item:active {
+    transform: scale(0.98);
+}
+
+/* 자동재생 상태 표시 */
+.auto-playing {
+    background: linear-gradient(45deg, #ff6b6b, #feca57) !important;
+    color: white !important;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* 스크롤바 숨김/커스텀 */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+/* 애니메이션 */
+.animate-fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 비밀번호 모달 애니메이션 */
+.animate-bounce-in {
+    animation: bounceIn 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+@keyframes bounceIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8) translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.animate-shake {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    20%,
+    60% {
+        transform: translateX(-10px);
+    }
+
+    40%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+/* ==========================================
+   🎮 Game-like Animations (Elementary School)
+   ========================================== */
+
+/* 캐릭터 뛰어다니는 애니메이션 */
+@keyframes bounce-character {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+    }
+
+    25% {
+        transform: translateY(-15px) scale(1.05);
+    }
+
+    50% {
+        transform: translateY(-5px) scale(1);
+    }
+
+    75% {
+        transform: translateY(-10px) scale(1.02);
+    }
+}
+
+.animate-bounce-character {
+    animation: bounce-character 1.5s ease-in-out infinite;
+}
+
+/* 별 반짝임 */
+@keyframes sparkle {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        opacity: 0.6;
+        transform: scale(1.2) rotate(180deg);
+    }
+}
+
+.animate-sparkle {
+    animation: sparkle 2s ease-in-out infinite;
+}
+
+/* 하트 펄스 */
+@keyframes heart-pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(1.2);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    30% {
+        transform: scale(1.15);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+}
+
+.animate-heart {
+    animation: heart-pulse 1.5s ease-in-out infinite;
+}
+
+/* 폭죽/축하 파티클 */
+@keyframes confetti-fall {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(100vh) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+.confetti-piece {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    animation: confetti-fall 3s linear forwards;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+/* XP 획득 플라이업 */
+@keyframes xp-flyup {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateY(-80px) scale(1.2);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-100px) scale(0.8);
+    }
+}
+
+.animate-xp-flyup {
+    animation: xp-flyup 1.2s ease-out forwards;
+}
+
+/* 글로우 효과 버튼 */
+@keyframes glow-pulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 5px rgba(59, 130, 246, 0.5), 0 0 20px rgba(59, 130, 246, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 15px rgba(59, 130, 246, 0.8), 0 0 40px rgba(59, 130, 246, 0.5);
+    }
+}
+
+.glow-button {
+    animation: glow-pulse 2s ease-in-out infinite;
+}
+
+/* 카드 플립 3D */
+@keyframes card-flip-in {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(180deg);
+    }
+}
+
+/* 진행바 채움 애니메이션 */
+@keyframes progress-fill {
+    from {
+        width: 0%;
+    }
+}
+
+.animate-progress-fill {
+    animation: progress-fill 1s ease-out forwards;
+}
+
+/* 승리 춤 */
+@keyframes victory-dance {
+
+    0%,
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    25% {
+        transform: rotate(-10deg) scale(1.1);
+    }
+
+    50% {
+        transform: rotate(10deg) scale(1.05);
+    }
+
+    75% {
+        transform: rotate(-5deg) scale(1.1);
+    }
+}
+
+.animate-victory {
+    animation: victory-dance 0.8s ease-in-out;
+}
+
+/* 레벨업 폭발 효과 */
+@keyframes level-up-burst {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.5);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.level-up-circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 215, 0, 0.8) 0%, rgba(255, 165, 0, 0.4) 50%, transparent 70%);
+    animation: level-up-burst 0.8s ease-out forwards;
+    pointer-events: none;
+}
+
+/* 학년 카드 호버 그라디언트 */
+.grade-card {
+    background-size: 200% 200%;
+    transition: all 0.3s ease;
+}
+
+.grade-card:hover {
+    animation: gradient-shift 2s ease infinite;
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* 잠금 아이콘 흔들림 */
+@keyframes lock-shake {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-15deg);
+    }
+
+    75% {
+        transform: rotate(15deg);
+    }
+}
+
+.lock-shake:hover {
+    animation: lock-shake 0.3s ease-in-out;
+}
+
+/* 파티클 효과용 */
+.particle-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    overflow: hidden;
+}

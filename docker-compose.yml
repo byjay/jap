@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: jap_bong_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./backend/data:/app/data
+
+  frontend:
+    image: nginx:alpine
+    container_name: jap_bong_frontend
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/usr/share/nginx/html
+    depends_on:
+      - backend
