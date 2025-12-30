@@ -13,7 +13,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="images/app_icon.png">
     <link rel="apple-touch-icon" href="images/app_icon.png">
-    <title>JAP-BONG PRO | Living Japanese Learning</title>
+    <title>JAP-BONG PRO | Premium Japanese Learning</title>
     <!-- 데이터 매니페스트 로드 (자동 코드 삽입) -->
     <script src="js/ai_drama_player.js" defer></script>
     <link rel="stylesheet" href="css/game.css">
@@ -197,7 +197,7 @@
         class="fixed inset-0 z-[100] bg-gradient-to-br from-red-600 via-red-500 to-orange-500 flex flex-col items-center justify-center transition-opacity duration-500">
         <img src="images/app_icon.png" alt="JAP-BONG" class="w-28 h-28 rounded-3xl shadow-2xl mb-6 animate-bounce">
         <h1 class="text-white text-3xl font-black tracking-tight mb-2">JAP-BONG</h1>
-        <p class="text-white/80 text-sm mb-8">가족 일본어 학습</p>
+        <p class="text-white/80 text-sm mb-8">Premium Japanese Learning</p>
         <div class="flex gap-2">
             <div class="w-3 h-3 bg-white rounded-full animate-pulse" style="animation-delay: 0s;"></div>
             <div class="w-3 h-3 bg-white rounded-full animate-pulse" style="animation-delay: 0.2s;"></div>
@@ -214,43 +214,11 @@
             <div class="text-center mb-6">
                 <img src="images/app_icon.png" alt="JAP-BONG" class="w-16 h-16 mx-auto rounded-2xl shadow-lg mb-3">
                 <h1 class="text-2xl font-black text-red-600 tracking-tight">JAP-BONG</h1>
-                <p class="text-sm text-gray-500 mt-1">아빠가 만든 가족 일본어 앱 🍌</p>
+                <p class="text-sm text-gray-500 mt-1">Premium Japanese Learning 🇯🇵</p>
             </div>
 
-            <div class="grid grid-cols-2 gap-4">
-                <div class="user-card group bg-white p-3 rounded-2xl shadow-md hover:shadow-xl border-2 border-transparent hover:border-red-400 flex flex-col items-center cursor-pointer transition-all duration-200 transform hover:-translate-y-1"
-                    onclick="showPasswordPrompt()">
-                    <div
-                        class="w-16 h-16 mb-2 rounded-full overflow-hidden border-4 border-gray-100 group-hover:border-red-100 transition-colors">
-                        <img src="images/dad.png" alt="아빠" class="w-full h-full object-cover">
-                    </div>
-                    <h3 class="text-lg font-bold text-gray-800 group-hover:text-red-600">아빠</h3>
-                </div>
-                <div class="user-card group bg-white p-3 rounded-2xl shadow-md hover:shadow-xl border-2 border-transparent hover:border-pink-400 flex flex-col items-center cursor-pointer transition-all duration-200 transform hover:-translate-y-1"
-                    onclick="showMomPasswordPrompt()">
-                    <div
-                        class="w-16 h-16 mb-2 rounded-full overflow-hidden border-4 border-gray-100 group-hover:border-pink-100 transition-colors">
-                        <img src="images/mom_orig.png" alt="엄마" class="w-full h-full object-cover">
-                    </div>
-                    <h3 class="text-lg font-bold text-gray-800 group-hover:text-pink-600">엄마</h3>
-                </div>
-                <div class="user-card group bg-white p-3 rounded-2xl shadow-md hover:shadow-xl border-2 border-transparent hover:border-purple-400 flex flex-col items-center cursor-pointer transition-all duration-200 transform hover:-translate-y-1"
-                    onclick="showSieunPasswordPrompt()">
-                    <div
-                        class="w-16 h-16 mb-2 rounded-full overflow-hidden border-4 border-gray-100 group-hover:border-purple-100 transition-colors">
-                        <img src="images/sieun.png" alt="시으니" class="w-full h-full object-cover">
-                    </div>
-                    <h3 class="text-lg font-bold text-gray-800 group-hover:text-purple-600">시으니</h3>
-                </div>
-                <div class="user-card group bg-white p-3 rounded-2xl shadow-md hover:shadow-xl border-2 border-transparent hover:border-blue-400 flex flex-col items-center cursor-pointer transition-all duration-200 transform hover:-translate-y-1"
-                    onclick="showHarongPasswordPrompt()">
-                    <div
-                        class="w-16 h-16 mb-2 rounded-full overflow-hidden border-4 border-gray-100 group-hover:border-blue-100 transition-colors">
-                        <img src="images/harong.png" alt="하롱이" class="w-full h-full object-cover">
-                    </div>
-                    <h3 class="text-lg font-bold text-gray-800 group-hover:text-blue-600">하롱이</h3>
-                </div>
-            </div>
+            <!-- Dynamic Login Content - See js/templates.js -->
+            <div id="login-container"></div>
 
             <!-- 손님 체험하기 버튼 -->
             <div class="mt-4">
@@ -286,7 +254,7 @@
                             class="w-9 h-9 rounded-lg shadow-md bg-white p-0.5">
                         <div class="flex flex-col leading-tight">
                             <span class="text-white font-black text-lg tracking-tight">JAP-BONG</span>
-                            <span class="text-white/70 text-[10px] font-medium -mt-0.5">가족 일본어 학습</span>
+                            <span class="text-white/70 text-[10px] font-medium -mt-0.5">Premium Learning</span>
                         </div>
                     </div>
                 </div>
@@ -383,19 +351,7 @@
                     </div>
 
                     <!-- 관리자 메뉴 (아빠 계정만 표시) -->
-                    <div id="admin-reset-section" style="display: none;"
-                        class="mt-6 p-6 bg-red-50 rounded-3xl border-2 border-red-200 shadow-sm">
-                        <h3 class="text-lg font-bold text-red-700 mb-3 flex items-center">
-                            <i class="fas fa-shield-alt mr-2"></i>관리자 메뉴
-                        </h3>
-                        <p class="text-sm text-red-600 mb-4">
-                            ⚠️ 모든 사용자의 학습 진도를 초기화합니다.
-                        </p>
-                        <button onclick="resetAllProgress()"
-                            class="w-full py-3 bg-red-600 text-white font-bold rounded-xl hover:bg-red-700 active:scale-95 transition-all shadow-md">
-                            <i class="fas fa-trash-alt mr-2"></i>전체 학습진도 리셋
-                        </button>
-                    </div>
+
                 </div>
 
                 <div id="fukuoka" class="tab-content hidden">
@@ -537,19 +493,7 @@
                 <h2 class="text-2xl font-bold text-gray-900 mb-4">📊 학습 현황</h2>
 
                 <!-- 아빠 전용: 사용자 선택 -->
-                <div id="admin-user-selector" style="display:none;"
-                    class="mb-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl border-2 border-blue-200">
-                    <label class="block text-sm font-bold text-gray-700 mb-2">
-                        <i class="fas fa-users mr-2"></i>회원 선택
-                    </label>
-                    <select id="progress-user-select" onchange="changeProgressUser()"
-                        class="w-full px-4 py-2 border-2 border-gray-300 rounded-xl font-bold focus:border-blue-500 focus:outline-none">
-                        <option value="dad">아빠</option>
-                        <option value="mom">엄마</option>
-                        <option value="sieun">시으니</option>
-                        <option value="harong">하롱이</option>
-                    </select>
-                </div>
+
 
                 <!-- 요약 통계 -->
                 <div id="progress-summary" class="mb-6"></div>
@@ -574,13 +518,7 @@
                 </div>
 
                 <!-- 아빠 전용: 개별 리셋 -->
-                <div id="admin-reset-user" style="display:none;"
-                    class="mt-6 p-4 bg-red-50 rounded-xl border-2 border-red-200">
-                    <button onclick="resetUserProgress()"
-                        class="w-full py-3 bg-red-600 text-white font-bold rounded-xl hover:bg-red-700 active:scale-95 transition-all shadow-md">
-                        <i class="fas fa-trash-alt mr-2"></i>선택한 사용자 진도 리셋
-                    </button>
-                </div>
+
             </div>
 
     </div>
@@ -681,15 +619,7 @@
             </div>
             <div class="p-6 max-h-[70vh] overflow-y-auto custom-scrollbar space-y-5 text-sm">
 
-                <!-- 아빠의 마음 -->
-                <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-xl">
-                    <h3 class="font-bold text-yellow-800 mb-2 flex items-center gap-2">
-                        <i class="fas fa-heart text-red-500"></i> 아빠의 마음
-                    </h3>
-                    <p class="text-gray-700 leading-relaxed italic">
-                        "우리 가족과 함께하는 첫 일본 여행! 설레는 마음으로 직접 만들었어요. ❤️"
-                    </p>
-                </div>
+
 
                 <!-- 1. 홈 탭 -->
                 <div class="border rounded-xl p-4">
@@ -1037,10 +967,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/auth.js?v=27"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/avatar_actions.js"></script>
+    <script src="js/avatar_manager.js"></script>
+    <script src="js/ai_client.js"></script>
     <script src="js/ui.js"></script>
     <script src="js/templates.js"></script>
     <script src="js/gamification.js"></script>
-    <script src="js/api_client.js"></script>
+    <script src="js/auth_provider.js"></script>
+
+    <!-- Game Engines -->
+    <script src="js/games/neon_syntax.js"></script>
+    <script src="js/games/verbum_alchimia.js"></script>
+    <script src="js/games/silent_archive.js"></script>
 
     <!-- Data & Modules -->
     <script src="js/learning/characters.js"></script>

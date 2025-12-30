@@ -208,5 +208,145 @@
         "category": "cool",
         "color": "#2B6CB0",
         "image": null
+    },
+    {
+        "id": 31,
+        "name": "Shogun",
+        "category": "cool",
+        "color": "#D4AF37",
+        "image": null
+    },
+    {
+        "id": 32,
+        "name": "Geisha",
+        "category": "mystical",
+        "color": "#FF69B4",
+        "image": null
+    },
+    {
+        "id": 33,
+        "name": "Sumo",
+        "category": "cool",
+        "color": "#2D3748",
+        "image": null
+    },
+    {
+        "id": 34,
+        "name": "Salaryman",
+        "category": "cool",
+        "color": "#4A5568",
+        "image": null
+    },
+    {
+        "id": 35,
+        "name": "Student",
+        "category": "kawaii",
+        "color": "#4299E1",
+        "image": null
+    },
+    {
+        "id": 36,
+        "name": "Idol",
+        "category": "kawaii",
+        "color": "#FF1493",
+        "image": null
+    },
+    {
+        "id": 37,
+        "name": "Otaku",
+        "category": "cool",
+        "color": "#F6E05E",
+        "image": null
+    },
+    {
+        "id": 38,
+        "name": "Dragon",
+        "category": "mystical",
+        "color": "#C53030",
+        "image": null
+    },
+    {
+        "id": 39,
+        "name": "Phoenix",
+        "category": "mystical",
+        "color": "#F56565",
+        "image": null
+    },
+    {
+        "id": 40,
+        "name": "Ghost",
+        "category": "mystical",
+        "color": "#E2E8F0",
+        "image": null
+    },
+    {
+        "id": 41,
+        "name": "Panda",
+        "category": "nature",
+        "color": "#1A202C",
+        "image": null
+    },
+    {
+        "id": 42,
+        "name": "Shiba",
+        "category": "nature",
+        "color": "#D69E2E",
+        "image": null
+    },
+    {
+        "id": 43,
+        "name": "Owl",
+        "category": "nature",
+        "color": "#718096",
+        "image": null
+    },
+    {
+        "id": 44,
+        "name": "Fire",
+        "category": "nature",
+        "color": "#E53E3E",
+        "image": null
+    },
+    {
+        "id": 45,
+        "name": "Water",
+        "category": "nature",
+        "color": "#3182CE",
+        "image": null
+    },
+    {
+        "id": 46,
+        "name": "Wind",
+        "category": "nature",
+        "color": "#81E6D9",
+        "image": null
+    },
+    {
+        "id": 47,
+        "name": "Thunder",
+        "category": "cool",
+        "color": "#F6E05E",
+        "image": null
+    },
+    {
+        "id": 48,
+        "name": "Earth",
+        "category": "nature",
+        "color": "#744210",
+        "image": null
+    },
+    {
+        "id": 49,
+        "name": "Darkness",
+        "category": "cool",
+        "color": "#000000",
+        "image": null
+    },
+    {
+        "id": 50,
+        "name": "Light",
+        "category": "mystical",
+        "color": "#FFFFF0",
+        "image": null
     }
 ]

@@ -46,14 +46,17 @@ print(f"✅ Loaded {len(conversations_db)} conversation categories, {len(words_d
 
 # Serve Frontend Static Files
 # Mount specialized directories first
-app.mount("/js", StaticFiles(directory="js"), name="js")
-app.mount("/css", StaticFiles(directory="css"), name="css")
-app.mount("/images", StaticFiles(directory="images"), name="images")
+# Since we run from backend/, we need to go up one level
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+app.mount("/js", StaticFiles(directory=os.path.join(BASE_DIR, "js")), name="js")
+app.mount("/css", StaticFiles(directory=os.path.join(BASE_DIR, "css")), name="css")
+app.mount("/images", StaticFiles(directory=os.path.join(BASE_DIR, "images")), name="images")
 
 # Serve index.html at root
 @app.get("/")
 async def read_root():
-    return FileResponse('index.html')
+    return FileResponse(os.path.join(BASE_DIR, 'index.html'))
 
 # Remove the old health check or move it to /api/health
 @app.get("/api/health")
@@ -147,7 +150,7 @@ def save_progress(data: Dict[str, Any]):
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-2.5-flash')
 else:
     model = None
     print("⚠️ GEMINI_API_KEY not found. AI features will be disabled.")
@@ -403,3 +406,35 @@ def api_get_latest_words(hours: int = 24):
         "count": len(recent),
         "words": recent
     }
+
+# --- AI Service Endpoints (Phase 8) ---
+from ai_service import AIService
+
+class AIWordRequest(BaseModel):
+    word: str
+
+class AIChatRequest(BaseModel):
+    topic: str
+    level: str = "N5"
+
+class AIActionRequest(BaseModel):
+    text: str
+
+@app.post("/api/ai/word")
+def api_ai_word(req: AIWordRequest):
+    # User requested Naver Scraper for words, not AI
+    from word_collector import scrape_naver_dict
+    result = scrape_naver_dict(req.word)
+    if result:
+        return result
+    else:
+        return {"error": "Word not found in Naver Dictionary or Scraping Failed"}
+
+@app.post("/api/ai/conversation")
+def api_ai_conversation(req: AIChatRequest):
+    return AIService.generate_conversation(req.topic, req.level)
+
+@app.post("/api/ai/analyze-action")
+def api_ai_action(req: AIActionRequest):
+    result = AIService.analyze_sentiment_for_action(req.text)
+    return result

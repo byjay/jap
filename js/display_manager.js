@@ -324,13 +324,10 @@ const ScreenRenderers = {
                 <p class="text-gray-600 dark:text-gray-400 mb-8">게임으로 배우는 일본어 마스터</p>
                 <div class="flex flex-col gap-3 w-full max-w-xs">
                     <button onclick="DisplayManager.navigateTo('login')" 
-                        class="w-full py-4 bg-primary text-white font-bold rounded-xl shadow-lg hover:bg-blue-700 transition-all">
+                        class="w-full py-4 bg-primary text-white font-bold rounded-xl shadow-lg hover:bg-blue-700 transition-all text-xl animate-pulse">
                         시작하기
                     </button>
-                    <button onclick="DisplayManager.navigateTo('login')" 
-                        class="w-full py-4 border-2 border-primary/30 text-primary font-bold rounded-xl hover:bg-primary/5 transition-all">
-                        이미 계정이 있어요
-                    </button>
+                    <p class="text-xs text-gray-400 mt-2">로그인 즉시 시작됩니다 (회원가입 없음)</p>
                 </div>
             </div>
         </div>

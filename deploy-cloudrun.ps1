@@ -1,7 +1,14 @@
 # Cloud Run Deployment Script for JAP-BONG PRO
 # Usage: ./deploy-cloudrun.ps1
 
-$PROJECT_ID = "your-gcp-project-id"  # Replace with your GCP project ID
+# Auto-detect Project ID
+$PROJECT_ID = gcloud config get-value project
+if (-not $PROJECT_ID) {
+    Write-Host "❌ Error: No GCP Project ID found. Please run 'gcloud config set project YOUR_PROJECT_ID'" -ForegroundColor Red
+    exit 1
+}
+Write-Host "🔹 Using Project ID: $PROJECT_ID" -ForegroundColor Cyan
+
 $REGION = "asia-northeast3"  # Seoul region
 $SERVICE_NAME = "run-jap"
 

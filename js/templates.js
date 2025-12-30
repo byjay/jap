@@ -5,13 +5,28 @@
 const Templates = {
     loginScreen: () => `
         <div class="login-screen active" id="login-screen-content">
-            <h1 class="text-4xl font-bold text-red-600 mb-2">재뽕 일본어 공부</h1>
-            <p class="text-xl text-gray-600 mb-12">아빠가 만든 우리 가족 일본어 앱 🍌</p>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <div class="user-card"><div class="user-avatar overflow-hidden"><img src="images/dad.png" alt="아빠" class="w-full h-full object-cover"></div><h3 class="text-xl font-bold">봉아빠</h3></div>
-                <div class="user-card"><div class="user-avatar overflow-hidden"><img src="images/mom_orig.png" alt="엄마" class="w-full h-full object-cover"></div><h3 class="text-xl font-bold">강엄마</h3></div>
-                <div class="user-card"><div class="user-avatar overflow-hidden"><img src="images/sieun.png" alt="시으니" class="w-full h-full object-cover"></div><h3 class="text-xl font-bold">시으니</h3></div>
-                <div class="user-card"><div class="user-avatar overflow-hidden"><img src="images/harong.png" alt="하롱이" class="w-full h-full object-cover"></div><h3 class="text-xl font-bold">하롱이</h3></div>
+            <h1 class="text-4xl font-bold text-red-600 mb-2">JAP-BONG PRO</h1>
+            <p class="text-xl text-gray-600 mb-12">Premium Japanese Learning 🇯🇵</p>
+            
+            <div class="flex flex-col gap-4 max-w-sm mx-auto w-full px-6">
+                <!-- Social Login -->
+                <button onclick="DisplayManager.loginWithKakao()" class="w-full bg-[#FEE500] text-[#000000] py-3 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-[#FDD835] transition shadow-md">
+                    <i class="fas fa-comment"></i> 카카오로 3초만에 시작하기
+                </button>
+                
+                <button onclick="DisplayManager.loginWithGoogle()" class="w-full bg-white text-gray-700 border border-gray-300 py-3 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-gray-50 transition shadow-sm">
+                    <img src="https://www.google.com/favicon.ico" class="w-5 h-5"> Google로 계속하기
+                </button>
+
+                <div class="relative my-4">
+                    <div class="absolute inset-0 flex items-center"><div class="w-full border-t border-gray-300"></div></div>
+                    <div class="relative flex justify-center text-sm"><span class="px-2 bg-gray-50 text-gray-500">또는</span></div>
+                </div>
+
+                <!-- Guest -->
+                <button onclick="loginAsGuest()" class="w-full bg-gray-600 text-white py-3 rounded-xl font-bold hover:bg-gray-700 transition shadow-md">
+                     손님으로 둘러보기
+                </button>
             </div>
         </div>
     `,

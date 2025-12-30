@@ -2,20 +2,14 @@
  * auth.js - 인증 시스템
  */
 
-const users = {
-    dad: { id: 'dad', name: '봉아빠', avatar: 'images/dad.png' },
-    mom: { id: 'mom', name: '강엄마', avatar: 'images/mom_orig.png' },
-    sieun: { id: 'sieun', name: '시으니', avatar: 'images/sieun.png' },
-    harong: { id: 'harong', name: '하롱이', avatar: 'images/harong.png' },
-    guest: { id: 'guest', name: '손님', avatar: 'images/sieun_dancing.png' }
+// Demo users
+const DEMO_USERS = {
+    guest: { id: 'guest', name: '손님', avatar: 'images/avatars/default.png' }
 };
 
-// 가족별 비밀번호 (국번)
-const userPasswords = {
-    dad: '1435',
-    mom: '8535',
-    sieun: '8534',
-    harong: '7657'
+// Demo passwords
+const PASSWORDS = {
+    guest: '0000'
 };
 
 let currentUser = null;
@@ -218,7 +212,7 @@ function showPasswordModal(userId, userName) {
         <div class="bg-white rounded-2xl shadow-2xl w-full max-w-sm overflow-hidden animate-bounce-in">
             <!-- 헤더 -->
             <div class="bg-gradient-to-r from-blue-500 to-cyan-500 p-4 text-center">
-                <img src="${users[userId]?.avatar || 'images/dad.png'}" class="w-16 h-16 rounded-full mx-auto border-4 border-white shadow-lg mb-2" alt="${userName}">
+                <img src="${users[userId]?.avatar || 'images/guest.png'}" class="w-16 h-16 rounded-full mx-auto border-4 border-white shadow-lg mb-2" alt="${userName}">
                 <p class="text-white font-bold text-sm">👋 ${userName}님, 안녕하세요!</p>
                 <p class="text-white/80 text-xs mt-1">"비밀번호 입력해줘~ 📱"</p>
             </div>
@@ -286,58 +280,31 @@ function submitPassword(userId) {
     }
 }
 
-// 각 사용자별 비밀번호 프롬프트
-function showPasswordPrompt() {
-    showPasswordModal('dad', '봉아빠');
-}
-
-function showMomPasswordPrompt() {
-    showPasswordModal('mom', '강엄마');
-}
-
-function showSieunPasswordPrompt() {
-    showPasswordModal('sieun', '시으니');
-}
-
-function showHarongPasswordPrompt() {
-    showPasswordModal('harong', '하롱이');
-}
-
-// 손님 체험하기
+// Guest Login
 function loginAsGuest() {
     login('guest');
 }
-// 전체 학습진도 리셋 (아빠 계정 전용)
-function resetAllProgress() {
-    if (confirm('⚠️ 정말로 모든 학습 진도를 리셋하시겠습니까?\n\n모든 사용자의 학습 기록이 삭제됩니다!')) {
-        const password = prompt('확인을 위해 비밀번호를 입력하세요:');
-        if (password === '1435') {
-            // 모든 사용자의 진도 데이터 삭제
-            ['dad', 'mom', 'sieun', 'harong'].forEach(userId => {
-                localStorage.removeItem(`progress_${userId}`);
-                localStorage.removeItem(`jap_bong_history_v1_${userId}`);
-                localStorage.removeItem(`fukuoka_unlock_count_${userId}`);
-            });
 
-            alert('✅ 모든 학습 진도가 리셋되었습니다!');
-            location.reload(); // 페이지 새로고침
-        } else if (password !== null) {
-            alert('❌ 비밀번호가 틀렸습니다!');
+// Reset Progress (Admin only)
+function resetAllProgress() {
+    if (confirm('⚠️ Are you sure you want to reset all progress?')) {
+        const password = prompt('Enter Admin Password:');
+        if (password === '1435') {
+            localStorage.clear();
+            alert('✅ All progress reset.');
+            location.reload();
+        } else {
+            alert('❌ Wrong password.');
         }
     }
 }
 
-
-// 전역 노출
+// Export to window
 window.showLoginModal = showLoginModal;
 window.hideLoginModal = hideLoginModal;
 window.login = login;
 window.logout = logout;
 window.checkAutoLogin = checkAutoLogin;
-window.showPasswordPrompt = showPasswordPrompt;
-window.showMomPasswordPrompt = showMomPasswordPrompt;
-window.showSieunPasswordPrompt = showSieunPasswordPrompt;
-window.showHarongPasswordPrompt = showHarongPasswordPrompt;
 window.loginAsGuest = loginAsGuest;
 window.resetAllProgress = resetAllProgress;
 window.closePasswordModal = closePasswordModal;

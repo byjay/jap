@@ -1,10 +1,13 @@
+```javascript
 const CACHE_NAME = 'jap-bong-fam-v28';
-const ASSETS_TO_CACHE = [
+const CACHE_URLS = [
     './',
     './index.html',
     './manifest.json',
     './css/styles.css',
-    './images/dad.png',
+    './images/app_icon.png',
+    './images/guest.png',
+    './images/BACK.png',
     './js/auth.js',
     './js/ui.js',
     './js/gamification.js',

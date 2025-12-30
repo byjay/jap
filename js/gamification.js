@@ -129,7 +129,7 @@ const Gamification = {
             this.addXP(50);
             this.showToast(`📅 일일 출석 보너스 +50 XP!`);
         }
-    }
+    },
 
 
     // XP 획득
@@ -137,12 +137,16 @@ const Gamification = {
         this.state.dailyXP += amount;
         this.state.totalXP += amount;
 
+        // Avatar Feedback
+        if (window.AvatarManager) {
+            window.AvatarManager.playRandomAction('happy');
+            window.AvatarManager.playRandomAction('correct');
+        }
+
         // 레벨업 체크 (간단하게 100XP 당 1레벨)
         const newLevel = Math.floor(this.state.totalXP / 100) + 1;
         if (newLevel > this.state.level) {
-            this.state.level = newLevel;
-            this.showToast(`🎉 레벨 업! Lv.${newLevel}`);
-            // 축하 효과 (나중에 추가)
+            this.levelUp(newLevel);
         }
 
         this.saveState();
@@ -226,7 +230,18 @@ const Gamification = {
 // 전역 노출
 window.Gamification = Gamification;
 
-// 초기화 (DOM 로드 후)
-document.addEventListener('DOMContentLoaded', () => {
-    Gamification.init();
-});
+// Image Preloader (Simplified)
+const Preloader = {
+    preload() {
+        const images = [
+            'images/app_icon.png',
+            'images/guest.png',
+            'images/BACK.png'
+        ];
+        images.forEach(src => {
+            const img = new Image();
+            img.src = src;
+        });
+    }
+};
+Preloader.preload();

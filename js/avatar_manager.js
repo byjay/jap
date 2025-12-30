@@ -88,6 +88,24 @@ const AvatarManager = {
         return this.avatars.filter(a => a.category === categoryId);
     },
 
+    // Play Action
+    playAction(actionId) {
+        const previewEl = document.getElementById('selected-avatar-preview') || document.querySelector('.user-avatar');
+        if (previewEl) {
+            ActionController.setTarget(previewEl);
+            ActionController.play(actionId);
+        }
+    },
+
+    // Play Random Action by Type
+    playRandomAction(type) {
+        const keys = Object.keys(AvatarActions).filter(k => k.startsWith(type));
+        if (keys.length > 0) {
+            const randomKey = keys[Math.floor(Math.random() * keys.length)];
+            this.playAction(randomKey);
+        }
+    },
+
     // Select avatar
     selectAvatar(id) {
         this.selectedAvatarId = id;
