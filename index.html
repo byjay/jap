@@ -14,7 +14,9 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="images/app_icon.png">
     <link rel="apple-touch-icon" href="images/app_icon.png">
-    <title>JAP-BONG 아빠가 만든 가족 일본어 앱</title>
+    <title>JAP-BONG PRO | Living Japanese Learning</title>
+    <!-- 데이터 매니페스트 로드 (자동 코드 삽입) -->
+    <script src="js/app_data_manifest.js"></script>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -105,10 +107,81 @@
             -webkit-user-select: none !important;
             user-select: none !important;
         }
+
+        /* Living App 전용 상단 바 스타일 */
+        .evolution-bar {
+            background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+            color: white;
+            padding: 4px 15px;
+            font-size: 0.7rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            z-index: 60;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 24px;
+        }
+
+        .evolution-stats {
+            display: flex;
+            gap: 10px;
+        }
+
+        .stat-tag {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 1px 6px;
+            border-radius: 8px;
+            font-size: 0.65rem;
+        }
+
+        /* 기존 헤더 위치 조정 */
+        .fixed-header-offset {
+            top: 24px !important;
+        }
+
+        .app-container-offset {
+            padding-top: 80px !important;
+        }
     </style>
 </head>
 
 <body class="bg-gray-50 text-gray-900">
+
+    <!-- Living App Status Bar (코드 삽입 트리거 표시) -->
+    <div class="evolution-bar">
+        <span class="flex items-center gap-1"><i class="fas fa-brain"></i> LIVING APP PRO</span>
+        <div class="evolution-stats">
+            <span>Words: <span class="stat-tag" id="stat-words">0</span></span>
+            <span>Actions: <span class="stat-tag" id="stat-actions">0</span></span>
+            <span>Kanji: <span class="stat-tag" id="stat-kanji">0</span></span>
+        </div>
+        <span id="stat-updated" style="opacity: 0.7; font-size: 0.6rem;">Sync: -</span>
+    </div>
+
+    <script>
+        // 매니페스트 데이터 적용 (자동 수집 데이터 상업용 전용 UI)
+        window.addEventListener('load', () => {
+            if (window.JAP_BONG_DATA) {
+                const data = window.JAP_BONG_DATA;
+                const setVal = (id, val) => {
+                    const el = document.getElementById(id);
+                    if (el) el.textContent = val;
+                };
+                setVal('stat-words', data.total_words);
+                setVal('stat-actions', data.total_actions);
+                setVal('stat-kanji', data.total_kanji);
+
+                if (document.getElementById('stat-updated')) {
+                    const date = new Date(data.last_updated);
+                    document.getElementById('stat-updated').textContent = `Sync: ${date.toLocaleTimeString()}`;
+                }
+            }
+        });
+    </script>
 
     <!-- 🎬 로딩 스플래시 화면 -->
     <div id="splash-screen"
@@ -188,7 +261,7 @@
 
     <div class="app-container pt-14">
         <header id="app-header"
-            class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-red-600 to-red-500 shadow-lg h-14 transition-all duration-300">
+            class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-red-600 to-red-500 shadow-lg h-14 transition-all duration-300 fixed-header-offset">
             <div class="h-full px-4 flex justify-between items-center">
                 <!-- 로고 및 뒤로가기 영역 -->
                 <div class="flex items-center gap-3">

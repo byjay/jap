@@ -121,6 +121,13 @@ def run_daily_generation(target_count: int = 10):
         json.dump(db, f, ensure_ascii=False, indent=2)
 
     print(f"✅ Successfully generated {generated_count} actions.")
+    
+    # 매니페스트 업데이트 호출 (코드 삽입 트리거)
+    try:
+        from manifest_updater import update_manifest
+        update_manifest()
+    except Exception as e:
+        print(f"⚠️ Manifest Update failed: {e}")
 
 if __name__ == "__main__":
     run_daily_generation(10)

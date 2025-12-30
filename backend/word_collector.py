@@ -336,6 +336,14 @@ def mass_collection(limit_per_category: int = 30) -> int:
         print(f"   [{category_key}] +{len(collected)} words")
     
     print(f"📊 Total Collected: {total_collected} words")
+    
+    # 매니페스트 업데이트 호출 (코드 삽입 트리거)
+    try:
+        from manifest_updater import update_manifest
+        update_manifest()
+    except Exception as e:
+        print(f"⚠️ Manifest Update failed: {e}")
+        
     return total_collected
 
 
