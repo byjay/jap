@@ -46,12 +46,26 @@ print(f"✅ Loaded {len(conversations_db)} conversation categories, {len(words_d
 
 # Serve Frontend Static Files
 # Mount specialized directories first
-# Since we run from backend/, we need to go up one level
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Determine BASE_DIR based on environment (Docker vs Local)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Check if we are in Docker (flat structure) or Local (backend/ nested)
+if os.path.isdir(os.path.join(current_dir, "js")):
+    # Docker environment: js is sibling to main.py
+    BASE_DIR = current_dir
+else:
+    # Local environment: js is in parent directory
+    BASE_DIR = os.path.dirname(current_dir)
+
+print(f"📂 Resolved BASE_DIR: {BASE_DIR}")
 
 app.mount("/js", StaticFiles(directory=os.path.join(BASE_DIR, "js")), name="js")
 app.mount("/css", StaticFiles(directory=os.path.join(BASE_DIR, "css")), name="css")
 app.mount("/images", StaticFiles(directory=os.path.join(BASE_DIR, "images")), name="images")
+# Check if audio directory exists before mounting
+audio_dir = os.path.join(BASE_DIR, "audio")
+if os.path.isdir(audio_dir):
+    app.mount("/audio", StaticFiles(directory=audio_dir), name="audio")
 
 # Serve index.html at root
 @app.get("/")
