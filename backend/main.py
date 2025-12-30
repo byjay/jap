@@ -403,26 +403,3 @@ def api_get_latest_words(hours: int = 24):
         "count": len(recent),
         "words": recent
     }
-# ==========================================
-# 한자, 문법, 캐릭터 API (상업용 독립 시스템)
-# ==========================================
-
-@app.get("/api/data/characters")
-def api_get_characters():
-    """캐릭터 및 액션 데이터 조회"""
-    return load_json('characters.json')
-
-@app.get("/api/data/kanji")
-def api_get_kanji():
-    """한자 및 독음 데이터 조회"""
-    return load_json('kanji_data.json')
-
-@app.get("/api/data/grammar")
-def api_get_grammar():
-    """문법 패턴 데이터 조회"""
-    return load_json('grammar_data.json')
-
-@app.get("/api/data/verb-conjugations")
-def api_get_verb_conjugations():
-    """동사 변형 데이터 조회"""
-    return load_json('verb_conjugations.json')

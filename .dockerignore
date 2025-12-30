@@ -1,0 +1,40 @@
+# .dockerignore for Cloud Run deployment
+
+# Git
+.git
+.gitignore
+.github
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv
+env
+.env.local
+
+# IDE
+.vscode
+.idea
+*.swp
+
+# Logs
+*.log
+
+# Reference/Dev files
+REF/
+screen/
+docs/
+netlify.toml
+railway.toml
+
+# Node (if any)
+node_modules
+
+# OS
+.DS_Store
+Thumbs.db

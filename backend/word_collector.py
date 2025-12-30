@@ -12,7 +12,6 @@ import os
 import json
 import urllib.request
 import urllib.parse
-from asset_manager import enrich_word_with_asset
 from datetime import datetime
 from typing import List, Dict, Optional
 import time
@@ -22,22 +21,11 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 COLLECTED_WORDS_FILE = os.path.join(DATA_DIR, 'collected_words.json')
 
 # 환경변수에서 API 키 로드 (하드코딩 금지!)
-import sys
-from dotenv import load_dotenv
-
-# .env 로드
-load_dotenv()
-
-# Windows 인코딩 대응
-if sys.platform == "win32":
-    import io
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-
 NAVER_CLIENT_ID = os.getenv("NAVER_CLIENT_ID")
 NAVER_CLIENT_SECRET = os.getenv("NAVER_CLIENT_SECRET")
 
 if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
-    print("[WARNING] NAVER API keys not found. Set NAVER_CLIENT_ID and NAVER_CLIENT_SECRET.")
+    print("⚠️ NAVER API keys not found. Set NAVER_CLIENT_ID and NAVER_CLIENT_SECRET environment variables.")
 
 # ==========================================
 # 수집 대상 카테고리 정의 (대폭 확장)
@@ -319,9 +307,6 @@ def collect_words_by_category(category_key: str, limit: int = 50) -> List[Dict]:
         word_data = fetch_word_from_naver(word)
         
         if word_data:
-            # 시각적 자산 연동 (아이콘/캐릭터 액션)
-            word_data = enrich_word_with_asset(word_data)
-            
             word_data['category'] = category_key
             word_data['category_name'] = category['name']
             word_data['level'] = category.get('level', 'unknown')
@@ -351,14 +336,6 @@ def mass_collection(limit_per_category: int = 30) -> int:
         print(f"   [{category_key}] +{len(collected)} words")
     
     print(f"📊 Total Collected: {total_collected} words")
-    
-    # 매니페스트 업데이트 호출 (코드 삽입 트리거)
-    try:
-        from manifest_updater import update_manifest
-        update_manifest()
-    except Exception as e:
-        print(f"⚠️ Manifest Update failed: {e}")
-        
     return total_collected
 
 
