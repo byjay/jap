@@ -19,7 +19,16 @@ const AuthProvider = {
     },
 
     isKakaoInitialized: false,
-},
+    isGoogleInitialized: false, // Added for consistency
+
+    /**
+     * Initialize all auth providers
+     */
+    async init() {
+        console.log('🔐 Auth Provider Initializing...');
+        await this.initKakao();
+        await this.initGoogle();
+    },
 
     /**
      * Initialize Kakao SDK
@@ -37,167 +46,167 @@ const AuthProvider = {
         }
     },
 
-        /**
-         * Initialize Google Sign-In
-         */
-        async initGoogle() {
-    // Load Google Identity Services
-    if (typeof google === 'undefined' || !google.accounts) {
-        await this.loadScript('https://accounts.google.com/gsi/client');
-    }
-    this.isGoogleInitialized = true;
-    console.log('✅ Google SDK Ready');
-},
-
-/**
- * Load external script dynamically
- */
-loadScript(src) {
-    return new Promise((resolve, reject) => {
-        const existingScript = document.querySelector(`script[src="${src}"]`);
-        if (existingScript) {
-            resolve();
-            return;
+    /**
+     * Initialize Google Sign-In
+     */
+    async initGoogle() {
+        // Load Google Identity Services
+        if (typeof google === 'undefined' || !google.accounts) {
+            await this.loadScript('https://accounts.google.com/gsi/client');
         }
+        this.isGoogleInitialized = true;
+        console.log('✅ Google SDK Ready');
+    },
 
-        const script = document.createElement('script');
-        script.src = src;
-        script.async = true;
-        script.onload = resolve;
-        script.onerror = reject;
-        document.head.appendChild(script);
-    });
-},
+    /**
+     * Load external script dynamically
+     */
+    loadScript(src) {
+        return new Promise((resolve, reject) => {
+            const existingScript = document.querySelector(`script[src="${src}"]`);
+            if (existingScript) {
+                resolve();
+                return;
+            }
+
+            const script = document.createElement('script');
+            script.src = src;
+            script.async = true;
+            script.onload = resolve;
+            script.onerror = reject;
+            document.head.appendChild(script);
+        });
+    },
 
     /**
      * Login with Kakao
      */
     async loginWithKakao() {
-    // Mock Mode Check (API Key가 유효하지 않으면 데모 모드)
-    if (!this.isKakaoInitialized || !window.Kakao || !Kakao.isInitialized()) {
-        console.warn('⚠️ Kakao SDK not valid. Running in Demo Mode.');
-        return this.mockLogin('kakao');
-    }
+        // Mock Mode Check (API Key가 유효하지 않으면 데모 모드)
+        if (!this.isKakaoInitialized || !window.Kakao || !Kakao.isInitialized()) {
+            console.warn('⚠️ Kakao SDK not valid. Running in Demo Mode.');
+            return this.mockLogin('kakao');
+        }
 
-    try {
-        return new Promise((resolve, reject) => {
-            Kakao.Auth.login({
-                success: async (authObj) => {
-                    Kakao.API.request({
-                        url: '/v2/user/me',
-                        success: (response) => {
-                            const user = {
-                                id: 'kakao_' + response.id,
-                                name: response.kakao_account?.profile?.nickname || '카카오 사용자',
-                                email: response.kakao_account?.email,
-                                profileImage: response.kakao_account?.profile?.profile_image_url || 'images/avatars/default.png',
-                                provider: 'kakao',
-                                accessToken: authObj.access_token,
-                                subscription: 'FREE'
-                            };
-                            this.finalizeLogin(user);
-                            resolve(user);
-                        },
-                    });
-                },
-                fail: (err) => {
-                    console.error('Kakao Login Failed (Domain/Key Mismatch?):', err);
-                    // 실패 시 즉시 Mock으로 폴백 (사용자 경험 개선)
-                    console.log('Falling back to Demo Mode immediately.');
-                    this.mockLogin('kakao').then(resolve);
-                }
+        try {
+            return new Promise((resolve, reject) => {
+                Kakao.Auth.login({
+                    success: async (authObj) => {
+                        Kakao.API.request({
+                            url: '/v2/user/me',
+                            success: (response) => {
+                                const user = {
+                                    id: 'kakao_' + response.id,
+                                    name: response.kakao_account?.profile?.nickname || '카카오 사용자',
+                                    email: response.kakao_account?.email,
+                                    profileImage: response.kakao_account?.profile?.profile_image_url || 'images/avatars/default.png',
+                                    provider: 'kakao',
+                                    accessToken: authObj.access_token,
+                                    subscription: 'FREE'
+                                };
+                                this.finalizeLogin(user);
+                                resolve(user);
+                            },
+                        });
+                    },
+                    fail: (err) => {
+                        console.error('Kakao Login Failed (Domain/Key Mismatch?):', err);
+                        // 실패 시 즉시 Mock으로 폴백 (사용자 경험 개선)
+                        console.log('Falling back to Demo Mode immediately.');
+                        this.mockLogin('kakao').then(resolve);
+                    }
+                });
             });
-        });
-    } catch (e) {
-        return this.mockLogin('kakao');
-    }
-},
+        } catch (e) {
+            return this.mockLogin('kakao');
+        }
+    },
 
     /**
      * Login with Google
      */
     async loginWithGoogle() {
-    // Google Client ID Check
-    if (this.GOOGLE_CLIENT_ID.includes('YOUR_GOOGLE_CLIENT_ID')) {
-        console.warn('⚠️ Google Client ID not set. Running in Demo Mode.');
-        return this.mockLogin('google');
-    }
+        // Google Client ID Check
+        if (this.GOOGLE_CLIENT_ID.includes('YOUR_GOOGLE_CLIENT_ID')) {
+            console.warn('⚠️ Google Client ID not set. Running in Demo Mode.');
+            return this.mockLogin('google');
+        }
 
-    if (!this.isGoogleInitialized) {
-        return this.mockLogin('google');
-    }
+        if (!this.isGoogleInitialized) {
+            return this.mockLogin('google');
+        }
 
-    // ... (Real logic omitted for brevity, fallback logic) ...
-    // 실제 구현 환경이 아니므로 바로 Mock 실행
-    return this.mockLogin('google');
-},
+        // ... (Real logic omitted for brevity, fallback logic) ...
+        // 실제 구현 환경이 아니므로 바로 Mock 실행
+        return this.mockLogin('google');
+    },
 
     /**
      * Mock Login (Demo Mode)
      */
     async mockLogin(provider) {
-    console.log(`🚀 Starting ${provider} Mock Login...`);
+        console.log(`🚀 Starting ${provider} Mock Login...`);
 
-    // 빠른 반응성을 위해 딜레이 단축 (300ms)
-    await new Promise(r => setTimeout(r, 300));
+        // 빠른 반응성을 위해 딜레이 단축 (300ms)
+        await new Promise(r => setTimeout(r, 300));
 
-    const mockUser = {
-        id: `${provider}_demo_${Date.now()}`,
-        name: provider === 'google' ? '구글 체험유저' : '카카오 체험유저',
-        email: `demo@${provider}.com`,
-        profileImage: provider === 'google' ? 'images/avatars/dad.png' : 'images/avatars/mom.png', // 임시 아바타
-        provider: provider,
-        subscription: 'FREE',
-        createdAt: new Date().toISOString()
-    };
+        const mockUser = {
+            id: `${provider}_demo_${Date.now()}`,
+            name: provider === 'google' ? '구글 체험유저' : '카카오 체험유저',
+            email: `demo@${provider}.com`,
+            profileImage: provider === 'google' ? 'images/avatars/dad.png' : 'images/avatars/mom.png', // 임시 아바타
+            provider: provider,
+            subscription: 'FREE',
+            createdAt: new Date().toISOString()
+        };
 
-    this.finalizeLogin(mockUser);
-    return mockUser;
-},
+        this.finalizeLogin(mockUser);
+        return mockUser;
+    },
 
-/**
- * Common Login Finalization
- */
-finalizeLogin(user) {
-    this.saveUser(user);
+    /**
+     * Common Login Finalization
+     */
+    finalizeLogin(user) {
+        this.saveUser(user);
 
-    // auth.js 연동
-    if (window.login) {
-        window.login(user);
-    } else {
-        console.error('window.login not found. Reloading...');
+        // auth.js 연동
+        if (window.login) {
+            window.login(user);
+        } else {
+            console.error('window.login not found. Reloading...');
+            location.reload();
+        }
+    },
+
+    saveUser(user) {
+        localStorage.setItem('jap_bong_user', JSON.stringify(user));
+        if (typeof DisplayManager !== 'undefined') {
+            DisplayManager.user = user;
+            DisplayManager.subscription = user.subscription;
+        }
+    },
+
+    getCurrentUser() {
+        const saved = localStorage.getItem('jap_bong_user');
+        return saved ? JSON.parse(saved) : null;
+    },
+
+    logout() {
+        if (this.isKakaoInitialized && window.Kakao && Kakao.Auth && Kakao.Auth.getAccessToken()) {
+            Kakao.Auth.logout(() => console.log('Kakao logged out'));
+        }
+        localStorage.removeItem('jap_bong_user');
+        if (typeof DisplayManager !== 'undefined') {
+            DisplayManager.user = null;
+            DisplayManager.subscription = 'FREE';
+        }
         location.reload();
-    }
-},
+    },
 
-saveUser(user) {
-    localStorage.setItem('jap_bong_user', JSON.stringify(user));
-    if (typeof DisplayManager !== 'undefined') {
-        DisplayManager.user = user;
-        DisplayManager.subscription = user.subscription;
+    isLoggedIn() {
+        return !!this.getCurrentUser();
     }
-},
-
-getCurrentUser() {
-    const saved = localStorage.getItem('jap_bong_user');
-    return saved ? JSON.parse(saved) : null;
-},
-
-logout() {
-    if (this.isKakaoInitialized && window.Kakao && Kakao.Auth && Kakao.Auth.getAccessToken()) {
-        Kakao.Auth.logout(() => console.log('Kakao logged out'));
-    }
-    localStorage.removeItem('jap_bong_user');
-    if (typeof DisplayManager !== 'undefined') {
-        DisplayManager.user = null;
-        DisplayManager.subscription = 'FREE';
-    }
-    location.reload();
-},
-
-isLoggedIn() {
-    return !!this.getCurrentUser();
-}
 };
 
 // Auto-initialize when DOM is ready

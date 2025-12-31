@@ -1,5 +1,5 @@
 ```javascript
-const CACHE_NAME = 'jap-bong-fam-v28';
+const CACHE_NAME = 'jap-bong-fam-v29-japro';
 const CACHE_URLS = [
     './',
     './index.html',
