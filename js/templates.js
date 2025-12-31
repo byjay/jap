@@ -8,80 +8,60 @@ const Templates = {
      * Replacing the old "cute" style with the high-end "JAPRO" app style.
      */
     loginScreen: () => `
-        <div class="relative flex h-full min-h-screen w-full flex-col bg-slate-50 dark:bg-slate-900 group/design-root overflow-x-hidden font-display transition-colors duration-300">
-            <!-- Hero Section with Background Image -->
-            <div class="relative w-full h-[45vh] min-h-[420px] shrink-0">
-                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCsBUQ8NI2rBviCSsKXFO0Cpb0xqtMEqGYC29xY5pvXUYAl9Rnm5alTm0zll0e2qqQi7I5nCY2FrgYSTaf_SP1yaRTqU9U2_QKotz2rLd90LBtmqGvOSK5dGhgC9dZBZSrdE1ymejWo4FgsOlBZsZ3Y16zdDMVBuix2dODZxoWDovuORosv8h2JGBEmMOtr8T7dl7sNBkKGfPMR8ivbY64VE5GvD0Fxv_q1lZv_9XUwGxfPjtT76AWes9EPeNqCvk0Yiyzlx__AmN8');"></div>
-                <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-slate-50 dark:to-slate-900"></div>
-                
-                <!-- Logo Top Center -->
-                <div class="absolute top-0 left-0 right-0 p-6 pt-12 flex justify-center items-center">
-                    <div class="flex items-center gap-2 bg-white/20 dark:bg-black/20 backdrop-blur-md px-4 py-2 rounded-full border border-white/10 shadow-lg animate-fade-in-down">
-                        <span class="text-white text-2xl font-bold">JAPRO</span>
-                    </div>
-                </div>
+        <div class="relative flex h-full min-h-screen w-full flex-col bg-slate-950 overflow-x-hidden font-display transition-colors duration-300">
+            <!-- Premium Gradient Background Layer -->
+            <div class="absolute inset-0 z-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-red-900/40 via-slate-950 to-slate-950">
+                <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/60 to-slate-950"></div>
             </div>
-
-            <!-- Content Section -->
-            <div class="flex-1 flex flex-col -mt-12 z-10 px-5 pb-8">
-                <!-- Main Headings -->
-                <div class="text-center mb-6 animate-fade-in-up">
-                    <h1 class="text-slate-900 dark:text-white tracking-tight text-[32px] font-bold leading-tight pb-2 drop-shadow-sm">
-                        Master Japanese Today
-                    </h1>
-                    <p class="text-slate-500 dark:text-slate-400 text-base font-normal leading-relaxed px-4">
-                        가족과 함께하는 프리미엄 일본어 학습. <br>AI 선생님과 실시간으로 대화하며 배우세요.
-                    </p>
+            
+            <!-- Content Layer -->
+            <div class="relative z-10 flex-1 flex flex-col px-6 pb-12 pt-20">
+                <!-- Logo & Brand -->
+                <div class="flex flex-col items-center mb-10 animate-fade-in-down">
+                    <img src="images/app_icon.png" alt="JAPRO" class="w-20 h-20 rounded-2xl shadow-2xl border-4 border-white/20 mb-4 transform hover:scale-105 transition-transform">
+                    <h2 class="text-white text-3xl font-black tracking-tighter drop-shadow-md">JAPRO</h2>
+                    <p class="text-white/80 text-xs font-bold tracking-[0.2em] uppercase mt-1">Premium Adventure</p>
                 </div>
 
-                <!-- Feature Carousel (Static Visual) -->
-                <div class="w-full mb-6 overflow-hidden">
-                    <div class="flex gap-4 px-2 overflow-x-auto no-scrollbar snap-x snap-mandatory">
-                        <!-- Card 1 -->
-                        <div class="snap-center shrink-0 w-[240px] flex flex-col gap-3 p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700">
-                            <div class="w-full aspect-[4/3] bg-blue-500/10 rounded-xl flex items-center justify-center relative overflow-hidden group">
-                                <span class="text-5xl">🎓</span>
-                            </div>
-                            <div>
-                                <p class="text-slate-900 dark:text-white text-lg font-semibold leading-tight mb-1">2,000+ Kanji</p>
-                                <p class="text-slate-500 dark:text-slate-400 text-sm">기초부터 상급까지 완벽하게</p>
-                            </div>
-                        </div>
-                        <!-- Card 2 -->
-                        <div class="snap-center shrink-0 w-[240px] flex flex-col gap-3 p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700">
-                            <div class="w-full aspect-[4/3] bg-purple-500/10 rounded-xl flex items-center justify-center relative overflow-hidden group">
-                                <span class="text-5xl">🗣️</span>
-                            </div>
-                            <div>
-                                <p class="text-slate-900 dark:text-white text-lg font-semibold leading-tight mb-1">AI Speaking</p>
-                                <p class="text-slate-500 dark:text-slate-400 text-sm">실시간 발음 교정 & 회화</p>
-                            </div>
-                        </div>
+                <!-- Main Value Proposition -->
+                <div class="text-center mb-auto animate-fade-in-up">
+                    <h1 class="text-slate-900 dark:text-white tracking-tight text-[36px] font-extrabold leading-tight mb-4 drop-shadow-sm">
+                        Master Japanese<br><span class="text-red-600">Perfectly.</span>
+                    </h1>
+                    <div class="inline-flex items-center gap-2 bg-white/40 dark:bg-slate-800/40 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 shadow-sm">
+                        <span class="text-sm font-medium text-slate-700 dark:text-slate-200">🇯🇵 AI 기반 가족형 프리미엄 학습</span>
                     </div>
                 </div>
 
-                <!-- Action Buttons -->
-                <div class="flex flex-col gap-3 w-full max-w-sm mx-auto mt-auto animate-fade-in-up delay-100">
-                    <!-- Kakao Login -->
-                    <button onclick="AuthProvider.loginWithKakao()" class="relative flex items-center justify-center w-full bg-[#fae100] hover:bg-[#ffe812] text-[#371d1e] font-bold text-base py-4 px-6 rounded-xl shadow-md transition-transform active:scale-[0.98]">
-                        <i class="fas fa-comment absolute left-6 text-xl"></i>
-                        <span>카카오로 3초만에 시작하기</span>
+                <!-- Social Login Section (The Core) -->
+                <div class="w-full max-w-sm mx-auto flex flex-col gap-4 animate-fade-in-up delay-200">
+                    <!-- Kakao: Main High-Contrast Button -->
+                    <button onclick="AuthProvider.loginWithKakao()" 
+                        class="group relative flex items-center justify-center w-full bg-[#fae100] hover:bg-[#ffe812] text-[#371d1e] font-bold text-lg py-5 px-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all active:scale-[0.97]">
+                        <i class="fas fa-comment absolute left-8 text-2xl"></i>
+                        <span class="ml-4">카카오로 3초만에 시작하기</span>
+                        <div class="absolute top-0 right-10 -mt-2 bg-red-500 text-white text-[10px] px-2 py-0.5 rounded-full font-black animate-bounce shadow-lg">HOT</div>
                     </button>
 
-                    <!-- Google Login -->
-                    <button onclick="AuthProvider.loginWithGoogle()" class="relative flex items-center justify-center w-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-white font-semibold text-base py-4 px-6 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700 transition-transform active:scale-[0.98]">
-                        <i class="fab fa-google absolute left-6 text-xl text-red-500"></i>
-                        <span>Google로 계속하기</span>
+                    <!-- Google: Clean Premium Choice -->
+                    <button onclick="AuthProvider.loginWithGoogle()" 
+                        class="flex items-center justify-center w-full bg-white dark:bg-slate-800 border-2 border-slate-100 dark:border-slate-700 text-slate-700 dark:text-white font-bold text-lg py-5 px-8 rounded-2xl shadow-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-all active:scale-[0.97]">
+                        <i class="fab fa-google mr-4 text-2xl text-red-500"></i>
+                        <span>Google 계정으로 계속하기</span>
                     </button>
 
-                    <p class="text-xs text-center text-slate-400 mt-4">
-                        로그인하면 <a href="#" class="underline">이용약관</a> 및 <a href="#" class="underline">개인정보처리방침</a>에 동의하게 됩니다.
-                    </p>
-
-                    <!-- Guest Mode (Small Link) -->
-                    <button onclick="AuthProvider.mockLogin('guest')" class="mt-2 text-slate-400 text-sm font-medium hover:text-slate-600 transition-colors">
-                        나중에 하기 (체험 모드)
-                    </button>
+                    <div class="mt-4 flex flex-col items-center gap-4">
+                        <p class="text-[11px] text-center text-slate-400 font-medium">
+                            로그인 시 <a href="#" class="text-slate-600 dark:text-slate-300 underline font-bold">이용약관</a> 및 <a href="#" class="text-slate-600 dark:text-slate-300 underline font-bold">개인정보처리방침</a>에 동의하게 됩니다.
+                        </p>
+                        
+                        <!-- Demoted Guest Link -->
+                        <button onclick="AuthProvider.mockLogin('guest')" 
+                            class="text-slate-400 text-xs font-bold hover:text-red-500 transition-colors py-2 px-4 rounded-full border border-slate-200 dark:border-slate-700 hover:border-red-200">
+                            나중에 둘러보기 (손님 모드)
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

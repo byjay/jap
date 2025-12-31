@@ -31,15 +31,15 @@ const DisplayManager = {
      * 로그인 화면 표시 (그 외 모든 UI 숨김)
      */
     showLogin: function () {
-        console.log('🔒 Showing Login Screen');
+        console.log('🔒 Showing Premium Login Screen');
         this.toggle(this.ELEMENTS.LOGIN, true);
         this.toggle(this.ELEMENTS.HEADER, false);
         this.toggle(this.ELEMENTS.NAV, false);
         this.toggle(this.ELEMENTS.CONTENT, false);
 
-        // 로그인 화면이 비어있으면 렌더링 (안전장치)
+        // 로그인 화면 템플릿 강제 렌더링 (최근 디자인 반영 보장)
         const loginEl = document.getElementById(this.ELEMENTS.LOGIN);
-        if (loginEl && !loginEl.innerHTML.trim() && Templates.loginScreen) {
+        if (loginEl && typeof Templates !== 'undefined' && Templates.loginScreen) {
             loginEl.innerHTML = Templates.loginScreen();
         }
     },
