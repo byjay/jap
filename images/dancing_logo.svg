@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Taegeuk Symbol (background) -->
+  <circle cx="100" cy="100" r="80" fill="#ffffff" stroke="#f1f5f9" stroke-width="4"/>
+  <path d="M100,180 A80,80 0 0,1 100,20 A40,40 0 0,1 100,100 A40,40 0 0,0 100,180" fill="#cd2e3a"/>
+  <path d="M100,20 A80,80 0 0,1 100,180 A40,40 0 0,1 100,100 A40,40 0 0,0 100,20" fill="#0047a0"/>
+  
+  <!-- Dancing Hiragana Characters (Animated via CSS in implementation) -->
+  <g class="dancing-chars">
+    <!-- 'A' (あ) -->
+    <text x="60" y="80" font-family="Noto Sans JP" font-size="40" fill="#ffffff" font-weight="bold" filter="drop-shadow(2px 2px 2px rgba(0,0,0,0.3))">あ</text>
+    <!-- 'Me' (め) -->
+    <text x="110" y="130" font-family="Noto Sans JP" font-size="35" fill="#ffffff" font-weight="bold" filter="drop-shadow(2px 2px 2px rgba(0,0,0,0.3))">め</text>
+    <!-- 'Na' (な) -->
+    <text x="130" y="70" font-family="Noto Sans JP" font-size="30" fill="#ffffff" font-weight="bold" filter="drop-shadow(2px 2px 2px rgba(0,0,0,0.3))">な</text>
+  </g>
+</svg>

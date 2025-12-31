@@ -17,9 +17,15 @@ const Templates = {
             
             <!-- Content Layer -->
             <div class="relative z-10 flex-1 flex flex-col px-6 pb-12 pt-20">
-                <!-- Logo & Brand -->
+                <!-- Logo & Brand (Custom Dancing Logo) -->
                 <div class="flex flex-col items-center mb-10 animate-fade-in-down">
-                    <img src="images/app_icon.png" alt="JAPRO" class="w-20 h-20 rounded-2xl shadow-2xl border-4 border-white/20 mb-4 transform hover:scale-105 transition-transform">
+                    <div class="relative w-32 h-32 mb-4 group cursor-pointer">
+                        <div class="absolute inset-0 bg-white/20 rounded-full blur-2xl group-hover:bg-red-500/30 transition-all duration-500"></div>
+                        <img src="images/dancing_logo.svg" 
+                            alt="JAPRO Dancing Logo" 
+                            class="relative z-10 w-full h-full object-contain animate-bounce transition-transform duration-700 hover:rotate-[360deg]"
+                            onerror="this.src='images/app_icon.png'">
+                    </div>
                     <h2 class="text-white text-3xl font-black tracking-tighter drop-shadow-md">JAPRO</h2>
                     <p class="text-white/80 text-xs font-bold tracking-[0.2em] uppercase mt-1">Premium Adventure</p>
                 </div>
@@ -71,9 +77,13 @@ const Templates = {
         <header class="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-40">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-16">
-                    <div class="flex items-center space-x-3">
-                        <div class="bg-primary p-2 rounded-lg shadow-sm"><i class="fas fa-torii-gate text-white text-xl"></i></div>
-                        <div><h1 class="text-xl font-bold text-gray-900">JAPRO</h1></div>
+                    <div class="flex items-center space-x-3 cursor-pointer" onclick="showTab('home')">
+                        <div class="bg-white p-1 rounded-lg shadow-sm overflow-hidden w-10 h-10 flex items-center justify-center">
+                            <img src="images/dancing_logo.svg" 
+                                alt="Logo" class="w-full h-full object-contain animate-pulse"
+                                onerror="this.src='images/app_icon.png'">
+                        </div>
+                        <div><h1 class="text-xl font-bold text-gray-900 tracking-tighter">JAPRO</h1></div>
                     </div>
                     <div class="flex items-center space-x-2">
                         <span class="text-lg" id="current-user-avatar">👨</span>
