@@ -3,17 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- PWA Theme Color -->
+    <meta name="theme-color" content="#135bec">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="JAP-BONG">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#ffffff">
+
+    <title>JAPRO - Premium Japanese Adventure</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Noto+Sans:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+
     <link rel="manifest" href="manifest.json">
-    <link rel="icon" type="image/png" href="images/app_icon.png">
+    <link rel="icon" type="image/png" href="icons/icon-192x192.png">
     <link rel="apple-touch-icon" href="images/app_icon.png">
-    <title>JAP-BONG PRO | Premium Japanese Learning</title>
     <!-- 데이터 매니페스트 로드 (자동 코드 삽입) -->
     <script src="js/ai_drama_player.js" defer></script>
     <link rel="stylesheet" href="css/game.css">
@@ -33,15 +42,6 @@
     <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
 
     <script src="js/auth_provider.js" defer></script>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Noto+Sans:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-        rel="stylesheet" />
 
     <!-- Tailwind CSS & Config -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -93,21 +93,40 @@
         }
     </script>
 
-    // Service Worker Registration for PWA
-    if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
-    .then(registration => {
-    console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    })
-    .catch(err => {
-    console.log('ServiceWorker registration failed: ', err);
-    });
-    });
-    }
-    </script>
-
     <style>
+        /* Global Styles */
+        body {
+            font-family: 'Lexend', 'Noto Sans', sans-serif;
+            overflow: hidden;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .font-japanese {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Splash Screen */
+        #splash-screen {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            background: linear-gradient(135deg, #135bec 0%, #0e45b5 100%);
+            display: flex;
+            flex-col;
+            align-items: center;
+            justify-content: center;
+        }
+
         /* html, body의 스크롤 잠금을 강제로 해제합니다 */
         html,
         body {
