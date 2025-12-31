@@ -1178,7 +1178,12 @@
                 console.error('Conversation mode init failed:', e);
             }
 
-            // 5. 스플래시 화면 숨기기 (안전장치 포함)
+            // 5. 화면 관리자 초기화 (로그인 화면 표시)
+            if (typeof DisplayManager !== 'undefined') {
+                DisplayManager.init();
+            }
+
+            // 6. 스플래시 화면 숨기기 (안전장치 포함)
             const hideSplash = () => {
                 const splash = document.getElementById('splash-screen');
                 if (splash) {
@@ -1190,11 +1195,11 @@
                 }
             };
 
-            // 정상 로드 시 0.8초 후 제거
-            setTimeout(hideSplash, 800);
+            // 정상 로드 시 0.5초 후 제거 (더 빠르게 진입)
+            setTimeout(hideSplash, 500);
 
-            // 안전장치: 3초 후 강제 제거
-            setTimeout(hideSplash, 3000);
+            // 안전장치
+            setTimeout(hideSplash, 2000);
         });
     </script>
 
