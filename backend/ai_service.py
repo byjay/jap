@@ -1,12 +1,23 @@
 import google.generativeai as genai
 import json
-import app_config as config
+import os
 from typing import List, Dict, Optional
 
-# Configure Gemini
-genai.configure(api_key=config.GOOGLE_API_KEY)
-# Use gemini-2.5-flash (User requested for max daily limit/efficiency)
-model = genai.GenerativeModel('gemini-2.5-flash')
+# Configure Gemini - Gracefully handle missing API key
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+model = None
+
+if GEMINI_API_KEY:
+    try:
+        genai.configure(api_key=GEMINI_API_KEY)
+        # Use gemini-2.5-flash (User requested for max daily limit/efficiency)
+        model = genai.GenerativeModel('gemini-2.5-flash')
+        print("✅ AIService: Gemini model initialized")
+    except Exception as e:
+        print(f"⚠️ AIService: Failed to initialize Gemini: {e}")
+        model = None
+else:
+    print("⚠️ AIService: GEMINI_API_KEY not found, AI features disabled")
 
 class AIService:
     # generate_word_info removed as per user request (Use Naver Scraper instead)
@@ -40,6 +51,8 @@ class AIService:
             ]
         }}
         """
+        if not model:
+            return {"error": "AI service not available"}
         try:
             response = model.generate_content(prompt)
             text = response.text.replace('```json', '').replace('```', '').strip()
@@ -79,6 +92,8 @@ class AIService:
         - "Oh no" -> sad_shrink
         - "What is this?" -> study_question
         """
+        if not model:
+            return {"error": "AI service not available"}
         try:
             response = model.generate_content(prompt)
             text = response.text.replace('```json', '').replace('```', '').strip()
