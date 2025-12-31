@@ -10,7 +10,7 @@ const Templates = {
                 <!-- Logo & Title -->
                 <div class="mb-8 transform hover:scale-105 transition duration-300">
                     <span class="text-6xl mb-2 block animate-bounce-slow">🏯</span>
-                    <h1 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-600 mb-2 drop-shadow-sm">JAP-BONG PRO</h1>
+                    <h1 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-500 mb-2 drop-shadow-sm">JAPRO</h1>
                     <p class="text-gray-500 font-medium tracking-wide">Premium Japanese Adventure</p>
                 </div>
                 
@@ -51,8 +51,8 @@ const Templates = {
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-16">
                     <div class="flex items-center space-x-3">
-                        <div class="bg-red-600 p-2 rounded-lg"><i class="fas fa-torii-gate text-white text-xl"></i></div>
-                        <div><h1 class="text-xl font-bold text-gray-900">재뽕 일본어</h1></div>
+                        <div class="bg-yellow-400 p-2 rounded-lg shadow-sm"><i class="fas fa-torii-gate text-white text-xl"></i></div>
+                        <div><h1 class="text-xl font-bold text-gray-900">JAPRO</h1></div>
                     </div>
                     <div class="flex items-center space-x-2">
                         <span class="text-lg" id="current-user-avatar">👨</span>
