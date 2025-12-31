@@ -8,8 +8,7 @@ const DisplayManager = {
         LOGIN: 'login-screen',
         HEADER: 'app-header',
         NAV: 'app-navigation',
-        CONTENT: 'app-content',
-        SPLASH: 'splash-screen'
+        CONTENT: 'app-content'
     },
 
     /**
@@ -18,6 +17,13 @@ const DisplayManager = {
      */
     init: function () {
         console.log('📱 DisplayManager Initializing...');
+
+        // 초기 가시성 설정: 로그인 화면만 보임
+        this.toggle(this.ELEMENTS.LOGIN, true);
+        this.toggle(this.ELEMENTS.HEADER, false);
+        this.toggle(this.ELEMENTS.NAV, false);
+        this.toggle(this.ELEMENTS.CONTENT, false);
+
         this.showLogin();
     },
 

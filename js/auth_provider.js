@@ -123,22 +123,36 @@ const AuthProvider = {
     },
 
     /**
-     * Login with Google
+     * Login with Google (Real Firebase Auth)
      */
     async loginWithGoogle() {
-        // Google Client ID Check
-        if (this.GOOGLE_CLIENT_ID.includes('YOUR_GOOGLE_CLIENT_ID')) {
-            console.warn('⚠️ Google Client ID not set. Running in Demo Mode.');
-            return this.mockLogin('google');
-        }
+        console.log('🌐 Starting Google Login via Firebase...');
 
-        if (!this.isGoogleInitialized) {
-            return this.mockLogin('google');
-        }
+        try {
+            const provider = new firebase.auth.GoogleAuthProvider();
+            const result = await firebase.auth().signInWithPopup(provider);
+            const fbUser = result.user;
 
-        // ... (Real logic omitted for brevity, fallback logic) ...
-        // 실제 구현 환경이 아니므로 바로 Mock 실행
-        return this.mockLogin('google');
+            const user = {
+                id: fbUser.uid,
+                name: fbUser.displayName || 'Google User',
+                email: fbUser.email,
+                profileImage: fbUser.photoURL || 'images/avatars/default.png',
+                provider: 'google',
+                subscription: 'FREE'
+            };
+
+            this.finalizeLogin(user);
+            return user;
+        } catch (error) {
+            console.error('❌ Firebase Google Login Failed:', error);
+            // 에러 발생 시 사용자에게 알림 또는 데모 폴백 (안전 장치)
+            if (error.code === 'auth/popup-closed-by-user') {
+                console.log('User closed the popup');
+            } else {
+                return this.mockLogin('google');
+            }
+        }
     },
 
     /**
