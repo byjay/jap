@@ -3,50 +3,66 @@
  */
 
 // Demo users
+// Demo users
 const DEMO_USERS = {
-    guest: { id: 'guest', name: '손님', avatar: 'images/avatars/default.png' }
+    guest: { id: 'guest', name: '손님', avatar: 'images/avatars/default.png' },
+    dad: { id: 'dad', name: '아빠', avatar: 'images/avatars/dad.png' },
+    mom: { id: 'mom', name: '엄마', avatar: 'images/avatars/mom.png' },
+    sieun: { id: 'sieun', name: '시은', avatar: 'images/avatars/sieun.png' },
+    harong: { id: 'harong', name: '하롱', avatar: 'images/avatars/harong.png' }
 };
 
 // Demo passwords
 const PASSWORDS = {
-    guest: '0000'
+    guest: '0000',
+    dad: '1435',
+    mom: '1234',
+    sieun: '0000',
+    harong: '0000'
 };
 
 let currentUser = null;
 let loginCallback = null;
 
-function showLoginModal(callback) {
-    loginCallback = callback;
-    const loginScreen = document.getElementById('login-screen');
-    if (loginScreen) {
-        loginScreen.style.display = 'flex';
-        // Ensure background is correct
-        loginScreen.style.backgroundImage = "url('images/BACK.png')";
-        loginScreen.style.backgroundSize = "cover";
-        loginScreen.style.backgroundPosition = "center";
-    }
-}
+// ... (showLoginModal, hideLoginModal 생략) ...
 
-function hideLoginModal() {
-    const loginScreen = document.getElementById('login-screen');
-    if (loginScreen) {
-        loginScreen.style.display = 'none';
-    }
-}
+function login(userOrId) {
+    let user = null;
 
-function login(userId) {
-    if (!users[userId]) {
-        console.error('Invalid user:', userId);
+    // 1. ID 문자열인 경우 (기존 로직)
+    if (typeof userOrId === 'string') {
+        if (DEMO_USERS[userOrId]) {
+            user = DEMO_USERS[userOrId];
+        } else {
+            console.error('Invalid user ID:', userOrId);
+            return;
+        }
+    }
+    // 2. 유저 객체인 경우 (소셜 로그인 등)
+    else if (typeof userOrId === 'object' && userOrId !== null) {
+        user = userOrId;
+    }
+
+    if (!user) {
+        console.error('Login failed: Invalid user data');
         return;
     }
 
-    currentUser = users[userId];
-    localStorage.setItem('currentUser', userId);
+    currentUser = user;
+
+    // 소셜 로그인은 ID 저장 방식이 다름 (객체 전체 저장 권장되지만, 여기선 호환성 유지)
+    if (user.provider && user.provider !== 'local') {
+        localStorage.setItem('currentUser', user.id); // ID만 저장
+        // 소셜 유저 정보는 별도 저장 (AuthProvider가 이미 처리함)
+    } else {
+        localStorage.setItem('currentUser', user.id);
+    }
+
     console.log('Login successful:', currentUser.name);
 
     // Gamification 사용자 전환 및 데이터 로드
     if (window.Gamification) {
-        window.Gamification.switchUser(userId);
+        window.Gamification.switchUser(user.id);
     }
 
     updateUserDisplay();
@@ -72,13 +88,13 @@ function login(userId) {
     // 아빠 계정이면 관리자 메뉴 표시
     const adminSection = document.getElementById('admin-reset-section');
     if (adminSection) {
-        adminSection.style.display = userId === 'dad' ? 'block' : 'none';
+        adminSection.style.display = user.id === 'dad' ? 'block' : 'none';
     }
 
     // [손님 전용] 메인 화면 하단 고정 광고 제어
     const guestAdContainer = document.getElementById('guest-fixed-ad-container');
     if (guestAdContainer) {
-        if (userId === 'guest') {
+        if (user.id === 'guest') {
             guestAdContainer.classList.remove('hidden');
             // 광고 로드 (숨겨져 있던 상태에서 드러날 때 렌더링 시도)
             setTimeout(() => {

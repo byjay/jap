@@ -18,6 +18,9 @@
     <script src="js/ai_drama_player.js" defer></script>
     <link rel="stylesheet" href="css/game.css">
     <!-- Game Suite & Commercial App Components -->
+    <script src="js/auth.js" defer></script>
+    <script src="js/templates.js" defer></script>
+    <script src="js/ui.js" defer></script>
     <script src="js/display_manager.js" defer></script>
     <script src="js/avatar_manager.js" defer></script>
     <script src="js/sushi_survival.js" defer></script>
@@ -1062,39 +1065,84 @@
         }
 
         window.addEventListener('DOMContentLoaded', () => {
-            // 1. 로그인 상태 확인 (자동 로그인은 하지 않고 모달만 처리하는 용도로 유지)
-            if (typeof checkAutoLogin === 'function') {
-                checkAutoLogin();
-            }
+            console.log('App initialization started...');
 
-            // 2. 기본 탭 활성화: lastTab 복원 또는 home
-            if (typeof showTab === 'function') {
-                const lastTab = localStorage.getItem('lastTab');
-                if (lastTab && lastTab !== 'home') {
-                    showTab(lastTab);
-                } else {
-                    showTab('home');
+            // 0. UI 템플릿 렌더링
+            try {
+                if (typeof renderTemplates === 'function') {
+                    renderTemplates();
+                    console.log('Templates rendered.');
                 }
+            } catch (e) {
+                console.error('Template rendering failed:', e);
             }
 
-            // 3. 모듈 초기 준비 (필요한 것만 가볍게)
-            if (typeof initVocabulary === 'function') {
-                initVocabulary();
+            // 1. 로그인 상태 확인
+            try {
+                if (typeof checkAutoLogin === 'function') {
+                    checkAutoLogin();
+                } else {
+                    // auth.js 로드 실패 시 강제로 로그인 모달 표시 시도
+                    const loginScreen = document.getElementById('login-screen');
+                    if (loginScreen) loginScreen.classList.remove('hidden');
+                }
+            } catch (e) {
+                console.error('Auto login check failed:', e);
             }
 
-            if (typeof showCharacterGrid === 'function') {
-                showCharacterGrid('hiragana');
+            // 2. 기본 탭 활성화
+            try {
+                if (typeof showTab === 'function') {
+                    const lastTab = localStorage.getItem('lastTab');
+                    if (lastTab && lastTab !== 'home') {
+                        showTab(lastTab);
+                    } else {
+                        showTab('home');
+                    }
+                }
+            } catch (e) {
+                console.error('Tab initialization failed:', e);
             }
 
-            // 4. Default to practical conversation mode
-            showConversationMode('practical');
+            // 3. 모듈 초기 준비
+            try {
+                if (typeof initVocabulary === 'function') {
+                    initVocabulary();
+                }
+                if (typeof showCharacterGrid === 'function') {
+                    showCharacterGrid('hiragana');
+                }
+            } catch (e) {
+                console.error('Module initialization failed:', e);
+            }
 
-            // 5. 스플래시 화면 숨기기 (부드러운 페이드아웃)
-            setTimeout(() => {
+            // 4. 회화 모드 설정
+            try {
+                if (typeof showConversationMode === 'function') {
+                    showConversationMode('practical');
+                }
+            } catch (e) {
+                console.error('Conversation mode init failed:', e);
+            }
+
+            // 5. 스플래시 화면 숨기기 (안전장치 포함)
+            const hideSplash = () => {
                 const splash = document.getElementById('splash-screen');
                 if (splash) {
                     splash.style.opacity = '0';
-                    setTimeout(() => splash.remove(), 500);
+                    splash.style.transition = 'opacity 0.5s ease-out';
+                    setTimeout(() => {
+                        if (splash.parentNode) splash.parentNode.removeChild(splash);
+                    }, 500);
+                }
+            };
+
+            setTimeout(hideSplash, 800); // 정상 흐름
+            // 강제 제거 (만약 위 흐름이 막혔을 경우 대비)
+            setTimeout(hideSplash, 3000);
+        });
+        splash.style.opacity = '0';
+        setTimeout(() => splash.remove(), 500);
                 }
             }, 800); // 0.8초 후 페이드아웃 시작
         });

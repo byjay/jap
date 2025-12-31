@@ -4,29 +4,44 @@
 
 const Templates = {
     loginScreen: () => `
-        <div class="login-screen active" id="login-screen-content">
-            <h1 class="text-4xl font-bold text-red-600 mb-2">JAP-BONG PRO</h1>
-            <p class="text-xl text-gray-600 mb-12">Premium Japanese Learning 🇯🇵</p>
-            
-            <div class="flex flex-col gap-4 max-w-sm mx-auto w-full px-6">
-                <!-- Social Login -->
-                <button onclick="DisplayManager.loginWithKakao()" class="w-full bg-[#FEE500] text-[#000000] py-3 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-[#FDD835] transition shadow-md">
-                    <i class="fas fa-comment"></i> 카카오로 3초만에 시작하기
-                </button>
+        <div class="login-screen active flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500" id="login-screen-content">
+            <div class="bg-white/90 backdrop-blur-md p-8 rounded-3xl shadow-2xl w-full max-w-md text-center border-4 border-white/50">
                 
-                <button onclick="DisplayManager.loginWithGoogle()" class="w-full bg-white text-gray-700 border border-gray-300 py-3 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-gray-50 transition shadow-sm">
-                    <img src="https://www.google.com/favicon.ico" class="w-5 h-5"> Google로 계속하기
-                </button>
-
-                <div class="relative my-4">
-                    <div class="absolute inset-0 flex items-center"><div class="w-full border-t border-gray-300"></div></div>
-                    <div class="relative flex justify-center text-sm"><span class="px-2 bg-gray-50 text-gray-500">또는</span></div>
+                <!-- Logo & Title -->
+                <div class="mb-8 transform hover:scale-105 transition duration-300">
+                    <span class="text-6xl mb-2 block animate-bounce-slow">🏯</span>
+                    <h1 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-600 mb-2 drop-shadow-sm">JAP-BONG PRO</h1>
+                    <p class="text-gray-500 font-medium tracking-wide">Premium Japanese Adventure</p>
+                </div>
+                
+                <!-- Social Login Buttons -->
+                <div class="flex flex-col gap-4 w-full mb-6">
+                    <!-- Kakao -->
+                    <button onclick="AuthProvider.loginWithKakao()" 
+                        class="relative w-full bg-[#FEE500] hover:bg-[#FDD835] text-black/90 py-4 rounded-2xl font-bold text-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex items-center justify-center gap-3 group">
+                        <i class="fas fa-comment text-xl group-hover:rotate-12 transition"></i>
+                        <span>카카오로 3초 시작</span>
+                        <div class="absolute right-4 bg-red-500 text-white text-[10px] px-2 py-0.5 rounded-full animate-pulse">BEST</div>
+                    </button>
+                    
+                    <!-- Google -->
+                    <button onclick="AuthProvider.loginWithGoogle()" 
+                        class="w-full bg-white hover:bg-gray-50 text-gray-700 border-2 border-gray-100 py-4 rounded-2xl font-bold text-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex items-center justify-center gap-3">
+                        <img src="https://www.google.com/favicon.ico" class="w-6 h-6">
+                        <span>Google로 계속하기</span>
+                    </button>
                 </div>
 
-                <!-- Guest -->
-                <button onclick="loginAsGuest()" class="w-full bg-gray-600 text-white py-3 rounded-xl font-bold hover:bg-gray-700 transition shadow-md">
-                     손님으로 둘러보기
-                </button>
+                <!-- Guest Login (Demoted) -->
+                <div>
+                    <button onclick="loginAsGuest()" class="text-sm text-gray-400 hover:text-gray-600 underline decoration-dashed hover:decoration-solid transition-colors">
+                        로그인 없이 손님으로 둘러보기
+                    </button>
+                </div>
+                
+                <div class="mt-8 text-xs text-gray-300">
+                    &copy; 2025 JAP-BONG PRO. All rights reserved.
+                </div>
             </div>
         </div>
     `,
